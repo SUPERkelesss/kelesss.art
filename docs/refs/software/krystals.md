@@ -8,8 +8,9 @@
   <p align="center">
     像 vesta 一样在移动平台便捷地查看晶体！
     <br />
-    <a href="https://www.kelesss.art/lib/krystals-release/krystals_v0.6.5.apk"> <strong> 下载测试版 v0.6.5 </strong> </a>
+    <a href="https://www.kelesss.art/lib/krystals-release/krystals_v0.7.0.apk"> <strong> 下载测试版 v0.7.0 </strong> </a>
   </p>
+
 
 
 
