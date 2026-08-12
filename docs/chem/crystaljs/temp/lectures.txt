@@ -1,0 +1,995 @@
+晶体学基础与对称性
+2023年9月4日
+23:17
+晶面相关
+Weiss指数（abc）：截距
+Miller指数（hkl）：截距倒数
+[IMG: image001.png]
+晶体的生长往往体现在晶面上
+如何取出最小的单元？必须要仅靠平行空间密铺！即平行面体（parallelohedron）
+以下是几种空间密铺：
+平行六面体：晶体学晶胞，cP、tP、oP的WS原胞
+[IMG: image002.png]
+六棱柱：hP、oC、mP的WS原胞
+[IMG: image003.png]
+菱形十二面体：面心立方晶系（正）或锐角菱面体的WS原胞
+[IMG: image004.png]
+[IMG: image005.png]
+拉长十二面体（某些特殊情况的WS晶胞）
+[IMG: image006.png]
+[IMG: image007.png]
+截角八面体：cI、oF的WS原胞
+[IMG: image008.png]
+[IMG: image009.png]
+*补充：WS原胞
+对每个结构基元的连线做垂直平分线/面，取相交包围部分
+[IMG: image010.png]
+[IMG: image011.png]
+[IMG: image012.png]
+[IMG: image013.png]
+[IMG: image014.png]
+Bravias定律：宏观单晶的表现往往是晶面密度最大的面（生长速度最慢，最后成型）
+这也意味着高指数晶面不易形成
+[IMG: image015.png]
+eg：NaCl单晶为立方体
+[IMG: image016.png]
+黝铜矿（Cu3SbS3）
+[IMG: image017.png]
+[IMG: image018.jpg]
+黄铁矿的两种宏观晶体的指标：
+[IMG: image019.png]
+[IMG: image020.jpg]
+[IMG: image021.jpg]
+伪晶：一种无序排列的晶体，含有5次轴（Ho-Mg-Zn）
+[IMG: image022.png]
+[IMG: image023.jpg]
+上述讨论的均为单晶，事实上，由于取向随机，可以形成多晶
+[IMG: image024.png]
+由于均为同一晶面生长，（在相同的条件下）同种晶体二面角保持不变
+抗拉伸强度：即克服单位面积的库伦作用力
+[IMG: image025.png]
+此时有P=f*N=(e^2/R^2)*(1/R^2)=e^2/R^4
+单晶越小，缺陷越少，抗拉伸强度趋向于理论值
+只有很长的有机晶体才能形成液晶
+液晶的几种形态（各向异性的液体）（温度从低到高）
+近晶相：仍可以相互滑动
+[IMG: image026.jpg]
+向列相：沿轴向排列
+[IMG: image027.jpg]
+手性相/胆固醇相：手性的旋转层状结构
+[IMG: image028.jpg]
+z
+*接下来几个概念可以用这张图表示：
+[IMG: image029.png]
+宏观对称性的基础：晶系与点阵
+何谓宏观对称性？只需关注宏观对称元素！(即无平移操作）
+*反轴和映轴的互换
+[IMG: image030.png]
+晶系
+特征对称元素
+立方：4C3（严格！）
+四方：fourfold axis
+正交：3*twofold axis
+六方：sixfold axis
+三方/菱方：threefold axis
+单斜：twofold axis
+三斜：no axis
+*关于菱面体和六方晶系的互变将会之后提及
+[IMG: image031.png]
+总览
+[IMG: image032.png]
+[IMG: image033.png]
+为了避免歧义，需要为晶系定向
+立方：a、a+b+c、a+b
+四方：c、a、a+b
+正交：a、b、c
+单斜：b
+三斜：a
+六方/三方：c、a、2a+b
+由于六方的取向问题，也可以采用四轴定向
+[IMG: image034.png]
+以晶系为基础，我们可以推出32种晶体学点阵（晶类）
+在分子点群的基础上，晶体学的限制：仅能有1、2、3、4、6次轴
+考虑旋转轴群：C1、C2、C3、C4、C6、D2、D3、D4、D6、T、O（I含有五次轴）
+考虑对称面：Cs、C2~6h、C2~6v、D2~6h、D2d、D3d、Th、Td、Oh
+（注意对Dn增加d晶面将会有轴次为2n的反轴出现，D4d与D6d不存在）
+考虑对称中心：Ci、C3i（S6）（仅有奇数次轴是独立的）
+考虑四次反轴：S4
+36种晶类总结如下：
+[IMG: image035.png]
+[IMG: image036.png]
+微观对称性：考虑平移操作
+仅考虑平移操作：点阵
+点阵经过选取（对称性、直角、体积）后成为点阵形式/晶格（lattice symbols）
+二维晶格：单斜、正交、正方、六方、带心正交（仅有这一种带心）
+二维点阵永远有C2，但不存在三方！C3不能独立存在
+三维晶格如下表，红色字体代表降级，蓝色字体代表同级
+P
+I
+F
+C
+A/B
+c
+cP
+cI
+cF
+tP
+tP
+t
+tP
+tI
+tI
+tP
+oC
+h
+hP
+oF
+oI
+oP
+oF
+o
+oP
+oI
+oF
+oC
+oC
+m
+mP
+mC
+mC
+mC
+mP
+a
+aP
+aP
+aP
+aP
+aP
+（*hR未标出）
+（单斜的主轴为b，但习惯上底心取C）
+对称操作+平移：螺旋轴、滑移面
+[IMG: image037.png]
+螺旋轴为逆时针上升！前一个数字表示转几次转完一个晶胞，后一个数字表示每次旋转角度
+常用的滑移面符号如下：
+[IMG: image038.png]
+在下一步之前，先了解一些图标……
+[IMG: image039.png]
+[IMG: image040.png]
+等效点系、极射赤平投影图
+用人话来说，等效点系指的是通过平移和各种对称操作等价的一套点（即所谓化学环境），而点阵仅仅通过平移操作等价（即所谓空间环境）
+若等效点系中点在对称元素上，则为特殊等效点系，等效点的数目更少
+这个概念与数学中的“阶次”类似，不同的是由于晶体包含平移操作，等效点系是无限的，不过我们也可以取一个晶胞来观察，这就是极射赤平投影图，点的数目代表了“阶次”（这其实是宏观对称性）
+[IMG: image041.png]
+[IMG: image042.png]
+[IMG: image043.png]
+[IMG: image044.png]
+32种晶体学点群的绘制：
+[IMG: image045.png]
+[IMG: image046.png]
+[IMG: image047.png]
+[IMG: image048.png]
+[IMG: image049.png]
+空间群：最终的细分
+将32点群的宏观对称元素分别用微观对称元素（螺旋轴、滑移面）替换，得到230种空间群
+国际记号书写：
+1）点群表示
+2）点阵（P/I/F/C）
+3）三个定向上的对称元素，并且只列出最特征的
+在有其他对称元素时，2/m将被m取代
+对于特征对称元素：
+一般而言：旋转轴>螺旋轴>反轴
+C3和I3同时存在：I3（包括C3+i）
+C6和I6同时存在：C6（I6与C6+m重）
+C4和I4同时存在：C4（无人在意……）
+空间群总结如下：
+[IMG: image050.png]
+[IMG: image051.png]
+[IMG: image052.png]
+[IMG: image053.png]
+因此，晶体的最终组成是：
+宏观：结构基元+点阵
+微观：不对称单元+等效点系
+晶体的表征、Bragg方程与系统消光
+2023年9月6日
+11:55
+Bragg方程
+由于仪器问题，测量的角度为2θ
+[IMG: image054.png]
+[IMG: image055.png]
+[IMG: image056.png]
+2dsinθ=nλ（需要使得放出的X射线能相互叠加）
+此处的d为真实存在晶面（如001），实际使用时，假想晶面d/n（如002，003...）作为d(hkl)指标化
+注意晶面指数hkl为衍射指数(hkl)的n倍
+晶面间距（经典老番）
+对于正交晶系
+[IMG: image057.png]
+对于六方晶系
+[IMG: image058.png]
+第一次X光实验（NaCl）
+通过(100)(110)(111)三个晶面衍射得到数据：
+[IMG: image059.png]
+可以列出方程：
+[IMG: image060.png]
+则有：
+[IMG: image061.png]
+此时n1=n2=2，n3=1，说明(100)(110)衍射弱于简单立方，从二级开始
+NaCl为cF结构，可以写出晶胞参数
+[IMG: image062.png]
+然后求出X光波长
+[IMG: image063.png]
+原子分布与系统消光
+基本认知：对于一个体心立方的晶格来说，（100）中间插入了一层光栅，导致其实际衍射峰从（200）开始
+散射因子（f）：每个原子散射后的振幅不同
+结构因子：确定是否有衍射发生
+[IMG: image064.png]
+Friedel定律：衍射强度和结构因子的平方呈正比
+因此有：
+[IMG: image065.png]
+[IMG: image045.png]
+（对于大多数带心来说，坐标为1/2，后一项可以以略去）
+此时，对于某些晶格，部分衍射峰将消失，为系统消光
+（1）P：均保留
+（2）C：要求1/2(h+k)为整数，即h+k为偶数；h+k为奇数将被消光
+（3）I：要求1/2(h+k+l)为整，即h+k+l为偶数；h+k+l为奇数将被消光
+（4）F：要求1/2(h+k)，1/2(h+l)、1/2(k+l)不能只有一个偶数，即h、k、l同奇同偶。奇偶混杂将被消光
+[IMG: image066.png]
+若晶体中存在螺旋轴/滑移面，该方向上的部分晶面衍射将会被消光
+[IMG: image067.png]
+若为混合晶体，由于衍射因子不同，将会出现“假消光”现象（衍射强度显著减小但不为0，衍射因子抵消）
+[IMG: image068.png]
+衍射强度的影响因素：
+1）结构因子的平方（nf）
+2）倍数因子（该镜面在单形中的数目）
+3）偏振因子（非偏振光修正）
+X光分析
+立方晶系
+原数据测得的一系列2θ值，指标后得：
+[IMG: image069.png]
+替换为晶面指数：
+[IMG: image070.png]
+之后可确定点阵：
+P：不规律的条状
+I：连续的条状
+F：连续的两线+一线+两线+一线
+金刚石：3、8、11、16、19……
+……
+代入最打的θ值，可求出a
+[IMG: image071.png]
+四方晶系
+由于多了一个c，分布很复杂。但是l=0时仍为整数
+[IMG: image072.png]
+求得a，之后移项
+[IMG: image073.png]
+尝试出c，得解
+其他晶系难以判断，不过我们可以观察线的分裂情况
+对于低对称行的晶系，相对应的晶面将会分裂为不等价的n条
+[IMG: image074.png]
+堆积、多面体与晶体构造
+2023年9月5日
+22:43
+本章及以后内容采用记号：
+P（Pack）、T（tetrahedral）、O（Octahedral）
+a：每个堆积周期重复的P数 a·b：总层数
+eg：
+NaCl：3·2PO（P(A)OP(B)OP(C)O）
+ZnO：3·2PT（P(A)TP(B)T）
+CaF2：3·3PTT
+TiO2：2·2PO1/2
+密堆积
+两种基本方式：六方&三方
+[IMG: image075.png]
+*另一种表示法：上下相同记为h，否则记为c
+其他可能的六方堆积（为满足六方对称性）：
+2：|AB|（63）
+4：|ABAC|（La）（63）
+6：|ABCACB|（BaTiO3）（63）
+三方：
+9：|ABACACBCB|（Sm）（I6）
+12：|ABACBCBACACB|（？）（I6）
+配位方式：
+FCC
+HCP
+[IMG: image076.png]
+[IMG: image077.png]
+[IMG: image078.png]
+两种取向的T可能被形成
+[IMG: image079.png]
+因而，对于任意两个堆积层之间，总有2T和1O
+相对位置：
+[IMG: image080.png]
+[IMG: image081.png]
+因而，将晶体分类
+PT：ZnS、ZnO
+PO：NaCl
+PTT or PTO：CaF2
+PTOT：CsCl
+[IMG: image082.png]
+部分填充的层：
+填充1/3或2/3：由六方衍生（石墨）
+[IMG: image083.png]
+1/4和3/4：两种排布（六方/正交）
+六方的3/4将形成神秘六芒星结构（在Laves相和LaNi5中存在）
+[IMG: image084.png]
+1/2：两种排布
+[IMG: image085.png]
+1/6：孤立六边形排布（KOsF6）
+[IMG: image086.jpg]
+[IMG: image087.jpg]
+*神秘的记忆方法
+1atom：1a
+3atoms：√3a
+4atoms：2a
+7atoms：√7a
+根据空隙大小，可写出半径比规则，注意以需要接触的临界点
+[IMG: image088.png]
+[IMG: image089.png]
+鲍林规则
+[IMG: image090.jpg]
+[IMG: image091.jpg]
+[IMG: image092.jpg]
+[IMG: image093.jpg]
+[IMG: image094.jpg]
+[IMG: image095.jpg]
+*第二条规则的拓展
+由于电价规则，S2O74-和P2O73-不稳定（自然界无矿物）
+成键与晶体构造
+2023年9月17日
+22:13
+离子的屏蔽效应
+考虑SnX4：
+对于SnCl4，Cl可以屏蔽Sn4+离子（使之不能和其他卤原子配位），形成孤立分子
+对于SnF4，F不能屏蔽Sn4+，形成桥联结构
+[IMG: image096.png]
+左侧框内代表非分子晶体结构，右侧框内表示卤原子密堆积以形成电性相互作用
+[IMG: image097.png]
+晶体中的离子键和共价键
+过渡与极化率α相关
+离子键成分大→静电作用，形成高配位数晶体
+共价（极化）成分大→形成低配位晶体
+eg
+[IMG: image098.png]
+GeO2：6配位金红石
+SiS2：四面体SiS2链
+[IMG: image099.png]
+[IMG: image100.jpg]
+晶体与光电磁
+2023年9月16日
+14:13
+晶体的电属性
+压电晶体：对于没有对称中心的晶体，施加机械压力将导致偶极矩变化，导致某些表面产生电荷，称为压电效应
+若施加电场，将会导致机械形变，将会产生反压电效应
+没有对称中心的点群将产生压电效应（除了O-432：高对称性）
+热电晶体：在压电晶体的基础上，本身具有偶极矩，但由于某种因素（）只有加热才能显示
+在压电效应的基础上，两端没有对称元素联系
+铁电晶体：在热电晶体的基础上，极化方向能在强电场下反向
+与铁磁晶体类似（所以这么叫），具有电滞回线和居里温度
+一般的晶体：极化（P）和电场强度（E）成正比
+[IMG: image101.png]
+准电性：P和E成函数
+[IMG: image102.png]
+铁电性：本身具有偶极矩P，形成电滞回线
+[IMG: image103.png]
+总结！
+[IMG: image104.png]
+一些实例
+BaTiO3：施加电场后Ti和O将会移动
+PbTiO3：Ti和O将会移动
+[IMG: image105.png]
+氢键晶体（H3PO4）：低温时氢键取向将根据电场排布（铁电体），高温时氢键取向趋于无序
+晶体的磁属性
+抗磁性：在磁场中产生相反的感应磁场
+顺磁性：产生磁场方向的磁场，但不会保留磁化
+铁磁性：铁磁耦合，使得磁矩指向同一方向
+[IMG: image106.png]
+将产生磁滞回线（磁矩排布取决于过去的物理状态）
+[IMG: image107.png]
+反铁磁性：反铁磁耦合，使得相邻磁矩相反
+[IMG: image108.png]
+亚铁磁性：磁矩翻转，但由于原子性质导致仍有净磁矩
+[IMG: image109.png]
+在磁补偿点处磁矩为0
+[IMG: image110.png]
+自旋玻璃：相邻耦合混乱，导致出现无序的自旋结构
+[IMG: image111.png]
+以上四种磁性将在居里温度Tc以上变为顺磁性（原子无序运动）
+晶体的导电性
+电子迁移（能带）：绝大部分金属、本征半导体
+[IMG: image112.png]
+离子迁移：AgI、Li3N、ZrO2·CaO（快离子导体）
+d-d重叠（超交换作用）：TiO、MnO
+d-p π：ReO3
+缺陷导电：FeO1+x
+电子盐：Cu2N
+温度升高：
+电子载流子：晶格振动导致电子迁移受阻，导电性下降
+离子载流子：原子迁移加快，导电性上升
+电子盐/缺陷：造成猝灭，导电性下降
+*超交换作用：以氧原子为介导的阳离子作用，在180°时电子趋向反平行，而在90°时平行
+[IMG: image113.png]
+（90°时π键重叠平行，180°时σ键重叠反平行）
+晶体的显色
+1）d-d跃迁
+分裂能大，吸收波长短，颜色红移
+如：Al2O3逐渐惨入Cr2O3，由红宝石→变石→祖母绿
+2）荷移跃迁
+MMCT
+Al2O3：掺杂Fe(II)+Ti(IV) 蓝宝石
+Be3Al2Si6O18：掺杂Fe(II)+Fe(III) 海蓝宝石
+LMCT
+SiO2：掺杂Fe(IV) 紫水晶
+3）能带
+金刚石：掺杂B→蓝钻 掺杂N→黄钻
+4）色心
+单质晶体
+2023年9月9日
+15:37
+稀有气体
+基本均为ccp：3P
+金属
+Hcp：2p
+Fcc/ccp：3P
+bcc：3·2PTOT（对于ccp，P和O等价，故写作2）
+dhcp：La等金属采取4P堆积（ABAC）
+Dc：较强共价性的原子将采取3·2PT（金刚石）堆积（C族）
+[IMG: image114.png]
+[IMG: image115.png]
+由于滑移方向被原子阻断，bcc金属的变形性较差；对于hcp结构，只有一个方向可以有层间移动；ccp则三个方向都有
+由于bcc有较多的成键作用，具有较多单电子轨道（中间的过渡系金属，碱金属和碱土金属）更容易采取bcc结构（8+6）
+低温有利于bcc，而中温有利于hcp，然而高温又有利于bcc（晶格振动空间更大）
+一些特殊的晶体鉴赏：
+Mn：bbc，但是由于晶格畸变而导致有4种不同的Mn
+[IMG: image116.png]
+Zn/Cd：严重偏离hcp的a/c比，配位多面体的上下两层拉伸（由于满的d10轨道无法有效成键）
+[IMG: image117.png]
+Ga：明显的Ga2原子对（和I2类似）（下图中c方向）
+[IMG: image118.png]
+α-As、Sb、Bi：层状结构
+[IMG: image119.png]
+In：四方畸变的bcc
+[IMG: image120.png]
+β-Sn：四方畸变的金刚石，注意晶胞选取（α-Sn为金刚石）
+[IMG: image121.png]
+[IMG: image122.png]
+Sm不知为何采取9P堆积
+β-W：A15结构
+[IMG: image123.png]
+如何从ccp变到bcc？把每个P层进行压缩
+[IMG: image124.png]
+因此，某种程度上3·2PTOT可以看作扭曲的3P
+另一种看法，可以将其看作素晶胞的拉伸
+[IMG: image125.png]
+令人迷惑的事实：bcc的密度通常高于同温下的ccp/hcp
+硬球模型的局限性！考虑到周围环境，bcc（8+6）比ccp（12）成的“键”更多，而且相比于较为封闭的cp，其可以与再外围的12个原子作用
+换句话说，其可以看作“软球”模型，相当于“陷”在周围原子中的数目更多，原子间的距离更小
+[IMG: image126.png]
+双原子气体
+H2、N2将采取hcp/ccp堆积
+[IMG: image127.png]
+β-F2、γ-O2、δ-N2将会形成一类有趣的结构，在A15结构中，分子无序的排布，但是面上的结构只能沿某个平面运动（为了保持晶体对称性Pm-3n）
+[IMG: image128.png]
+O2随着压力增大会形成一系列有趣的相
+[IMG: image129.png]
+ε-O2（红氧）将形成O8的结构（O2垂直方向的π轨道互相成键）
+[IMG: image130.png]
+α-F2、Cl2、Br2、I2晶体类似，具有增强的层间相互作用，除了F2为m，其他均为o
+[IMG: image131.png]
+[IMG: image132.png]
+大型离散非金属
+B：B12簇的连接
+总共36e-
+1、26e-用于骨架内成键
+[IMG: image133.png]
+2、赤道面上六元环共用4e构成3c2e
+[IMG: image134.png]
+3、其他成BB单键，作ABCABC近似堆积
+[IMG: image135.png]
+S有单斜硫，菱方硫（S8，相对稳定）和弹性硫（无限S长链）
+S6晶体：
+[IMG: image136.png]
+C：3·2PT，2·2PT，2IP，3IP
+其中IP指石墨中相互叠加的密置层
+[IMG: image137.png]
+金刚石到石墨的转变可看作压缩密置层
+[IMG: image138.png]
+BN：无层间滑移，有层间电性作用
+[IMG: image139.png]
+P的四种结构：白磷（P4），红磷为无定性
+[IMG: image140.png]
+黑磷的一种堆积可以看作扭曲的2IP（IP(AA')IP(BB')）
+[IMG: image141.png]
+[IMG: image142.png]
+紫磷的结构，P2 P8 P2 P9中P9单元相互连接，两个管状结构相互交叉
+[IMG: image143.png]
+P往下的结构仍为层状，但与黑磷不同
+[IMG: image144.png]
+Se、Te的螺旋轴
+[IMG: image145.png]
+一些分子的结构
+CO、CO2：与N2相同
+Cr(C6H6)2：
+八面体配位：PO
+2023年9月10日
+21:58
+ccp：NaCl
+[IMG: image146.png]
+立方晶系；Oh；cF；Fm-3m
+堆积：3·2PO
+缺陷：
+1）色心（在Na中加热变为黄色）
+[IMG: image147.png]
+2）Koch原子簇（Fe1-xO）
+[IMG: image148.png]
+正常的FeO为NaCl结构；然而在O2中加热将会部分氧化，部分变为Fe3+，由于半径减小，将会进入四面体空隙，形成Fe4O10原子簇。
+由于电中性，一个Fe4O10将有6个Fe2+空缺，一个位于体心而五个无序位于棱上
+3）NbO结构（3·2P3/4O3/4）
+Nb有较强的成键作用，可形成Nb6原子簇（注意：此时Nb配位数应为12）
+[IMG: image149.png]
+其他Nb晶体也常见Nb6原子簇，如Nb2F5
+[IMG: image150.png]
+Mg3NF3：中心填入N
+[IMG: image151.png]
+变种：
+1）CaC2/BaO2型：所有C2朝向一个方向，晶系将变为四方
+[IMG: image152.png]
+2）FeS2/PtN2型：S2朝向类似干冰，晶系仍为立方
+[IMG: image153.png]
+3）混合堆积，包含各种模式
+NaFeO2，AgBiSe2等采取3·4POPO（图一）形式
+[IMG: image154.png]
+[IMG: image155.png]
+4）方解石：其中一个原子被替换为CO3-，晶系变为三方，c轴扩充一倍（由于取向）
+[IMG: image156.png]
+5）锐钛矿：3·4PO2/3PO1/3，可看作去原子的NaCl
+[IMG: image157.png]
+[IMG: image158.png]
+hcp：NiAs
+[IMG: image159.png]
+[IMG: image160.png]
+六方晶系；D6h；hP；P63/mmc
+堆积：2·2PO
+由于共价性较强，形成了特殊的三棱柱结构（还共面连接）
+c上有Ni连成的线，导电性好
+变式：
+1）ZnWO4：2·2PO1/2(Zn)PO1/2(W)
+此时为（近乎正交）单斜晶系
+[IMG: image161.png]
+相比之下的CaWO4则更接近于锐钛矿（见后）
+2）CaCO3霰石，正交晶系
+[IMG: image162.png]
+堆积：
+[IMG: image163.png]
+其中CO32-被分裂成两层
+对比方解石(a)：
+[IMG: image164.png]
+3）InNi2：填隙的NiAs
+[IMG: image165.png]
+钙钛矿CaTiO3：部分填充的PO
+[IMG: image166.png]
+3·2P1/4 3/4 O1/4
+部分填充层由Ca和O共同堆积（六方）
+变形：
+1）BaTiO3
+温度升高晶型变化：立方→四方→正交（为满足对称性而扩倍）→六方
+[IMG: image167.png]
+2）各种铜基超导体（可看作叠加）
+四方变体（正交）
+[IMG: image168.png]
+YBa2Cu3O7中存在O的无序填充
+六方变体：
+[IMG: image169.png]
+3）ReO3/WO3（3·2P3/4O1/4）
+[IMG: image170.png]
+中间的空隙可以填入原子（如Na，生成钨青铜）
+[IMG: image171.png]
+4）R-P phase：多层钙钛矿的叠加
+可写作An+1BnX3n+1
+[IMG: image172.png]
+5）CsAuCl3以及各种几遍
+部分填充的hcp：
+1/2：金红石TiO2
+[IMG: image173.png]
+近似的2·2PO1/2
+四方晶系；D4h；tP；P42/mmm（特征对称元素：42）
+可看作去除一半填隙的NiAs
+[IMG: image174.png]
+变式：
+1）白铁矿FeS2：畸变为正交晶系
+金红石，但是部分S相互连接
+[IMG: image175.png]
+[IMG: image176.png]
+[IMG: image177.png]
+2）双金红石链：多个金红石链连接
+[IMG: image178.png]
+[IMG: image179.png]
+3）ZnSb2O6：多个金红石的叠加
+[IMG: image180.png]
+2/3：刚玉
+[IMG: image181.png]
+2·6PO2/3，其中O由三种形式的2/3层形成
+变式：
+1）α-Fe2O3
+2·2PO2/3，此时2/3层将会分裂为两层
+[IMG: image182.png]
+[IMG: image183.png]
+2）VF3
+2·2PO1/3，替换2/3为1/3
+[IMG: image184.png]
+3）β-TiCl3
+另一种2·2PO1/3
+由于Ti的单电子有成键倾向，Ti均填充在一侧形成链状结构
+[IMG: image185.png]
+[IMG: image186.png]
+这种作用在高周期（ZrCl3）会更加明显
+1/4：六方BaTiO3
+密置层将替换为混合密置层，O填隙占1/4
+[IMG: image187.png]
+层状结构
+CdCl2
+[IMG: image188.png]
+3·3POP
+变式：
+1）改变O的填充
+3·3PO2/3P：CrCl3
+[IMG: image189.png]
+3·3PO1/2P：Fe4N
+[IMG: image190.png]
+2）改变堆积
+2·3/2POP：CdI2/Mg(OH)2
+[IMG: image191.png]
+JTE后：CuCl2
+[IMG: image192.png]
+3）改变密置层数
+2层：3·5/3POPOP：La2O3（同时增加了层间相互作用）
+[IMG: image193.png]
+3层：5·9/5 PO1/4PO1/4P：Ba5Ta4O15
+[IMG: image194.png]
+四面体配位：PT
+2023年9月10日
+23:46
+ccp：ZnS闪锌矿
+[IMG: image195.png]
+3·2PT
+立方晶系；Td（金刚石为Oh）；cF；F-43m
+变形：
+1）Ic-ice立方冰：由氢键连接的晶体
+[IMG: image196.png]
+2）Ag2HgI4：高温下无序分布
+[IMG: image197.png]
+3）缺位拓展3·4PT型：叠加ZnS
+[IMG: image198.png]
+*如果找不到四重反轴，试着以金属原子作顶点吧
+[IMG: image199.png]
+hcp：ZnS纤锌矿/ZnO
+[IMG: image200.png]
+2·2PT
+六方晶系；C6v；hP；P63mc
+*由于更多的桥头静电作用
+变形：
+1）Ih-ice
+[IMG: image201.png]
+2）缺位拓展
+2·2PT1/2：GeS2
+[IMG: image202.png]
+[IMG: image203.png]
+[IMG: image204.png]
+3）硫砷铜矿Cu3AsS4：2·2P1/4 3/4T
+[IMG: image205.png]
+PTT结构
+ccp：CaF2萤石/Li2O反萤石
+[IMG: image206.png]
+3·3PTT
+立方晶系；Oh；cF；Fm3m
+同时也可以表达为3·3POT
+[IMG: image207.png]
+变形
+1）原子替换：MgAgAs
+[IMG: image208.png]
+替换为原子簇：K2PtCl6
+[IMG: image209.png]
+2）近就近，层间连接：CaSi2
+[IMG: image210.png]
+3）缺位：3·3PT1/2T1/2：
+PtS/PtO：PtS4链间相连（我日，这也能看出来）；取向为平行
+[IMG: image211.png]
+[IMG: image212.png]
+PbO：四面体填充为层状结构；取向为垂直
+[IMG: image213.png]
+[IMG: image214.png]
+4）极致的几何：Tl2O3/Y2O3
+3·3PT3/4T3/4
+[IMG: image215.png]
+仔细观察缺位，正好与前面的3/4空缺相符
+[IMG: image216.png]
+其晶体的C3轴沿对角线而不相交
+5）氧化亚铜Cu2O：3·3PT1/4T1/4
+[IMG: image217.png]
+[IMG: image218.png]
+另一种看法：两套金刚石体系穿插
+[IMG: image219.png]
+6）PT1/8T1/8：SnI4
+[IMG: image220.png]
+[IMG: image221.png]
+7）堆积CaF2：白钨矿CaWO4，氧原子部分位移
+[IMG: image222.png]
+hcp
+（hcp中采取PTT将面临巨大的斥力（NiAs的PO结构中，位于O的位点均在C；但PTT结构中，上下两层的T将离得非常近（共面四面体！）），只有很少的例子符合）
+[IMG: image223.png]
+变式
+1）MoS2
+[IMG: image224.png]
+2·3TPT
+为了避免hcp的不稳定，选择三棱柱型配位，层间艰巨将会非常大
+2）ReB2
+无所谓，我的人生已经完蛋了，直接形成B的片层以消除排斥
+[IMG: image225.png]
+3）GaS：双层MoS2结构
+[IMG: image226.png]
+α/β-GaSe
+[IMG: image227.png]
+体心立方 ：PTOT
+2023年9月10日
+23:46
+ccp：CsCl
+[IMG: image228.png]
+立方晶系；Oh；cP；Pm-3m
+空隙分布：
+[IMG: image229.png]
+变式：
+1）AgI导电（Ag可以在各个空隙之间穿梭）
+[IMG: image230.png]
+2）CN-畸变：CsCN、NH4CN
+低温的CsCN由于旋转受阻，畸变为三方
+[IMG: image231.png]
+NH4CN有两种取向的CN
+[IMG: image232.png]
+3）氢键畸变：NH4Cl
+低温静电作用采取CsCl结构（高温NaCl）
+[IMG: image233.png]
+NH4HF2
+[IMG: image234.png]
+4）Cr2Al：多层堆积
+[IMG: image235.png]
+5）各种原子替换
+XeF2&Hg2Cl2：畸变为体心四方
+[IMG: image236.png]
+Pd4Se（替换为四面体）
+[IMG: image237.png]
+CaB6（连接原子簇）
+[IMG: image238.png]
+6）八倍晶胞的原子替换
+BiF3
+[IMG: image239.png]
+K3C60
+[IMG: image240.png]
+十二水合硫酸铝钾：K(H2O)6Al(H2O)6(SO4)2
+[IMG: image241.png]
+TlSe：Tl(I)(Tl(III)Se2)-
+由TlSe2-长链和Tl+组成畸变的CsCl
+[IMG: image242.png]
+[IMG: image243.png]
+7）部分填充：K2PtCl4
+3·2P1/2TO1/2T
+[IMG: image244.png]
+hcp：你竟然还想爆？
+1）ReB3：摆烂
+[IMG: image245.png]
+[IMG: image246.png]
+多层合并结构
+2023年9月10日
+23:49
+双层（石墨层）结构
+1）MgB2：2PIP
+[IMG: image247.png]
+2）各种硼酸盐
+Y(BO3)（类CaCO3）
+[IMG: image248.png]
+3）Na3As：2·3IPTT
+[IMG: image249.png]
+[IMG: image250.png]
+4）2IP1/4 1/4
+Y(OH)3（(OH)3作为一个单元）
+[IMG: image251.png]
+N2O5（NO2+NO3-+）
+[IMG: image252.png]
+5）CuS：(Cu+)3(S2-)((S2)-)
+8P1/4T1/4IP1/4 1/4T1/4
+[IMG: image253.png]
+[IMG: image254.png]
+三层结构……
+BiI3
+[IMG: image255.png]
+[IMG: image256.png]
+合金与复杂堆积
+2023年9月19日
+11:14
+CaCu5/LaNi5/SmCo5
+[IMG: image257.png]
+[IMG: image258.jpg]
+一个晶胞内存在6个四面体空隙的3个八面体空隙（可填充H），然而一般只有四面体空隙可以填充，形成LaNi5H6
+[IMG: image259.png]
+SmCo5中，将1/3的Co替换为Sm2原子团，得到Sm2Co17
+[IMG: image260.png]
+再经过变形，填隙得到Nd2Fe14B
+[IMG: image261.png]
+Nowotny Phase
+Cr11Ge19：串联的半金刚石骨架
+[IMG: image262.png]
+Zintl phase
+含有明显的金属键合，一般只发生在主族金属
+eg：NaTl
+[IMG: image263.png]
+两套穿插的金刚石骨架
+[IMG: image264.png]
+金属键骨架
+总览（哇哦！）
+Frank-Kasper phase
+即为拓扑密堆积相
+1）A15 phase：Nb3Sn/β-W
+[IMG: image265.png]
+正二十面体密堆积
+稍微移动一下晶胞，可得到八个立方体的结构。类似的有CoAs3（As4矩形）
+[IMG: image266.jpg]
+2）Laves Phase：切角四面体和四面体密堆积（见后）
+[IMG: image267.png]
+3）others
+Complex alloy
+挑个比较简单的：Bergman簇
+Mg32(Al,Zn)49
+[IMG: image268.png]
+固溶体
+1）WC
+[IMG: image269.png]
+2）Fe3C（珠光体）（三棱柱填隙，正交晶系）
+[IMG: image270.png]
+[IMG: image271.png]
+[IMG: image272.png]
+[IMG: image273.png]
+然而实际上也存在一些起伏……
+[IMG: image274.png]
+Laves Phase
+[IMG: image267.png]
+[IMG: image275.png]
+立方MgCu2：
+[IMG: image276.png]
+[IMG: image277.jpg]
+填隙的MgCu2：AuBe5
+[IMG: image278.png]
+Be填入另外的四面体空隙中
+六方MgZn2——填隙LuMn5
+[IMG: image279.png]
+三方MgNi2
+[IMG: image280.png]
+尖晶石结构MgAl2O4
+特殊填隙的Laves相，与Laves和金刚石同一对称性（Fd-3m）
+3·6PO3/4PT1/4OT1/4（怎么看出来的？？？）
+[IMG: image281.png]
+[IMG: image282.png]
+[IMG: image283.png]
+[IMG: image284.png]
+尖晶石：(II)t (III)o
+反尖晶石：1/2(III)t 1/2(III)o (II)o
+可根据CFSE判断，仅当(II)有强烈的o偏好才形成反尖晶石
+eg：Fe(II)在o有t2g6强烈偏好，Fe3O4反式尖晶石，当然此规则不准确的一批
+一些其他价态的尖晶石结构：Na2MoO4
+变形：
+1）金绿宝石BeAl2O4
+2·4PT1/8O1/2T1/8（正交晶系）
+[IMG: image285.png]
+[IMG: image286.png]
+硅酸盐与沸石
+2023年9月18日
+1:01
+SiO2
+从堆积上看是P3/4和P1/4，Si填入T
+[IMG: image287.png]
+1）β鳞石英
+4·2 P3/4T1/4P1/4T1/4
+[IMG: image288.png]
+2）β方石英
+3·4 P3/4T1/4P1/4T1/4
+[IMG: image289.png]
+3）β石英
+3·2 P2/4T1/4
+[IMG: image290.png]
+4）超石英/斯石英
+2·2 PO1/2(t)（占据了整个堆积层！）
+[IMG: image291.png]
+硅酸盐
+我们直接看晶体吧……
+1）小阴离子
+①MSiO4
+②MSi2O7
+③环状结构
+Si6O18：绿柱石Be3Al2Si6O18
+[IMG: image292.png]
+[IMG: image293.png]
+Be位于四面体，Al位于八面体
+2）链状阴离子
+3）层状阴离子
+随即挑一个：Mg3Si2O5(OH)4
+利蛇纹石
+[IMG: image294.png]
+叶蛇纹石
+[IMG: image295.png]
+4）骨架阴离子（即沸石）
+沸石（分子筛）
+[IMG: image296.png]
+[IMG: image297.png]
+1）SOD方钠石：由β笼连接的结构
+常见：方钠石Na(SiO2)(AlO2)
+群青：填充部分S3-离子
+2）LTA（A型）分子筛：β笼+α笼子+立方体笼
+[IMG: image298.png]
+Na12[(AlO2)12(SiO2)12]
+3）FAU（八面沸石，X/Y型沸石）分子筛：β笼+立方体笼+八面沸石笼
+[IMG: image299.png]
+4）EMT分子筛
+[IMG: image300.png]
+5）PAU沸石：γ笼+α笼+八角柱笼
+[IMG: image301.png]
+部分分子晶体
+2023年9月10日
+23:49
+氢键结构
+1）尿素
+[IMG: image302.png]
+2）乌洛托品（CH···N）
+[IMG: image303.png]
+配位结构
+1）四聚甲基锂
+[IMG: image304.png]
+包合物
+1）可燃冰由水分子组成的笼状结构。8CH4·46H2O
+[IMG: image305.png]
+2）Hoffman包合物：Ni(CN)2·NH3·C6H6
+[IMG: image306.png]
+夹心化合物
+石墨夹层：KCx
+[IMG: image307.png]
+石墨层未发生明显滑移
+其中经典KC8：石墨六方→正交
+[IMG: image308.png]
+拾遗
+2023年9月22日
+23:53
+五配位结构
+1）层间相互作用
+V2O5
+[IMG: image309.png]
+K2Ti2O5
+[IMG: image310.png]
+四方锥：锥顶不共用，锥底一个2共用三个3共用
+2）三角双锥配位：LaF3
+[IMG: image311.png]
+八配位结构
+1）六角双锥
+UO2F2
+[IMG: image312.png]
+Li3N
+[IMG: image313.png]
+[IMG: image314.png]
+2）四方反棱柱
+PbClF/BiOCl/LaOCl
+[IMG: image315.png]
+[IMG: image316.png]
+九配位结构
+UCl3：三帽三棱柱
+[IMG: image317.png]
+[IMG: image318.png]
+几何推导锦集
+2023年9月17日
+18:44
+[IMG: image319.png]
+[IMG: image320.png]
+[IMG: image321.png]
+[IMG: image322.png]
+[IMG: image323.png]
+晶面间距的计算（详见视频）
+晶面能的估算
+[IMG: image324.png]
+表面能实际为表面吉布斯自由能
+(100)：考虑切下右半部分，对于一个原子来说断了四根键，而该面有两个原子；该面的面积为8r^2，分割后创造了两个晶面，有：
+E=4u*2/8R^2*2=u/2r^2
+(110)：考虑沿(110)切下，对于第一层原子一共断裂10根，对于第二层原子一共断裂2根，有：
+E=12U/8√2r^2*2=3U/2√2r^2
+已使用 OneNote 创建。
