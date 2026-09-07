@@ -255,19 +255,19 @@ $$
 
 ---
 
-![Screenshot_20250916_154624](Physical Chemistry II.assets/Screenshot_20250916_154624.jpg)
+![Screenshot_20250916_154624](Physical-Chemistry-II.assets/Screenshot-20250916-154624.jpg)
 
 MEA: 膜电极组件
 
-<img src="Physical Chemistry II.assets/Membrane_Electrode_Assembly_-_Electro-Chemical_Reaction_Diagram.jpg" alt="undefined" style="zoom: 67%;" />
+<img src="Physical-Chemistry-II.assets/Membrane-Electrode-Assembly---Electro-Chemical-Reaction-Diagram.jpg" alt="undefined" style="zoom: 67%;" />
 
-<img src="Physical Chemistry II.assets/1920px-SEM_micrograph_of_an_MEA_cross_section.jpg" alt="undefined" style="zoom: 25%;" />
+<img src="Physical-Chemistry-II.assets/1920px-SEM-micrograph-of-an-MEA-cross-section.jpg" alt="undefined" style="zoom: 25%;" />
 
 ---
 
 ### Rechargable batteries
 
-![image-20251103153747563](Physical Chemistry II.assets/image-20251103153747563.png)
+![image-20251103153747563](Physical-Chemistry-II.assets/image-20251103153747563.png)
 
 ---
 
@@ -280,17 +280,17 @@ MEA: 膜电极组件
 
 ### Electric Double Layer(EDL)
 
-![Screenshot_20250916_160222](Physical Chemistry II.assets/Screenshot_20250916_160222.jpg)
+![Screenshot_20250916_160222](Physical-Chemistry-II.assets/Screenshot-20250916-160222.jpg)
 
 ---
 
 ### Gouy-Chapman-Stern(GCS) Model
 
-![Screenshot_20250916_162115](Physical Chemistry II.assets/Screenshot_20250916_162115.jpg)
+![Screenshot_20250916_162115](Physical-Chemistry-II.assets/Screenshot-20250916-162115.jpg)
 
-<img src="Physical Chemistry II.assets/EDLC-Potentialdistribution.png" alt="undefined" style="zoom:50%;" />
+<img src="Physical-Chemistry-II.assets/EDLC-Potentialdistribution.png" alt="undefined" style="zoom:50%;" />
 
-<img src="Physical Chemistry II.assets/image-20251103161248999.png" alt="image-20251103161248999" style="zoom: 33%;" />
+<img src="Physical-Chemistry-II.assets/image-20251103161248999.png" alt="image-20251103161248999" style="zoom: 33%;" />
 
 ---
 
@@ -298,7 +298,7 @@ MEA: 膜电极组件
 
 Pure Phase(A)  |   ……  |  Pure Phase(B)
 
-<img src="Physical Chemistry II.assets/1920px-Gibbs_image_3.png" alt="undefined" style="zoom: 25%;" />
+<img src="Physical-Chemistry-II.assets/1920px-Gibbs-image-3.png" alt="undefined" style="zoom: 25%;" />
 
 Reference System: （省略了偏摩尔量）
 
@@ -450,13 +450,13 @@ $$
 
 ### Droping Mercury Electrode
 
-<img src="Physical Chemistry II.assets/image-20251103201920498.png" alt="image-20251103201920498" style="zoom:67%;" />
+<img src="Physical-Chemistry-II.assets/image-20251103201920498.png" alt="image-20251103201920498" style="zoom:67%;" />
 
-<img src="Physical Chemistry II.assets/image-20251103202301647.png" alt="image-20251103202301647" style="zoom:67%;" />
+<img src="Physical-Chemistry-II.assets/image-20251103202301647.png" alt="image-20251103202301647" style="zoom:67%;" />
 
 当且仅当导数为0时达到双电层净电荷平衡，前半段表面富集电子，排斥阴离子而吸引阳离子；后半段表面缺少电子，吸引阴离子。
 
-<img src="Physical Chemistry II.assets/image-20251103202855441.png" alt="image-20251103202855441" style="zoom:50%;" />
+<img src="Physical-Chemistry-II.assets/image-20251103202855441.png" alt="image-20251103202855441" style="zoom:50%;" />
 
 ---
 
@@ -507,7 +507,7 @@ $$
 
 Assume one molecule in a $abc$ box:
 
-![image-20250923161117996](Physical Chemistry II.assets/image-20250923161117996.png)
+![image-20250923161117996](Physical-Chemistry-II.assets/image-20250923161117996.png)
 
 每次撞击动量改变为$2mu$，间隔时间为：
 
@@ -579,7 +579,7 @@ $$
 
 assume collision in $dt$ in the oblique cylinder，考虑能撞上面积A的分子数：
 
-![image-20250923161327057](Physical Chemistry II.assets/image-20250923161327057.png)
+![image-20250923161327057](Physical-Chemistry-II.assets/image-20250923161327057.png)
 
 柱形内碰撞分子数等于$柱内分子数 \times 速度概率 \times 方向概率$
 
@@ -597,7 +597,7 @@ $$
 
 ### Mean Free Path
 
-![image-20250923162240436](Physical Chemistry II.assets/image-20250923162240436.png)
+![image-20250923162240436](Physical-Chemistry-II.assets/image-20250923162240436.png)
 
 molecules in the cylinder will be collided
 
@@ -768,7 +768,7 @@ $$
 
 ## Potential Energy Surface
 
-![image-20250930153118930](Physical Chemistry II.assets/image-20250930153118930.png)
+![image-20250930153118930](Physical-Chemistry-II.assets/image-20250930153118930.png)
 
 the top point of the surface is called **Saddle Point**
 
@@ -798,7 +798,7 @@ $$
 \frac {\nu_{CH}}{\nu_{CD}} = \sqrt{\frac{m_Dm_C(m_D+m_C)}{m_Hm_C(m_H+m_C)}} \approx \sqrt2
 $$
 
-![image-20250930154307649](Physical Chemistry II.assets/image-20250930154307649.png)
+![image-20250930154307649](Physical-Chemistry-II.assets/image-20250930154307649.png)
 
 $$
 \begin{aligned}
@@ -810,7 +810,7 @@ $$
 
 #### Secondary KIE
 
-![image-20250930155034421](Physical Chemistry II.assets/image-20250930155034421.png)
+![image-20250930155034421](Physical-Chemistry-II.assets/image-20250930155034421.png)
 
 KIE: $S_N1$ ~ 1.2, $S_N2$ ~ 1. why?
 
@@ -820,7 +820,7 @@ $S_N1$ mechanism involves a temporary increase in the bond order of C-H(D)
 
 #### Early vs. Late TS
 
-![image-20250930155358406](Physical Chemistry II.assets/image-20250930155358406.png)
+![image-20250930155358406](Physical-Chemistry-II.assets/image-20250930155358406.png)
 
 - Early TS: solvent interacts with IS&TS similarly ⇒ No solvent effect
 
@@ -848,25 +848,25 @@ where $0<\alpha<1$
 
 #### The Hammond Postulate
 
-![image-20250930161619872](Physical Chemistry II.assets/image-20250930161619872.png)
+![image-20250930161619872](Physical-Chemistry-II.assets/image-20250930161619872.png)
 
 more reactive rxn will produce AC more resembles the reactant, result in less selectivity (**Activity-Selectivity Principle**)
 
 #### The Curtin-Hammett Principle
 
-![image-20250930161911577](Physical Chemistry II.assets/image-20250930161911577.png)
+![image-20250930161911577](Physical-Chemistry-II.assets/image-20250930161911577.png)
 
 The ratio of products is determined by the relative heights of the highest energy barriers, leading to different products
 
 #### Microscopic Reversibility
 
-![image-20250930162025756](Physical Chemistry II.assets/image-20250930162025756.png){ style="display: block; margin: 0 auto;" }
+![image-20250930162025756](Physical-Chemistry-II.assets/image-20250930162025756.png){ style="display: block; margin: 0 auto;" }
 
 The forward and reverse rxns go identical path
 
 #### Kinetic vs Thermodynamic Control
 
-![image-20250930162821962](Physical Chemistry II.assets/image-20250930162821962.png){ style="display: block; margin: 0 auto;" }
+![image-20250930162821962](Physical-Chemistry-II.assets/image-20250930162821962.png){ style="display: block; margin: 0 auto;" }
 
 #### Quasi Steady Approx. (QSSA)
 
@@ -895,7 +895,7 @@ $$
 
 as $k_2\gg k_1 \Rightarrow t_{max} \to 0, y_{max} \to 0$
 
-![QSSA](Physical Chemistry II.assets/Consecutive_reactions_rate_constants_1-10.jpeg)
+![QSSA](Physical-Chemistry-II.assets/Consecutive-reactions-rate-constants-1-10.jpeg)
 
 for rxns with more than one intermediates:
 
@@ -931,7 +931,7 @@ $$
 
 ### RDS
 
-<img src="Physical Chemistry II.assets/image-20251014152551774.png" alt="image-20251014152551774" style="zoom: 67%;" />
+<img src="Physical-Chemistry-II.assets/image-20251014152551774.png" alt="image-20251014152551774" style="zoom: 67%;" />
 
 let $k_{-2} =0 $
 
@@ -991,7 +991,7 @@ X_{TC,i} &=  (\frac{\partial \ln r}{\partial (\frac{-\Delta G_i}{RT})})_{k_{j \n
 \end{aligned}
 $$
 
-<img src="Physical Chemistry II.assets/image-20251014161145290.png" alt="image-20251014161145290" style="zoom:67%;" />
+<img src="Physical-Chemistry-II.assets/image-20251014161145290.png" alt="image-20251014161145290" style="zoom:67%;" />
 
 for eg:
 
@@ -1044,7 +1044,7 @@ $$
 r = \frac{r_{max}[S]}{K_m + [S]}
 $$
 
-<img src="Physical Chemistry II.assets/1024px-MM-order.jpg" alt="undefined" style="zoom: 50%;" />
+<img src="Physical-Chemistry-II.assets/1024px-MM-order.jpg" alt="undefined" style="zoom: 50%;" />
 
 Reaction with 2 substates:
 
@@ -1077,7 +1077,7 @@ $$
 
 ### Kinetics in thermal dynamically non-ideal systems
 
-<img src="Physical Chemistry II.assets/image-20251014164815896.png" alt="image-20251014164815896" style="zoom:67%;" />
+<img src="Physical-Chemistry-II.assets/image-20251014164815896.png" alt="image-20251014164815896" style="zoom:67%;" />
 
 $$
 \ce{A + B <--> X^\ddagger -> P}
@@ -1147,7 +1147,7 @@ RH为MARI物种，其物理状态受金属表面作用支配而与溶剂无关�
 
 焓熵相互补偿，导致$k$变化不大。考虑水合：
 
-![image-20251104032636742](Physical Chemistry II.assets/image-20251104032636742.png)
+![image-20251104032636742](Physical-Chemistry-II.assets/image-20251104032636742.png)
 
 ---
 
@@ -1180,7 +1180,7 @@ RH为MARI物种，其物理状态受金属表面作用支配而与溶剂无关�
 
 ### Electro Kinetics
 
-![image-20251104033850634](Physical Chemistry II.assets/image-20251104033850634.png)
+![image-20251104033850634](Physical-Chemistry-II.assets/image-20251104033850634.png)
 
 理想可极化电极：不允许电子通过，只能积累电荷，电极本身不发生电化学反应，如惰性电极
 
@@ -1192,13 +1192,13 @@ $$
 \eta = E - E_{eq}
 $$
 
-![image-20251104034226193](Physical Chemistry II.assets/image-20251104034226193.png)
+![image-20251104034226193](Physical-Chemistry-II.assets/image-20251104034226193.png)
 
 #### Semi-empirical Steady-State Treatment
 
 扩散层：假定电极附近有一段无法搅拌的，厚度为$\delta$的停滞层（*stagnant layer*），其浓度是线性减小的：
 
-![image-20251104034605236](Physical Chemistry II.assets/image-20251104034605236.png)
+![image-20251104034605236](Physical-Chemistry-II.assets/image-20251104034605236.png)
 
 $$
 v_{mt} = D_O (\dv{C_O}{x})_{x=0} = D_O \frac{C_O^b - C_O}{\delta_O} = m_O(C_O^b - C_O)
@@ -1255,9 +1255,9 @@ $$
 \eta = |E-E_{eq}| = |\frac{RT}{nF}\ln\frac{i_l-i}{i_l}|
 $$
 
-<img src="Physical Chemistry II.assets/image-20251104041851343.png" alt="image-20251104041851343" style="zoom:67%;" />
+<img src="Physical-Chemistry-II.assets/image-20251104041851343.png" alt="image-20251104041851343" style="zoom:67%;" />
 
-<img src="Physical Chemistry II.assets/image-20251104042004713.png" alt="image-20251104042004713" style="zoom:67%;" />
+<img src="Physical-Chemistry-II.assets/image-20251104042004713.png" alt="image-20251104042004713" style="zoom:67%;" />
 
 ### Electrode kinetics
 
@@ -1612,7 +1612,7 @@ $$
 
 对于相关函数：
 
-![image-20251118170047172](Physical Chemistry II.assets/image-20251118170047172.png)
+![image-20251118170047172](Physical-Chemistry-II.assets/image-20251118170047172.png)
 
 这里液体呈现出类似1D-crystal的关系，这是由于液体由于熵效应，在半径$\sigma$的地方出现粒子的概率很大，相应的在中间出现的概率很小。
 
@@ -1698,7 +1698,7 @@ $$
 
 for freely joint chain:
 
-<img src="Physical Chemistry II.assets/1280px-Ideal_chain_random_walk.svg.png" alt="undefined" style="zoom: 25%;" />
+<img src="Physical-Chemistry-II.assets/1280px-Ideal-chain-random-walk.svg.png" alt="undefined" style="zoom: 25%;" />
 
 $N$ as number of residues, $l$ as monomer length, $nl$ as end-to-end length.
 
@@ -2014,7 +2014,7 @@ $$
 \ev{(r-r_0)^2} = 6Dt
 $$
 
-<img src="Physical Chemistry II.assets/960px-Msd_anomalous_diffusion.svg.png" alt="undefined" style="zoom:50%;" />
+<img src="Physical-Chemistry-II.assets/960px-Msd-anomalous-diffusion.svg.png" alt="undefined" style="zoom:50%;" />
 
 
 $$

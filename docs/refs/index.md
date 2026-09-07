@@ -3,7 +3,7 @@
 !!! warning "注意"
     如果有任何链接无法打开等情况，或有意补充内容，请添加我的联系方式反馈。
 
-![img](index.assets/card_after_training.png)
+![img](index.assets/card-after-training.png)
 > Beware of he who would deny you access to information, for in his heart he dreams himself your master. 
 >
 > **慎防禁知者，因其心底暗藏主宰尔辈之妄念。**

@@ -4,7 +4,7 @@
 >
 > 作者：**凯楽斯kelesss**
 
-![img](Statistic_Thermodynamics_2.assets/card_after_training.png)
+![img](Statistic-Thermodynamics-2.assets/card-after-training.png)
 
 ## 1. 实际气体
 
@@ -312,7 +312,7 @@ $$
 
 到这里我们应当可以看出位力系数的具体意义。对于第二位力系数，所表述的是两个粒子之间的相互作用（对于Mayer函数 $f_{12}$）；对于第三位力系数，所表述的是三个粒子之间的相互作用（对于Mayer函数 $f_{12}f_{23}f_{13}$），这也是“团簇展开”的含义。
 
-![image-20251211164103349](Statistic_Thermodynamics_2.assets/image-20251211164103349.png)
+![image-20251211164103349](Statistic-Thermodynamics-2.assets/image-20251211164103349.png)
 
 对于第四位力系数，自然就是考虑四个粒子的团簇之间的相互作用。我们不加推导地给出：
 
@@ -322,7 +322,7 @@ $$
 
 其中右边 $I_n$ 代表 $n$ 个粒子所有标记的 biconnected 图的积分和。例如4原子团簇：
 
-![image-20251211171607934](Statistic_Thermodynamics_2.assets/image-20251211171607934.png)
+![image-20251211171607934](Statistic-Thermodynamics-2.assets/image-20251211171607934.png)
 
 其中对于四粒子系统，有3种 $\square$ 作用，6种 $\oslash$ 作用，1种 $\boxtimes$ 作用。于是：
 
@@ -437,7 +437,7 @@ $$
 
 我们假设一个单体长度为 $l$，并且由 $N$ 个单体组成的聚合物无规线团（random coil）：
 
-<img src="Statistic_Thermodynamics_2.assets/image-20251211180953365.png" alt="image-20251211180953365" style="zoom: 33%;" />
+<img src="Statistic-Thermodynamics-2.assets/image-20251211180953365.png" alt="image-20251211180953365" style="zoom: 33%;" />
 
 我们先考虑一维下的随机链，假设有 $N_L$ 个链段向左，$N_R$ 个链段向右，假定头尾之间的距离是 $n$ 倍单体长度 $nl$ 。我们可以列出：
 
@@ -511,7 +511,7 @@ $$
     f(R)\dd R = f(\vb{R})\cdot4\pi R^2 \dd R = 4\pi\pqty{\frac{3}{2\pi Nl^2}}^{3/2} R^2e^{-\frac{3R^2}{2Nl^2}}
     $$
 
-<img src="Statistic_Thermodynamics_2.assets/image-20251212010738544.png" alt="image-20251212010738544" style="zoom: 50%;" />
+<img src="Statistic-Thermodynamics-2.assets/image-20251212010738544.png" alt="image-20251212010738544" style="zoom: 50%;" />
 
 通过求导可以证明：聚合物最可能的端点距离为：
 
@@ -536,7 +536,7 @@ $$
 \boxed{R_{rms} = \sqrt{N} l}
 $$
 
-<img src="Statistic_Thermodynamics_2.assets/webview.png" alt="img" style="zoom: 67%;" />
+<img src="Statistic-Thermodynamics-2.assets/webview.png" alt="img" style="zoom: 67%;" />
 
 经典物理有一个定义是**回转半径**（Radius of Gyration）$R_g$，即“若将物体的总质量集中于该点，则该点对旋转轴的转动惯量等于物体实际质量分布所产生的转动惯量”，其实就是相对于质心的均方根距离。
 
@@ -741,11 +741,11 @@ $$
 
 我们考虑三种最简单的情况，对于理想气体，显然没有任何立场作用，相对概率为 $1$；对于硬球模型会在分子直径 $\sigma$ 处存在突跃；对于理想的一维晶体，应该在严格的间距处出现类似 $\delta$ 函数的性质：
 
-![image-20251214144452633](Statistic_Thermodynamics_2.assets/image-20251214144452633.png)
+![image-20251214144452633](Statistic-Thermodynamics-2.assets/image-20251214144452633.png)
 
 而对于实际流体而言呢？
 
-![image-20251214144206027](Statistic_Thermodynamics_2.assets/image-20251214144206027.png)
+![image-20251214144206027](Statistic-Thermodynamics-2.assets/image-20251214144206027.png)
 
 这里液体在近程呈现出类似1D-crystal的关系，这是由于我们把观察中心放在了一个粒子上，因此，在直径 $\sigma$ 的地方出现其他粒子的概率很大，相应的在中间出现的概率很小。而在远程上，由于熵效应又恢复到无序状态。
 

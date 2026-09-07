@@ -398,7 +398,7 @@ $$
 
 对于一个更加general的case：
 
-![image-20260314114251204](Physical_Chemistry_I.assets/image-20260314114251204.png)
+![image-20260314114251204](Physical-Chemistry-I.assets/image-20260314114251204.png)
 
 可以看到波在一定的部分里看起来在 $g(k)$ 的范围内，这就叫波包。
 
@@ -463,7 +463,7 @@ $$
 
 对于一次测量，会使体系坍缩至其中一种可能的状态。需要注意的是，**测量的先后顺序可能会影响测量结果**。
 
-<img src="Physical_Chemistry_I.assets/image-20260310172456282.png" alt="image-20260310172456282" style="zoom:67%;" />
+<img src="Physical-Chemistry-I.assets/image-20260310172456282.png" alt="image-20260310172456282" style="zoom:67%;" />
 
 对于两个不对易的算符对应的物理量而言，比如 $\ket{u}$ 和 $\ket{v}$ ，先测量 $\ket{u}$ 会使波函数有一定概率坍缩到 $\ket{u_1}$ 上，有一定概率坍缩到 $\ket{u_2}$ 上，之后再测定 $v$ 结构就是坍缩之后的向量继续向 $\ket{v}$ 坍缩。
 
@@ -479,7 +479,7 @@ $$
 
 右边这一项有点像欧氏距离的平方……为了展示这一点，我们把空间坐标画出来：
 
-![image-20260310173445375](Physical_Chemistry_I.assets/image-20260310173445375.png)
+![image-20260310173445375](Physical-Chemistry-I.assets/image-20260310173445375.png)
 
 这样，图中的每一个点就代表了一个可能的量子态。我们把表达式化简成：
 
@@ -979,7 +979,7 @@ $$
 \end{aligned}
 $$
 
-<img src="Physical_Chemistry_I.assets/HarmOsziFunktionen.png" alt="undefined" style="zoom:67%;" />
+<img src="Physical-Chemistry-I.assets/HarmOsziFunktionen.png" alt="undefined" style="zoom:67%;" />
 
 ---
 
@@ -1395,7 +1395,7 @@ $$
 
 定义主量子数 $n=k+l$，就有经典的轨道图形了。
 
-<img src="Physical_Chemistry_I.assets/image-20260404214015789.png" alt="image-20260404214015789" style="zoom: 80%;" />
+<img src="Physical-Chemistry-I.assets/image-20260404214015789.png" alt="image-20260404214015789" style="zoom: 80%;" />
 
 ---
 
@@ -1403,7 +1403,7 @@ $$
 
 假设对一个双原子分子系统：
 
-![image-20260324165547286](Physical_Chemistry_I.assets/image-20260324165547286.png)
+![image-20260324165547286](Physical-Chemistry-I.assets/image-20260324165547286.png)
 
 得到对应的哈密顿量：
 
@@ -1423,7 +1423,7 @@ $$
 E_l - E_{l-1} = [l(l+1)-l(l-1)]hB=2lBh
 $$
 
-<img src="Physical_Chemistry_I.assets/Rotational_spectrum_example.png" alt="undefined" style="zoom: 67%;" />
+<img src="Physical-Chemistry-I.assets/Rotational-spectrum-example.png" alt="undefined" style="zoom: 67%;" />
 
 这在光谱上显示出相差 $2Bh$ 的谱线。
 
@@ -1450,7 +1450,7 @@ $$
 \mel{Y_{l\pm1}^{m}}{d_0 \cos\theta}{Y_l^m}\neq 0
 $$
 
-![image-20260405172410272](Physical_Chemistry_I.assets/image-20260405172410272.png)
+![image-20260405172410272](Physical-Chemistry-I.assets/image-20260405172410272.png)
 
 ---
 
@@ -1464,7 +1464,7 @@ $$
 
 我们假定 $R$ 算符专门处理空间自由度，$S$ 算符处理自旋自由度。它们的本征值为 $r$ 和 $s$。
 
-<img src="Physical_Chemistry_I.assets/image-20260324173001195.png" alt="image-20260324173001195" style="zoom: 80%;" />
+<img src="Physical-Chemistry-I.assets/image-20260324173001195.png" alt="image-20260324173001195" style="zoom: 80%;" />
 
 全世界都知道电子自旋是 $\pm 1/2$：
 
@@ -1546,7 +1546,7 @@ $$
 
 这对应不同磁场下，不同自旋的核的能量将不同。比如对于电子而言有两种可能的状态：
 
-<img src="Physical_Chemistry_I.assets/image-20260324174452693.png" alt="image-20260324174452693" style="zoom:80%;" />
+<img src="Physical-Chemistry-I.assets/image-20260324174452693.png" alt="image-20260324174452693" style="zoom:80%;" />
 
 能量的裂分：
 
@@ -1556,7 +1556,7 @@ $$
 
 由此原理就可以做出核磁共振仪：
 
-<img src="Physical_Chemistry_I.assets/image-20260324174537761.png" alt="image-20260324174537761" style="zoom: 80%;" />
+<img src="Physical-Chemistry-I.assets/image-20260324174537761.png" alt="image-20260324174537761" style="zoom: 80%;" />
 
 ---
 
@@ -1580,7 +1580,7 @@ $$
 
 真实的化学体系可能存在原子核之间的耦合：
 
-![image-20260324175236264](Physical_Chemistry_I.assets/image-20260324175236264.png)
+![image-20260324175236264](Physical-Chemistry-I.assets/image-20260324175236264.png)
 
 $$
 H = -\gamma B_0(1-\sigma_1)I_{z1}-\gamma B_0(1-\sigma_2)I_{z2}+\frac{hJ_{12}}{\hbar^2}I_{z1}I_{z2}
@@ -1758,7 +1758,7 @@ $$
 W_{11} =W_{44} =\frac{hJ_{12}}{4}\qc W_{22}=W_{33}=-\frac{hJ_{12}}{4}
 $$
 
-<img src="Physical_Chemistry_I.assets/image-20260331162459616.png" alt="image-20260331162459616" style="zoom: 80%;" />
+<img src="Physical-Chemistry-I.assets/image-20260331162459616.png" alt="image-20260331162459616" style="zoom: 80%;" />
 
 考虑那些态可以跃迁：必须要只改变一个电子自旋。也就是分别是：
 
@@ -1771,7 +1771,7 @@ $$
 \end{cases}
 $$
 
-![image-20260331162943623](Physical_Chemistry_I.assets/image-20260331162943623.png)
+![image-20260331162943623](Physical-Chemistry-I.assets/image-20260331162943623.png)
 
 这对应产生了二重峰。以此类推还有多重峰，他们的相对大小为：
 
@@ -1942,7 +1942,7 @@ $$
 
 其中右侧函数在 $t\to 0$ 可以近似为 $\delta(\omega-\omega_{fi})$ 函数。
 
-<img src="Physical_Chemistry_I.assets/image-20260405193402520.png" alt="image-20260405193402520" style="zoom:67%;" />
+<img src="Physical-Chemistry-I.assets/image-20260405193402520.png" alt="image-20260405193402520" style="zoom:67%;" />
 
 ---
 

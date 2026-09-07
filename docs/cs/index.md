@@ -1,6 +1,6 @@
 # 计算机-导航
 
-![img](index.assets/card_normal.png)
+![img](index.assets/card-normal.png)
 
 > もし電脳それ自体がゴーストを生み出し、魂を宿すとしたら。その時は、何を根拠に自分を信じるべきだと思う?
 >
@@ -9,7 +9,9 @@
 > <p align = "right">—— 《攻壳机动队》</p>
 
 {{ BEGIN_TOC }}
+- 数值计算:
+    - 计算方法: numerical/computing-method
 - 工具类应用:
     - Git基础: tools/git
-    - LaTeX physics宏包: tools/physics_pkg
+    - LaTeX physics宏包: tools/physics-pkg
 {{ END_TOC }}

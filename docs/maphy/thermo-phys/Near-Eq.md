@@ -10,7 +10,7 @@
 
 我们都知道，**布朗运动**（Brownian motion）指的是悬浮在介质中的微粒所做的随机运动。在数学上描述随机过程（也叫 **Wiener 过程**（Wiener process））通常用一个函数 $W(t)$ 表示。
 
-<img src="Near_Eq.assets/image-20251214160701297.png" alt="image-20251214160701297" style="zoom: 67%;" />
+<img src="Near-Eq.assets/image-20251214160701297.png" alt="image-20251214160701297" style="zoom: 67%;" />
 
 对于这个函数，你不需要了解太多的数学信息，只需要了解一些基本性质：
 
@@ -250,7 +250,7 @@ $$
 \end{aligned}
 $$
 
-![image-20251214180212489](Near_Eq.assets/image-20251214180212489.png)
+![image-20251214180212489](Near-Eq.assets/image-20251214180212489.png)
 
 这意味着对于有初速度的典型粒子，前一段时间应观测到**超扩散**（superdiffusion，即MSD和超过1次的时间成正比），后一段时间观测到典型的布朗运动。
 
@@ -313,7 +313,7 @@ $$
 
 对于一段距离内的通量，我们有：
 
-<img src="Near_Eq.assets/image-20251214183208307.png" alt="image-20251214183208307" style="zoom: 80%;" />
+<img src="Near-Eq.assets/image-20251214183208307.png" alt="image-20251214183208307" style="zoom: 80%;" />
 
 $$
 \begin{aligned}
@@ -502,7 +502,7 @@ $$
 
 这意味着扩散会使例子的峰展宽成高斯分布（一般认为初始是一个 $\delta$ 函数，并且方差随时间增长）：
 
-![img](Near_Eq.assets/Linear_Potential2.gif)
+![img](Near-Eq.assets/Linear-Potential2.gif)
 
 如果我们结合前面的势能 $V$ 作用，可以同时观察到中心点向势能低点移动并展宽。
 

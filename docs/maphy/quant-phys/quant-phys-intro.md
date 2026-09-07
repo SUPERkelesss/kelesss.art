@@ -774,7 +774,7 @@ $$
 
 ### 2.1 Stern-Gerlach 实验
 
-![image-20260326162302278](quant_phys_intro.assets/image-20260326162302278.png)
+![image-20260326162302278](quant-phys_intro.assets/image-20260326162302278.png)
 
 对于银原子的电动力学有：
 
@@ -790,7 +790,7 @@ $$
 
 连续的S-G实验出现了以下的结果：
 
-![image-20260326165055851](quant_phys_intro.assets/image-20260326165055851.png)
+![image-20260326165055851](quant-phys_intro.assets/image-20260326165055851.png)
 
 ---
 

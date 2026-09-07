@@ -1,7 +1,7 @@
 # 欢迎来到 <br><font color="#9966cc"><b>凯楽斯 kelesss</b></font> の <font color="DAA520"><b>聖教天堂</b></font>  {: .fancy-title}
 
-![homepage](imgs\homepage_dark.png#only-dark){ loading=lazy }
-![homepage](imgs\homepage_light.png#only-light){ loading=lazy }
+![homepage](imgs\homepage-dark.png#only-dark){ loading=lazy }
+![homepage](imgs\homepage-light.png#only-light){ loading=lazy }
 
 <center>天地玄黄，宇宙洪荒。溯游从之，宛在水中央。</center>
 
@@ -14,7 +14,7 @@
     像 vesta 一样在移动平台便捷地查看晶体！
     <br />
     <a href="https://www.kelesss.art/refs/software/krystals.html"> <strong> 查看 Krystals 页面 </strong> </a> ·
-    <a href="https://www.kelesss.art/lib/krystals-release/krystals_v0.7.1.apk"> 下载测试版 v0.7.2 </a>
+    <a href="https://www.kelesss.art/lib/krystals-release/krystals-v0.7.1.apk"> 下载测试版 v0.7.2 </a>
   </p>
 
 
@@ -113,7 +113,7 @@
 - **赞助**本网站的作者kelesss。喵呜♪(\^∇\^*)
 
 <center><img src="imgs\tips.png#only-dark" alt="tips" style="zoom:25%;" /></center>
-<center><img src="imgs\tips_light.png#only-light" alt="tips" style="zoom:25%;" /></center>
+<center><img src="imgs\tips-light.png#only-light" alt="tips" style="zoom:25%;" /></center>
 
 ## 谢谢！
 

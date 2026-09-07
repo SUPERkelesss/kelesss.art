@@ -52,11 +52,11 @@ $$
 
 例如：对于基矢为 $a$ 的直线点阵，晶格矢量为 $na$ ，这对应倒易空间内基矢为 $2\pi / a$ ；对于简单立方点阵，会得到边长为 $2\pi/a$ 的简单立方倒易点阵。
 
-<img src="Solid_State_Physics.assets/960px-Superstructures_in_low-energy_electron_diffraction_(LEED).svg.png" alt="undefined" style="zoom:33%;" />
+<img src="Solid-State-Physics.assets/960px-Superstructures-in-low-energy-electron-diffraction-(LEED).svg.png" alt="undefined" style="zoom:33%;" />
 
 六方点阵的倒易点阵也是六方点阵，可以得到其晶胞参数 $|b_1| = 4\pi / \sqrt 3 a$：
 
-<img src="Solid_State_Physics.assets/image-20260306160733858.png" alt="image-20260306160733858" style="zoom:50%;" />
+<img src="Solid-State-Physics.assets/image-20260306160733858.png" alt="image-20260306160733858" style="zoom:50%;" />
 
 对于三维情况，根据定义有直观公式：
 
@@ -178,7 +178,7 @@ $$
 
 在倒易点阵内定义的一个晶胞被称为布里渊区（Brillouin zone）。按照通常点阵方法画出的 Wigner-Zeise 晶胞被称为第一布里渊区（first Brillouin zone）。
 
-![image-20260306160906969](Solid_State_Physics.assets/image-20260306160906969.png)
+![image-20260306160906969](Solid-State-Physics.assets/image-20260306160906969.png)
 
 ---
 
@@ -188,7 +188,7 @@ $$
 
 对于六方晶胞，有时也采取四轴定向的方法。
 
-<img src="Solid_State_Physics.assets/image-20260304151020751.png" alt="image-20260304151020751" style="zoom:33%;" />
+<img src="Solid-State-Physics.assets/image-20260304151020751.png" alt="image-20260304151020751" style="zoom:33%;" />
 
 ---
 
@@ -200,7 +200,7 @@ $$
 2d\sin\theta = n\lambda
 $$
 
-<img src="Solid_State_Physics.assets/image-20260305222010811.png" alt="image-20260305222010811" style="zoom: 67%;" />
+<img src="Solid-State-Physics.assets/image-20260305222010811.png" alt="image-20260305222010811" style="zoom: 67%;" />
 
 不幸的是，这只给出了类似“反射”的单角度衍射。对于晶体来说，在其他方向上也可能存在衍射峰，我们假设入射光的波矢是 $\vb k$，出射光的波矢是 $\vb k'$，这两个波矢方向不同的大小相等（弹性散射不改变能量）。
 
@@ -244,7 +244,7 @@ $$
 
 回到 Bragg 方程。考虑一束光从 $\hat x$ 方向射入：
 
-![image-20260309132512878](Solid_State_Physics.assets/image-20260309132512878.png)
+![image-20260309132512878](Solid-State-Physics.assets/image-20260309132512878.png)
 
 这个时候晶胞的倒易点阵：
 
@@ -321,7 +321,7 @@ $$
 
 > 求 $\ce{CsCl}$ 晶体的结构因子。原子坐标：Cs: (0, 0, 0) ; Cl: (1/2, 1/2, 1/2)。
 >
-> ![image-20260309142644371](Solid_State_Physics.assets/image-20260309142644371.png)
+> ![image-20260309142644371](Solid-State-Physics.assets/image-20260309142644371.png)
 >
 > 直接代入各原子坐标：
 >
@@ -342,7 +342,7 @@ $$
 
 前面我们知道，入射和出射波矢的矢量差就对应倒易点阵里的一个格矢，并且由于弹性散射，它们的模相同。假设我们有一个端点在倒易点阵点上的入射波矢 $\vb k_0$ ，入射方向固定，画一个球：
 
-<img src="Solid_State_Physics.assets/Ewald3.png" alt="undefined" style="zoom: 33%;" />
+<img src="Solid-State-Physics.assets/Ewald3.png" alt="undefined" style="zoom: 33%;" />
 
 在这个球面上还存在另一个球心到球面且正好在倒易点阵点上的矢量 $\vb k_1$，这里就能满足 $\vb k_1 - \vb k_0 = \vb G$ 且模相同了。这个时候就能在 $\vb k_1$ 的位置观测到一个衍射峰。
 
@@ -350,15 +350,15 @@ $$
 
 - **Laue 法**：固定晶体位置和入射光方向，改变入射光能量（也就是 $|\vb k_0|$），这个时候对应 Ewald 球的半径不断增大，就能找到不同半径对应的出射向量。
 
-  <img src="Solid_State_Physics.assets/image-20260309141118395.png" alt="image-20260309141118395" style="zoom: 67%;" />
+  <img src="Solid-State-Physics.assets/image-20260309141118395.png" alt="image-20260309141118395" style="zoom: 67%;" />
 
 - **旋转晶体法**：固定入射光方向和波长，旋转单晶，对应倒易点阵发生旋转（相对来看，也就是 Ewald 球发生旋转）。这就能得到不同角度对应的衍射峰。
 
-  <img src="Solid_State_Physics.assets/image-20260309141253064.png" alt="image-20260309141253064" style="zoom: 67%;" />
+  <img src="Solid-State-Physics.assets/image-20260309141253064.png" alt="image-20260309141253064" style="zoom: 67%;" />
 
 - **粉末法**：直接用晶体粉末进行衍射，这样就相当于有很多各个方向的微小单晶同时进行衍射了。
 
-  <img src="Solid_State_Physics.assets/image-20260309141432395.png" alt="image-20260309141432395" style="zoom:67%;" />
+  <img src="Solid-State-Physics.assets/image-20260309141432395.png" alt="image-20260309141432395" style="zoom:67%;" />
 
 ---
 
@@ -403,7 +403,7 @@ $$
 > \psi(\vb r) = u(\vb r)e^{i\vb k\cdot\vb r}\qc u(\vb r) = u(\vb r + \vb R)
 > $$
 >
-> <img src="Solid_State_Physics.assets/960px-BlochWaves1D.svg.png" alt="undefined" style="zoom: 50%;" />
+> <img src="Solid-State-Physics.assets/960px-BlochWaves1D.svg.png" alt="undefined" style="zoom: 50%;" />
 
 由于势能是周期性的，所以我们可以写成：
 
@@ -629,7 +629,7 @@ $$
 
   其中后一项可以视为 **二阶微扰**。这可以视为从 $\epsilon_{k-K_1}^{(0)}$ 变到 $\epsilon_{k-K}^{(0)}$ 再回来的一个虚拟过程。
 
-  <img src="Solid_State_Physics.assets/image-20260318105934315.png" alt="image-20260318105934315" style="zoom:80%;" />
+  <img src="Solid-State-Physics.assets/image-20260318105934315.png" alt="image-20260318105934315" style="zoom:80%;" />
 
   此处一阶微扰 $\ev{U}{n} = U_0$，对应能量零点为 0.
 
@@ -662,7 +662,7 @@ $$
 
 其中前一项代表临近能级的耦合（一阶），后一项代表可能跃迁回到简并能级的虚跃迁。
 
-![image-20260418185635800](Solid_State_Physics.assets/image-20260418185635800.png)
+![image-20260418185635800](Solid-State-Physics.assets/image-20260418185635800.png)
 
 ---
 
@@ -689,7 +689,7 @@ $$
 ( \varepsilon - \varepsilon_{\va{q} - \va{K}}^{( 0 )} )C_{\va{q} - \va{K}} = U^*_{ \va{K}}C_{\va{q}}
 \end{cases}
 $$
-![image-20260418192355590](Solid_State_Physics.assets/image-20260418192355590.png)
+![image-20260418192355590](Solid-State-Physics.assets/image-20260418192355590.png)
 
 这个平面被称为 **Bragg平面**。
 
@@ -708,7 +708,7 @@ $$
 $$
 \Delta = \varepsilon_+ - \epsilon_- = 2\abs{ U_{\va{K}} }
 $$
-![image-20260418192158099](Solid_State_Physics.assets/image-20260418192158099.png)
+![image-20260418192158099](Solid-State-Physics.assets/image-20260418192158099.png)
 
 其中对应 $k$ 没有跨过Bragg平面（产生带隙）的值为第一 Brillouzine 区。
 
@@ -782,7 +782,7 @@ $$
 
 如果对于p轨道，沿着p轨道延伸方向的 $t_p^{( a_j )} < 0$，其余方向 $t_p^{( a_j )} > 0$，对应带底 $\va{k} = ( \pi ,0,0)$，带顶 $\va{k} = ( 0,\pi ,\pi )$
 
-![image-20260418203020054](Solid_State_Physics.assets/image-20260418203020054.png)
+![image-20260418203020054](Solid-State-Physics.assets/image-20260418203020054.png)
 
 ---
 
@@ -843,7 +843,7 @@ $$
 
 考虑一个**一维双势阱**
 
-![image-20260420163152909](Solid_State_Physics.assets/image-20260420163152909.png)
+![image-20260420163152909](Solid-State-Physics.assets/image-20260420163152909.png)
 
 同样只考虑近邻跃迁，得到：
 $$
@@ -1009,7 +1009,7 @@ $$
 
 ### 4.1 单原子一维原子链
 
-<img src="Solid_State_Physics.assets/image-20260414214041356.png" alt="image-20260414214041356" style="zoom:50%;" />
+<img src="Solid-State-Physics.assets/image-20260414214041356.png" alt="image-20260414214041356" style="zoom:50%;" />
 
 假设一个原子轻微偏离的平衡位置，展开有
 
@@ -1210,7 +1210,7 @@ $$
 -\frac{N}{2} \leq  n \leq  \frac{N}{2}
 $$
 
-<img src="Solid_State_Physics.assets/image-20260414231907580.png" alt="image-20260414231907580" style="zoom: 67%;" />
+<img src="Solid-State-Physics.assets/image-20260414231907580.png" alt="image-20260414231907580" style="zoom: 67%;" />
 
 对于一个小的偏移量 $q$ 做近似
 
@@ -1319,7 +1319,7 @@ $$
 
 ### 3.2 一维双原子链
 
-<img src="Solid_State_Physics.assets/image-20260415021118314.png" alt="image-20260415021118314" style="zoom: 67%;" />
+<img src="Solid-State-Physics.assets/image-20260415021118314.png" alt="image-20260415021118314" style="zoom: 67%;" />
 
 写出势能：
 

@@ -72,33 +72,33 @@ $$
 
 ### 基本运算
 
-<img src="linear_algebra.assets/image-20260406041729480.png" alt="image-20260406041729480" style="zoom:80%;" />
+<img src="linear-algebra.assets/image-20260406041729480.png" alt="image-20260406041729480" style="zoom:80%;" />
 
-<img src="linear_algebra.assets/image-20260406041646526.png" alt="image-20260406041646526" style="zoom: 67%;" />
+<img src="linear-algebra.assets/image-20260406041646526.png" alt="image-20260406041646526" style="zoom: 67%;" />
 
-<img src="linear_algebra.assets/image-20260406041658188.png" alt="image-20260406041658188" style="zoom: 67%;" />
+<img src="linear-algebra.assets/image-20260406041658188.png" alt="image-20260406041658188" style="zoom: 67%;" />
 
-<img src="linear_algebra.assets/image-20260406041713128.png" alt="image-20260406041713128" style="zoom: 67%;" />
+<img src="linear-algebra.assets/image-20260406041713128.png" alt="image-20260406041713128" style="zoom: 67%;" />
 
-<img src="linear_algebra.assets/image-20260406041859539.png" alt="image-20260406041859539" style="zoom: 67%;" />
+<img src="linear-algebra.assets/image-20260406041859539.png" alt="image-20260406041859539" style="zoom: 67%;" />
 
 ---
 
 ### 解空间
 
-<img src="linear_algebra.assets/image-20260406041831915.png" alt="image-20260406041831915" style="zoom:67%;" />
+<img src="linear-algebra.assets/image-20260406041831915.png" alt="image-20260406041831915" style="zoom:67%;" />
 
 ---
 
 ### 特殊矩阵
 
-<img src="linear_algebra.assets/image-20260406041939794.png" alt="image-20260406041939794" style="zoom:67%;" />
+<img src="linear-algebra.assets/image-20260406041939794.png" alt="image-20260406041939794" style="zoom:67%;" />
 
-<img src="linear_algebra.assets/image-20260406041955967.png" alt="image-20260406041955967" style="zoom:67%;" />
+<img src="linear-algebra.assets/image-20260406041955967.png" alt="image-20260406041955967" style="zoom:67%;" />
 
-<img src="linear_algebra.assets/image-20260406042012918.png" alt="image-20260406042012918" style="zoom:67%;" />
+<img src="linear-algebra.assets/image-20260406042012918.png" alt="image-20260406042012918" style="zoom:67%;" />
 
-<img src="linear_algebra.assets/image-20260406042032941.png" alt="image-20260406042032941" style="zoom:67%;" />
+<img src="linear-algebra.assets/image-20260406042032941.png" alt="image-20260406042032941" style="zoom:67%;" />
 
 ---
 

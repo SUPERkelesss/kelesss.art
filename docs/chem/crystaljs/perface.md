@@ -4,7 +4,7 @@
 >
 > 作者：凯楽斯 kelesss
 
-![img](perface.assets/card_after_training.png)
+![img](perface.assets/card-after-training.png)
 
 <center> <font size=6> <b> 欢迎来到《竞赛晶体进阶》课程！</font> </b> </center>
 

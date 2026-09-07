@@ -1,6 +1,6 @@
 # 杂货铺-导航
 
-![img](index.assets/card_after_training.png)
+![img](index.assets/card-after-training.png)
 
 > 平凡な日々を思うと，何かを失う気がする。
 >
@@ -15,7 +15,7 @@
 {{ BEGIN_TOC }}
 
 - 习作:
-    - Genesis Organica: writing/Genesis_Organica
+    - Genesis Organica: writing/Genesis-Organica
 - 聖教相关:
     - 凯楽斯社会学教材: holykelesss/social1
 - 弱智题大合集:

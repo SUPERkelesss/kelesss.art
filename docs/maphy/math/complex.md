@@ -37,7 +37,7 @@ $$
 
 值得一提的是**无穷远点**的概念。我们可以把一个模为正无穷，辐角为任意值的“复数点”定位无穷远点，其可以在复平面上以任意方式无限远离原点得到。一个直观的理解是 Reiman 球：
 
-![img](complex.assets/250px-Riemann_sphere1.svg.png)
+![img](complex.assets/250px-Riemann-sphere1.svg.png)
 
 在如图所示的球面上，可以用顶点到球面上任意一点的射线与复平面交点一一对应复平面上的每个点，此时，上顶点的位置就对应着无穷远点 $\infty$ 。
 
@@ -419,7 +419,7 @@ $$
 
 在几何图形上，我们可以视作两个平面粘合起来（其实这个图形不能用三维描述）：
 
-<img src="complex.assets/1024px-Riemann_surface_sqrt.svg.png" alt="f（z） = z1/2" style="zoom: 25%;" />
+<img src="complex.assets/1024px-Riemann-surface-sqrt.svg.png" alt="f（z） = z1/2" style="zoom: 25%;" />
 
 可以看到对于任意点绕原点的运动，只有在这个诡异的平面上转两圈才能复原；这种曲面就是 **Reiman 面**，对于这种根式函数有 **二叶 Reiman 面**。
 
@@ -448,11 +448,11 @@ $$
 
 其限制在 $[-\pi,\pi)$ 内的函数图像：
 
-<img src="complex.assets/1024px-Complex_log_domain.svg.png" alt="A density plot. In the middle there is a black point, at the negative axis the hue jumps sharply and evolves smoothly otherwise." style="zoom:33%;" />
+<img src="complex.assets/1024px-Complex-log-domain.svg.png" alt="A density plot. In the middle there is a black point, at the negative axis the hue jumps sharply and evolves smoothly otherwise." style="zoom:33%;" />
 
 显而易见其分支点是 $z=0$ 和 $z=\infty$，于是做原点出发的射线可以使对数函数 $\ln z$ 单值化。其 Reiman 面是无穷叶的：
 
-<img src="complex.assets/1024px-Riemann_surface_log.svg.png" alt="logz" style="zoom: 25%;" />
+<img src="complex.assets/1024px-Riemann-surface-log.svg.png" alt="logz" style="zoom: 25%;" />
 
 ---
 

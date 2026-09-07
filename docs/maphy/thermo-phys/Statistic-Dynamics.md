@@ -35,7 +35,7 @@ $$
 
 由大数定理可以得到：高自由度下概率会集中处于一个态，而其涨落呈指数级下降。因此对于宏观物体的状态是稳定的。
 
-<img src="Statistic_Dynamics.assets/image-20260303144437595.png" alt="image-20260303144437595" style="zoom: 80%;" />
+<img src="Statistic-Dynamics.assets/image-20260303144437595.png" alt="image-20260303144437595" style="zoom: 80%;" />
 
 当然还有可能调节外参量使得出现两个或者多个峰。峰数就对应着相数的概念，这里表示的就是两相或者多相。
 
@@ -132,7 +132,7 @@ $$
 
 这就是温度的定义。
 
-![image-20260305132942944](Statistic_Dynamics.assets/image-20260305132942944.png)
+![image-20260305132942944](Statistic-Dynamics.assets/image-20260305132942944.png)
 
 ---
 
@@ -404,7 +404,7 @@ $$
 - 孤立系统：熵最大
 - 非孤立系统：熵最小
 
-![image-20260317131505136](Statistic_Dynamics.assets/image-20260317131505136.png)
+![image-20260317131505136](Statistic-Dynamics.assets/image-20260317131505136.png)
 
 对于被调控的量 $X$，当两个极值满足：
 
@@ -854,7 +854,7 @@ $$
 
 假设对于二能级系统，有：
 
-![image-20251114155622915](Statistic_Dynamics.assets/image-20251114155622915.png)
+![image-20251114155622915](Statistic-Dynamics.assets/image-20251114155622915.png)
 
 其配分函数：
 
@@ -873,11 +873,11 @@ S = \frac{U-F}{T} = -\frac{\Delta}{2T} \tanh(\frac{\beta\Delta}{2}) + k\ln(2\cos
 \end{gathered}
 $$
 
-![image-20251114161800296](Statistic_Dynamics.assets/image-20251114161800296.png)
+![image-20251114161800296](Statistic-Dynamics.assets/image-20251114161800296.png)
 
 这里出现了一些很抽象的事情：热容随温度会到达一个极大值，之后又随之衰减。事实上这被称为 **肖基特反常**（Schottky anomaly），(i) 当低温时，只有低能级被占据且温度增加对其改变不大，(ii) 而高温时两个能级被同等占据，温度增加也没有什么改变。
 
-<img src="Statistic_Dynamics.assets/two_level_plot.png" alt="two_level_plot" style="zoom: 15%;" />
+<img src="Statistic-Dynamics.assets/two-level-plot.png" alt="two_level_plot" style="zoom: 15%;" />
 
 > 当粒子数反转时，对应出现负温度状态。
 
@@ -1187,7 +1187,7 @@ $$
 
 先考虑 $T \to \pu{ 0K}$ 下的极限。取此时电子最高能量为 $\mu( 0)$，记为 **Fermi 能级**，于是占据率在 Fermi 能级下为 1，Fermi 能级上为 0.
 
-<img src="Statistic_Dynamics.assets/Fermi_dirac_distribution.png" alt="Energy dependence. More gradual at higher T. Not shown is that '&quot;`UNIQ--postMath-0000000E-QINU`&quot;' decreases for higher T.[16]" style="zoom: 50%;" />
+<img src="Statistic-Dynamics.assets/Fermi-dirac-distribution.png" alt="Energy dependence. More gradual at higher T. Not shown is that '&quot;`UNIQ--postMath-0000000E-QINU`&quot;' decreases for higher T.[16]" style="zoom: 50%;" />
 
 对应得到粒子数和化学势的关系：
 
@@ -1351,7 +1351,7 @@ $$
 n_{ex} = \int_{0}^{\infty} g( \epsilon ) \cdot \frac{1}{e^{\beta(\epsilon_i - \mu)}-1}\dd{x}
 $$
 
-<img src="Statistic_Dynamics.assets/Bose_gas_quantities.png" alt="undefined" style="zoom:50%;" />
+<img src="Statistic-Dynamics.assets/Bose-gas-quantities.png" alt="undefined" style="zoom:50%;" />
 
 考虑极限 $\mu = 0^{-}$ 的情形，此时激发态概率达到极大值：
 
@@ -1447,7 +1447,7 @@ $$
 C_V = \frac{3}{2}Nk_B
 $$
 
-![11 (a) Heat capacity C V of the ideal Bose gas as a function of ...](Statistic_Dynamics.assets/OIP-C.webp)
+![11 (a) Heat capacity C V of the ideal Bose gas as a function of ...](Statistic-Dynamics.assets/OIP-C.webp)
 
 ---
 
@@ -1605,11 +1605,11 @@ $$
 
 相变点的自由能连续但是导数不连续。因此一阶导数出现跳变，对应熵和体积出现跳变。
 
-<img src="Statistic_Dynamics.assets/image-20260603171214411.png" alt="image-20260603171214411" style="zoom:67%;" />
+<img src="Statistic-Dynamics.assets/image-20260603171214411.png" alt="image-20260603171214411" style="zoom:67%;" />
 
 还有一种连续相变（二级相变），此时只有单一极小值，但是逐渐变平到稳定性丧失：
 
-<img src="Statistic_Dynamics.assets/R-C.0517e42fefc842c55a9b17b82c5090abrik=OJ2A9EYIBL0Rgw&riu=http%3a%2f%2fsscha.eu%2fTutorials%2ffigures_03%2fsecond_order.png" alt="Calculations of second-order phase transitions with the SSCHA" style="zoom:50%;" />
+<img src="Statistic-Dynamics.assets/R-C.0517e42fefc842c55a9b17b82c5090abrik=OJ2A9EYIBL0Rgw&riu=http%3a%2f%2fsscha.eu%2fTutorials%2ffigures-03%2fsecond-order.png" alt="Calculations of second-order phase transitions with the SSCHA" style="zoom:50%;" />
 
 此时临界点满足：
 
@@ -1635,7 +1635,7 @@ $$
 
 对于 vdw 气体，在临界温度以下出现 S 形结构，显然是违背的。于是体系演化成气液分离相回复凸性结构。
 
-![img](Statistic_Dynamics.assets/VdW_isotherms%2B2log.png)
+![img](Statistic-Dynamics.assets/VdW-isotherms%2B2log.png)
 
 ---
 
@@ -1670,7 +1670,7 @@ $$
 
 这正好对应相平衡的三个条件。也就是 Maxwell 构造和相平衡和吉布斯自由能 G 简并相互等价。
 
-![image-20260603225657826](Statistic_Dynamics.assets/image-20260603225657826.png)
+![image-20260603225657826](Statistic-Dynamics.assets/image-20260603225657826.png)
 
 自由能满足：
 
@@ -1686,7 +1686,7 @@ $$
 
 这就是等面积法则，也就是水平上的 $P_0$ 分割的两个区域面积相等。
 
-![image-20260603230351166](Statistic_Dynamics.assets/image-20260603230351166.png)
+![image-20260603230351166](Statistic-Dynamics.assets/image-20260603230351166.png)
 
 ---
 

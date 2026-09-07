@@ -10,14 +10,14 @@
 
 |          **平行四边形**（包括正方形，矩形，菱形等）          |                     含有对称中心的六边形                     |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| <img src="lecture1.assets/2560px-Lattice_of_rhomboids.svg.png" alt="undefined" height="200" width=auto /> | <img src="lecture1.assets/2560px-Isohedral_tiling_p6-7.svg.png" alt="undefined" height="200" width=auto /> |
+| <img src="lecture1.assets/2560px-Lattice-of-rhomboids.svg.png" alt="undefined" height="200" width=auto /> | <img src="lecture1.assets/2560px-Isohedral-tiling-p6-7.svg.png" alt="undefined" height="200" width=auto /> |
 
 不难看出，对于二维结构而言，其共同含有**对边平行且相等**的特征，不妨称为**平行多边形**（parallelogon）。我们把这一特征运用的三维情况下，可以构造出如下**平行多面体**（parallelohedron）：
 
 |                        **平行六面体**                        |                     截角八面体($4^66^8$)                     |                        菱形十二面体($4^{12}$)                        |                         拉长十二面体($4^86^4$)                         |                        中心对称六棱柱                        |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| <img src="lecture1.assets/Parallelohedron_edges_cube.png" alt="undefined" style="zoom:20%;" /> | ![undefined](lecture1.assets/Parallelohedron_edge_truncated_octahedron.png) | ![undefined](lecture1.assets/Parallelohedron_edges_rhombic_dodecahedron.png) | <img src="lecture1.assets/Parallelohedron_edges_elongated_rhombic_dodecahedron.png" alt="undefined" style="zoom:20%;" /> | ![undefined](lecture1.assets/Parallelohedron_edges_hexagonal_prism.png) |
-| <img src="lecture1.assets/image-20251019024212921.png" alt="image-20251019024212921" /> |   <img src="lecture1.assets/HC-A4.png" alt="undefined" />    |   <img src="lecture1.assets/HC_R1.png" alt="undefined" />    | <img src="lecture1.assets/image-20251019024251516.png" alt="image-20251019024251516" /> | <img src="lecture1.assets/Hexagonal_prismatic_honeycomb.png" alt="undefined"  /> |
+| <img src="lecture1.assets/Parallelohedron-edges-cube.png" alt="undefined" style="zoom:20%;" /> | ![undefined](lecture1.assets/Parallelohedron-edge-truncated-octahedron.png) | ![undefined](lecture1.assets/Parallelohedron-edges-rhombic-dodecahedron.png) | <img src="lecture1.assets/Parallelohedron-edges-elongated-rhombic-dodecahedron.png" alt="undefined" style="zoom:20%;" /> | ![undefined](lecture1.assets/Parallelohedron-edges-hexagonal-prism.png) |
+| <img src="lecture1.assets/image-20251019024212921.png" alt="image-20251019024212921" /> |   <img src="lecture1.assets/HC-A4.png" alt="undefined" />    |   <img src="lecture1.assets/HC-R1.png" alt="undefined" />    | <img src="lecture1.assets/image-20251019024251516.png" alt="image-20251019024251516" /> | <img src="lecture1.assets/Hexagonal-prismatic-honeycomb.png" alt="undefined"  /> |
 
 形如 $4^66^8$ 的记号被称为多面体记号（正式的叫**施莱夫利符号**，严格来说数学上并没有这样的写法，但是竞赛里一般都用这种写法表示），表示一个多面体由6个四边形面和8个六边形面组成。
 
@@ -54,13 +54,13 @@
 !!! note "拓展：维格纳-赛茨原胞（Wigner–Seitz cell）"
     物理学家创造了一种特殊的原胞，其通过**画出一个点阵点与周围相邻点阵点连线的垂直平分线**围出。它同样满足平移密铺，且只含一个点阵点，但是并不一定是平行四边形：
 
-    <img src="lecture1.assets/Wigner-Seitz_Animation.gif" alt="undefined" style="zoom:50%;" />
+    <img src="lecture1.assets/Wigner-Seitz-Animation.gif" alt="undefined" style="zoom:50%;" />
     
     在三维空间里也是同理，我们需要画出**一个点阵点与周围相邻点阵点连线的垂直平分面**，围出的立体图形即为维格纳-赛茨原胞。对于体心立方点阵和面心立方点阵而言，其对应的维格纳-赛茨原胞原胞分别为截角八面体和菱形十二面体。
     
     | 体心立方-截角八面体                                          | 面心立方-菱形十二面体                                        |
     | ------------------------------------------------------------ | ------------------------------------------------------------ |
-    | <img src="lecture1.assets/image-20251019150914556.png" alt="image-20251019150914556" style="zoom: 25%;" /> | <img src="lecture1.assets/4391344849_f672e4dde4_b.jpg" alt="VOFN014" style="zoom: 33%;" /> |
+    | <img src="lecture1.assets/image-20251019150914556.png" alt="image-20251019150914556" style="zoom: 25%;" /> | <img src="lecture1.assets/4391344849-f672e4dde4-b.jpg" alt="VOFN014" style="zoom: 33%;" /> |
 
 ---
 
@@ -68,11 +68,11 @@
 
 我们考虑一个立方体晶胞中的一个面：
 
-![miller_1](lecture1.assets/miller_1.svg)
+![miller_1](lecture1.assets/miller-1.svg)
 
 显而易见的，他与三个坐标轴的交点为 $a, b, c$ ，因此我们可以用着三个数值表示这个晶面。但是如果是这样呢？
 
-![miller_2](lecture1.assets/miller_2.svg)
+![miller_2](lecture1.assets/miller-2.svg)
 
 此时这个晶面在 $c$ 轴上没有交点，此时再想用上面那种方法表示就难了。于是我们不妨不直接用截距表示，而是用截距的倒数表示，定义：
 
@@ -109,7 +109,7 @@ $$
 
 现在我们来研究关于宏观晶体的性质。
 
-<img src="lecture1.assets/1920px-00026_40_mm_quartz.jpg" alt="Common, prismatic quartz" style="zoom: 15%;" />
+<img src="lecture1.assets/1920px-00026-40-mm-quartz.jpg" alt="Common, prismatic quartz" style="zoom: 15%;" />
 
 由于实际晶体不能满足平移对称性（否则整个空间就全是晶体了），所以不可避免的会产生形状。早期科学家通过对晶体的研究，确认了其具有以下性质：
 
@@ -143,17 +143,17 @@ $$
     ??? success "答案"
         因其晶体结构相对简单，考虑较低指数的晶面族，如 $\{100\}, \{110\}, \{111\}$ 三个晶面族（不久前我们说过，对于立方晶系而言很多晶面都是等效的）：
     
-        ![NaCl_surface](lecture1.assets/NaCl_surface.svg)
+        ![NaCl_surface](lecture1.assets/NaCl-surface.svg)
     
         所以在 $\{100\}$ 族的六个晶面将在宏观晶体里体现出来，即为**立方体形**。
     
-        <img src="lecture1.assets/8833.jpg_wh300.jpg" alt="氯化钠图片_氯化钠素材_氯化钠高清图片_摄图网图片下载" style="zoom:67%;" />
+        <img src="lecture1.assets/8833.jpg-wh300.jpg" alt="氯化钠图片_氯化钠素材_氯化钠高清图片_摄图网图片下载" style="zoom:67%;" />
 
 以立方晶系为例子，从最低指数的晶面开始考虑， $\{100\}$ 族对应**立方体形**，而 $\{111\}$ 族对应着沿体对角线的八个晶向生长的晶面，不难想出其对应**八面体形**，一个典型的例子是明矾晶体。 $\{110\}$ 族则对应沿体心到棱形延申的12个晶向生长的晶面，形状有些复杂，对应的是**菱形十二面体形**。
 
 从这三种基础模式，我们可以延伸出更多“杂交”的晶形：
 
-<img src="lecture1.assets/images_large_ja-2010-07405x_0001.jpeg" alt="images_large_ja-2010-07405x_0001" style="zoom:50%;" />
+<img src="lecture1.assets/images-large-ja-2010-07405x-0001.jpeg" alt="images_large_ja-2010-07405x_0001" style="zoom:50%;" />
 
 您可以在这个网站 [Pyrite Crystal](https://shengzhiwu.github.io/pyrite-crystal-morphology-graph.html) 上查看不同晶面生长对应的3d结构图。
 
@@ -174,13 +174,13 @@ $$
 
     |                        准晶的微观结构                        |                      五角十二面体的准晶                      |
     | :----------------------------------------------------------: | :----------------------------------------------------------: |
-    | ![img](lecture1.assets/250px-Penrose_Tiling_(Rhombi).svg.png) | <img src="lecture1.assets/Ho-Mg-ZnQuasicrystal.jpg" alt="undefined" style="zoom: 50%;" /> |
+    | ![img](lecture1.assets/250px-Penrose-Tiling-(Rhombi).svg.png) | <img src="lecture1.assets/Ho-Mg-ZnQuasicrystal.jpg" alt="undefined" style="zoom: 50%;" /> |
     
     有趣的是，已知最早的准晶居然是“三位一体”核试验中的一块核爆玻璃样本。~~失重的魅力这一块，发现这个的也是神人了。~~
 
 再比如说对于氧化亚铜 $Cu_2O$ 的微晶，控制其结晶条件不同，可以获得含有多种晶面甚至高指数晶面的宏观晶体。
 
-<img src="lecture1.assets/d0nr03637d-f10_hi-res.gif" alt="img" style="zoom: 33%;" />
+<img src="lecture1.assets/d0nr03637d-f10-hi-res.gif" alt="img" style="zoom: 33%;" />
 
 <center><b><i>Nanoscale</i></b>, 2020,<b>12</b>, 16657-16677</center>
 
@@ -235,7 +235,7 @@ $$
     
     也可以通过三角学证明：
     
-    <img src="lecture1.assets/Crystallographic_restriction.png" alt="undefined" style="zoom:50%;" />
+    <img src="lecture1.assets/Crystallographic-restriction.png" alt="undefined" style="zoom:50%;" />
     
     对于一个原子列，考虑向左和向右旋转 $2\pi/n$ 的角。而由于平移对称性，其下面的点间距必须满足是**原子间距的整数倍** $r = ma$。于是：
     
@@ -471,33 +471,33 @@ $$
 2. 从球的北极（或南极）出发，把球面上的点沿射线投影到赤道平面上；
 3. 约定：**上半球投影的点画成空心圆圈，下半球投影的点画成实心圆圈**（上下两个点恰好投影到同一位置时，用括号等特殊记号区分）。
 
-![img](lecture1.assets/250px-Stereographic_projection_in_3D.svg.pngutm_source=en.wikipedia.png)
+![img](lecture1.assets/250px-Stereographic-projection-in-3D.svg.pngutm-source=en.wikipedia.png)
 
 这样一来，投影图上的点数目就代表了该位置等效点系的**阶次**——注意这其实反映的是**宏观对称性**（只在一个晶胞内考虑，不涉及无限平移）。
 
 极射赤平投影图不止画等效点，还画出了对称元素：旋转轴画在圆心或对应位置（如正方形代表四重轴、三角形代表三重轴），镜面用直线或圆表示。例如对于旋转轴，他的符号是多边形：（以下图片节选自知乎问题 [32个空间点群的投影图究竟是怎么画出来的？](https://www.zhihu.com/question/433801434)）
 
-![img](lecture1.assets/v2-1d7de35a2ff04632af79d89d6a081066_1440w.webp)
+![img](lecture1.assets/v2-1d7de35a2ff04632af79d89d6a081066-1440w.webp)
 
 对于对称面，通常而言，垂直于平面的对称面用一条粗直线表示，平行于平面的会加粗一圈：
 
-![img](lecture1.assets/v2-4dd115af33da9f580ed2eaa26fd0c370_1440w.webp)
+![img](lecture1.assets/v2-4dd115af33da9f580ed2eaa26fd0c370-1440w.webp)
 
 对于反轴的记号比较特殊：
 
-![img](lecture1.assets/v2-dd659e827833130ac358ad7390574c68_r.jpg)
+![img](lecture1.assets/v2-dd659e827833130ac358ad7390574c68-r.jpg)
 
-![img](lecture1.assets/v2-b52f0a9e8397ecf224375f0e5f6f8067_1440w.webp)
+![img](lecture1.assets/v2-b52f0a9e8397ecf224375f0e5f6f8067-1440w.webp)
 
-![img](lecture1.assets/v2-1df9c25454e57292574ed3c0883719bc_1440w.webp)
+![img](lecture1.assets/v2-1df9c25454e57292574ed3c0883719bc-1440w.webp)
 
 例如，对于 $222$ 点群，作图方法如下，也就是得到了4个等效点：
 
-![img](lecture1.assets/v2-cbf8dc9f2fa5ebf38677a2e25b2fbf9c_r.jpg)
+![img](lecture1.assets/v2-cbf8dc9f2fa5ebf38677a2e25b2fbf9c-r.jpg)
 
 利用极射赤平投影图，我们可以把全部 32 种晶体学点群的对称元素和一般位置画出来，一张图对应一个点群。这也是 另一种直观记忆 32 种晶类的方法。
 
-![img](lecture1.assets/v2-6781b3030c14f07afc45ba3422d48e97_1440w.webp)
+![img](lecture1.assets/v2-6781b3030c14f07afc45ba3422d48e97-1440w.webp)
 
 ---
 
@@ -708,7 +708,7 @@ $$
 
 !!! queation "记号问题"
  一般而言规定螺旋轴的正向旋转方向为向上逆时针旋转，因此，$3_1$ 螺旋轴和 $3_2$ 螺旋轴的旋转方向是相反的，这就是螺旋轴的手性。下图示出Te晶体的 $3_1$ 螺旋轴：
- <img src="lecture1.assets/960px-Te_chains.pngutm_source=commons.wikimedia.png" alt="File:Te chains.png" style="zoom:33%;" />
+ <img src="lecture1.assets/960px-Te-chains.pngutm-source=commons.wikimedia.png" alt="File:Te chains.png" style="zoom:33%;" />
 
 由晶体学限制定理，轴次只可能是 $2, 3, 4, 6$，晶体学中一共只有 **11 种螺旋轴**：
 

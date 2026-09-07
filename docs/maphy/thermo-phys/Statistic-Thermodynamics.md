@@ -6,7 +6,7 @@
 >
 > 作者：**凯楽斯kelesss**
 
-![img](Statistic_Thermodynamics.assets/card_after_training.png)
+![img](Statistic-Thermodynamics.assets/card-after-training.png)
 
 ## 0. 统计热力学到底是什么？
 
@@ -20,7 +20,7 @@ $$
 
 - **能级从何而来？** 我们知道量子尺度下能量是量子化的，即可以视作粒子可以处于一层一层的**能级**（Energy Level）上。能级能量的详细推导需要量子力学背景，但我们先直接在各个情景中给出。
 
-<img src="Statistic_Thermodynamics.assets/image-20251118022834429.png" alt="image-20251118022834429" style="zoom:33%;" />
+<img src="Statistic-Thermodynamics.assets/image-20251118022834429.png" alt="image-20251118022834429" style="zoom:33%;" />
 
 - **怎么知道粒子在某个能级的概率？** 一般我们有**Boltzmann 分布**（Boltzmann Distribution）：
 
@@ -30,7 +30,7 @@ $$
 
 其中 $\beta = 1/k_BT$ 是一个很常用的温度量，在外文书一般把他叫做**热力学 beta**（Thermodynamic Beta）。你可以先把其当作一个公理，即粒子在某各能级分布的概率 $p_i$ 是和指数项 $\exp(-\beta E_i)$ 正相关的。
 
-<img src="Statistic_Thermodynamics.assets/image-20251118024244160.png" alt="image-20251118024244160" style="zoom: 67%;" />
+<img src="Statistic-Thermodynamics.assets/image-20251118024244160.png" alt="image-20251118024244160" style="zoom: 67%;" />
 
 一个明显的趋势是，**低温下，粒子倾向于分布在最低能级；高温下，粒子倾向于在各能级平均分布**。
 
@@ -125,7 +125,7 @@ $$
 
 对于**振动**来说考虑起来比较困难，我们不妨从双原子分子开始考虑吧：
 
-![image-20251112192220072](Statistic_Thermodynamics.assets/image-20251112192220072.png)
+![image-20251112192220072](Statistic-Thermodynamics.assets/image-20251112192220072.png)
 
 当分子开始振动时，除了考虑整体的平动能外，还需考虑相对运动（Konig定理）：
 
@@ -149,7 +149,7 @@ $$
 
 但是并不是所有的自由度在所有的温度下都会体现。通常情况下（室温附近），双原子气体只会体现平动和转动自由度，而振动自由度只有在极高温下才会解冻。当温度极低时，甚至转动自由度都会被冻结：
 
-![img](Statistic_Thermodynamics.assets/500px-DiatomicSpecHeat1.png)
+![img](Statistic-Thermodynamics.assets/500px-DiatomicSpecHeat1.png)
 
 > 以$\ce{CO}$作为例子，$T_{rot} \approx \pu{2.8K}$，$T_{vib} \approx \pu{3103K}$。对于含弱键的分子比如 $\ce{I2}$，$T_{vib} \approx \pu{308K}$。事实上这一变换并不是突变，而是平滑的。
 
@@ -165,7 +165,7 @@ $$
 
 对于固体而言，原子基本没有平动和转动的自由度，因此我们只考虑振动自由度。一种近似方式是将原子视作前后左右上下连接一根弹簧：
 
-![image-20251113032952079](Statistic_Thermodynamics.assets/image-20251113032952079.png)
+![image-20251113032952079](Statistic-Thermodynamics.assets/image-20251113032952079.png)
 
 如果固体内有 $N$ 个原子，则就有 $3N$ 根弹簧，由于一根弹簧贡献 $k_BT$ 的能量，则可得固体的平均能量和热容：
 
@@ -187,7 +187,7 @@ $$
 
 这时候我们就需要引入**简谐近似**（Harmonic Approximation），即将势能面近似看作是一个平方项势能（即看作是简谐的）：
 
-![Morse Potential | OpenOChem Learn](Statistic_Thermodynamics.assets/OIP-C.webp)
+![Morse Potential | OpenOChem Learn](Statistic-Thermodynamics.assets/OIP-C.webp)
 
 我们可以用泰勒展开导出。在极值点处作泰勒展开：
 
@@ -243,7 +243,7 @@ $$
 
 所以配分函数到底有什么用呢？你可以暂时先认为配分函数是百变怪，我们后面将会讨论怎么从$Z$推导出宏观的一切热力学符号。
 
-<img src="Statistic_Thermodynamics.assets/image-20251114151740918.png" alt="image-20251114151740918" style="zoom:33%;" />
+<img src="Statistic-Thermodynamics.assets/image-20251114151740918.png" alt="image-20251114151740918" style="zoom:33%;" />
 
 !!! warning "注意"
     有些情况下，能级可能有多个简并态，记简并态的个数为$g$，则：
@@ -384,7 +384,7 @@ $$
 !!! example "二能级系统的热力学量"
     考虑一个二能级系统 $\{+\Delta/2, -\Delta/2\}$：
 
-    ![image-20251114155622915](Statistic_Thermodynamics.assets/image-20251114155622915.png)
+    ![image-20251114155622915](Statistic-Thermodynamics.assets/image-20251114155622915.png)
     
     其配分函数：
     
@@ -403,11 +403,11 @@ $$
     \end{gathered}
     $$
     
-    ![image-20251114161800296](Statistic_Thermodynamics.assets/image-20251114161800296.png)
+    ![image-20251114161800296](Statistic-Thermodynamics.assets/image-20251114161800296.png)
     
     这里出现了一些很抽象的事情：热容随温度会到达一个极大值，之后又随之衰减。事实上这被称为**肖基特反常**（Schottky anomaly），(i) 当低温时，只有低能级被占据且温度增加对其改变不大，(ii) 而高温时两个能级被同等占据，温度增加也没有什么改变。
     
-    <img src="Statistic_Thermodynamics.assets/two_level_plot.png" alt="two_level_plot" style="zoom: 15%;" />
+    <img src="Statistic-Thermodynamics.assets/two-level-plot.png" alt="two_level_plot" style="zoom: 15%;" />
 
 对于双原子分子转动能级和振动能级来说，我们有：
 
@@ -415,13 +415,13 @@ $$
 E_{rot} = \frac{\hbar^2}{2I}J(J+1) = B \cdot J(J+1)
 $$
 
-![rotational_oscillator_1x3](Statistic_Thermodynamics.assets/rotational_oscillator_1x3.png)
+![rotational_oscillator_1x3](Statistic-Thermodynamics.assets/rotational-oscillator-1x3.png)
 
 $$
 E_{vib} = (n+\frac12)\hbar\omega
 $$
 
-![harmonic_oscillator_1x3](Statistic_Thermodynamics.assets/harmonic_oscillator_1x3.png)
+![harmonic_oscillator_1x3](Statistic-Thermodynamics.assets/harmonic-oscillator-1x3.png)
 
 你可以发现这里的内能 $U$ 在高温下（尤其是 $k_BT>\Delta$ 时）基本都是随$T$线性上升的，此时热容基本上为定值，这也印证了我们前面能均分定理的结论：
 
@@ -498,7 +498,7 @@ $$
     
     之后就可以按正常的方法数值计算了。令 $t = k_BT/R$ 数值绘图：
     
-    ![image-20251116034546128](Statistic_Thermodynamics.assets/image-20251116034546128.png)
+    ![image-20251116034546128](Statistic-Thermodynamics.assets/image-20251116034546128.png)
     
     需要注意的是，在极高的温度下氢原子可能发生电离，因此需要加入**Saha方程**加以考虑。本节不涉及。
 
@@ -548,7 +548,7 @@ $$
 m = -\pqty{\pdv{F}{B}}_T = N\mu_B \tanh\pqty{\beta\mu_B B}
 $$
 
-![image-20251116042016799](Statistic_Thermodynamics.assets/image-20251116042016799.png)
+![image-20251116042016799](Statistic-Thermodynamics.assets/image-20251116042016799.png)
 
 对结果进行分析，我们发现当磁场$B$足够强时，能级趋向于 $N\mu_B$ ，对应几乎所有粒子都有极大概率处于 $\ket{\uparrow}$ 组态；而当磁场$B$在0附近时，曲线的行为类似于线性。事实上利用等价无穷小 $\tanh x \sim x$：
 
@@ -594,13 +594,13 @@ $$
 
 现在我们考虑每一允许态的体积。我们知道 $k_i = n_i\pi/L$ ，这里的 $n_x, n_y, n_z$ 可以取任何正整数值。如果在 $k空间$ 里表示出来，这有点类似于是下图所示的三维网格，其中每个点都代表一个可能的取值：
 
-<img src="Statistic_Thermodynamics.assets/image-20251117002858566.png" alt="image-20251117002858566" style="zoom: 67%;" />
+<img src="Statistic-Thermodynamics.assets/image-20251117002858566.png" alt="image-20251117002858566" style="zoom: 67%;" />
 
 于是我们可以认为一个态所占的边长是 $\frac {\pi}L$ ，于是一个态所占的体积就是 $(\frac{\pi}{L})^3$ 。
 
 由于原点是顶点，我们只考虑三个方向均为正的球壳，绘出球壳，可以看到 $\frac 18$ 球壳内部的体积为 $\frac 18 \cdot 4\pi k^2 \dd k$ ：
 
-<img src="Statistic_Thermodynamics.assets/image-20251116051059083.png" alt="image-20251116051059083" style="zoom:50%;" />
+<img src="Statistic-Thermodynamics.assets/image-20251116051059083.png" alt="image-20251116051059083" style="zoom:50%;" />
 
 于是态密度为：
 
@@ -658,7 +658,7 @@ $$
 
 现在假设我们有两个这样的粒子：
 
-<img src="Statistic_Thermodynamics.assets/image-20251117024332935.png" alt="image-20251117024332935" style="zoom: 67%;" />
+<img src="Statistic-Thermodynamics.assets/image-20251117024332935.png" alt="image-20251117024332935" style="zoom: 67%;" />
 
 $$
 Z_2 = 1 + e^{-\beta\epsilon} + e^{-\beta\epsilon} + e^{-2\beta\epsilon} = Z_1^2
@@ -668,7 +668,7 @@ $$
 
 我们在上图中用黑色和白色标明了两个粒子，但对于气体分子而言，在绝大多数的情况下，**这两个粒子是不可分辨的**：
 
-<img src="Statistic_Thermodynamics.assets/image-20251117024554550.png" alt="image-20251117024554550" style="zoom:67%;" />
+<img src="Statistic-Thermodynamics.assets/image-20251117024554550.png" alt="image-20251117024554550" style="zoom:67%;" />
 
 $$
 Z_2 =1 + e^{-\beta\epsilon} + e^{-2\beta\epsilon}
@@ -720,7 +720,7 @@ $$
 
 对于电子，质子，氮气分子和 $\ce{C60}$ 分子而言，其量子密度和热波长随温度的关系（对数坐标）：
 
-![image-20251117033515485](Statistic_Thermodynamics.assets/image-20251117033515485.png)
+![image-20251117033515485](Statistic-Thermodynamics.assets/image-20251117033515485.png)
 
 ---
 
@@ -816,7 +816,7 @@ $$
 
 平动的配分函数已在前面给出，而转动和振动的配分函数我们在第2节的时候就已经求过了。于是内能和热容均可以被求出：
 
-<img src="Statistic_Thermodynamics.assets/image-20251117043201627.png" alt="image-20251117043201627" style="zoom:67%;" />
+<img src="Statistic-Thermodynamics.assets/image-20251117043201627.png" alt="image-20251117043201627" style="zoom:67%;" />
 
 ---
 
@@ -912,13 +912,13 @@ $$
 - **微正则系综**（Microcanonical Ensemble）（也叫**NVE系综**）：系综的每个成员都有**固定的相同的总能量和粒子数**，显然这也需要完全孤立。在这种情况下，我们可以认为每种微观状态被选取的概率一样，因为它们没有特别的偏好。
 - **巨正则系综**（Grand Canonical Ensemble）（也叫**μVT系综**）：系综的**能量和粒子数均不固定，但是温度和化学势是固定值**。这就可以表述开放系统了，一般而言我们描述的是一个系统和另一个相当大的物质和能量源之间的统计平衡。
 
-![Statistical Ensembles](Statistic_Thermodynamics.assets/1280px-Statistical_Ensembles.png)
+![Statistical Ensembles](Statistic-Thermodynamics.assets/1280px-Statistical-Ensembles.png)
 
 显而易见的，我们前面讨论的配分函数其实是**正则配分函数**。
 
 现在我们来考虑**巨配分函数**。假设有一个固定体积且能量为 $\epsilon$ 且包含 $N$ 个粒子的小系统和一个能量为 $E - \epsilon$ 且包含 $\mathcal N - N$ 个粒子的大系统连接（$U \gg \epsilon \qc \mathcal{N} \gg N$）：
 
-![image-20251117164423095](Statistic_Thermodynamics.assets/image-20251117164423095.png)
+![image-20251117164423095](Statistic-Thermodynamics.assets/image-20251117164423095.png)
 
 于是源的熵可以通过泰勒一阶展开：
 
@@ -1205,7 +1205,7 @@ $$
     
     这个式子相当于给出了电离平衡常数，我们据此可以数值绘图其电离度：
     
-    ![image-20251118033020215](Statistic_Thermodynamics.assets/image-20251118033020215.png)
+    ![image-20251118033020215](Statistic-Thermodynamics.assets/image-20251118033020215.png)
     
     1. 随温度增加，电离度增加。这个是显然的；
     2. 随气体数密度减少，电离度增加。这是由于气体较为稠密时，电子和质子有较高的概率结合产生氢原子。

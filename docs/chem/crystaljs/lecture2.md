@@ -14,11 +14,11 @@
 
 如果我们想要特定波长的 X 射线，就意味着这个射线**有固定的能量**，而最好能利用这一点的方式就是利用量子化的性质。激发态原子的回落就是一个特别好的手段。
 
-![Diagram illustrating an electrical circuit with an anode and target material, showing electron movement and vacuum environment.](lecture2.assets/Screen_Shot_2022-08-29_at_10.47.31_PM.png)
+![Diagram illustrating an electrical circuit with an anode and target material, showing electron movement and vacuum environment.](lecture2.assets/Screen-Shot-2022-08-29-at-10.47.31-PM.png)
 
 利用电子轰击掉原子的$K$层电子（一般会用铜原子），这之后上层电子会回落到$K$层。当上层电子回落时，如果是 $L$ 层的电子回落，则释放的能量以固定波长的X射线形式射出，这种射线记为 $K_\alpha$ 射线（$\pu{8.04 keV}, \pu{ 1.54\AA}$）。如果是 $M$ 层电子回落，则记为 $K_\beta$ 射线（$\pu{ 8.90 keV}, \pu{ 1.39\AA}$）。
 
-<img src="lecture2.assets/Screen_Shot_2022-08-29_at_10.50.56_PM.png" alt="Spectrum of neodymium with detailed energy transitions, wave numbers, and corresponding quantum states illustrated." style="zoom:50%;" />
+<img src="lecture2.assets/Screen-Shot-2022-08-29-at-10.50.56-PM.png" alt="Spectrum of neodymium with detailed energy transitions, wave numbers, and corresponding quantum states illustrated." style="zoom:50%;" />
 
 !!! quote "更精细的理论"
  当然我们知道，原子层内部还有角动量量子数的区分，因此还可以往下细分到 $K_{ \alpha 1 }$ 和 $K_{\alpha 2}$。详细可以参考这篇文章：Physics Letters A, Volume 426, 2022, 127900, ISSN 0375-9601, <https://doi.org/10.1016/j.physleta.2021.127900>.
@@ -65,9 +65,9 @@ $$
     
     由于仪器条件的限制，实验中直接测得的是入射束与衍射束之间的夹角，恰好为 **$2\theta$**——这也是为什么 X 射线衍射谱图的横轴几乎总是标注为 $2\theta$（或换算后的 $\theta$），而不是反射几何里的 $\theta$。这样做还有另一个好处：我们**只需要把粉末样品放进仪器里即可测量**，这是因为粉末本质上就是很多随机取向的微小单晶，其中总有某些取向符合 Bragg 反射的要求。
     
-    在现代晶体学中，也会用到其他方向上的衍射，这样做会形成类似下图的二维点图，之后即可根据这样的点图仍计算机里来推断晶体的具体结构。如果你对此感兴趣，可以看我的 [固体物理笔记](maphy/thermo_phys/Solid_State_Physics.html) 中的 **Laue 方程** 部分。**Laue 方程和 Bragg 方程是完全等价的。**
+    在现代晶体学中，也会用到其他方向上的衍射，这样做会形成类似下图的二维点图，之后即可根据这样的点图仍计算机里来推断晶体的具体结构。如果你对此感兴趣，可以看我的 [固体物理笔记](maphy/thermo-phys/Solid-State-Physics.html) 中的 **Laue 方程** 部分。**Laue 方程和 Bragg 方程是完全等价的。**
     
-    ![img](lecture2.assets/250px-X-ray_diffraction_pattern_3clpro.jpgutm_source=en.wikipedia.jpeg)
+    ![img](lecture2.assets/250px-X-ray-diffraction-pattern-3clpro.jpgutm-source=en.wikipedia.jpeg)
 
 !!! note "关于峰宽"
     在理想情况下，一个无限大的完美晶体给出的衍射峰应当是一条无限窄的"线"。但实际测量中衍射峰总有一定的宽度，一个重要来源就是**晶粒（crystallite）尺寸不够大**：衍射的相干加强需要足够多的晶面参与干涉，晶粒越小，参与干涉的晶面数越少，不完全相消的部分就越多，峰也就越宽。你可以类比窄缝衍射：当峰的数量越多时，观察到的衍射条纹也越密集，这是由于有更多条光线参与衍射的结果。
@@ -136,7 +136,7 @@ $$
 
 这会带来一个问题：光程差只要是相差整数个 $\lambda$ 就能发生衍射，但是只规定方向无法确定到底相差多少个。为了解决这个问题，我们引入**衍射级数** $n$ 。也就是对于同一个晶面，随着 $n$ 不同，会产生不同的衍射角峰值。
 
-<img src="lecture2.assets/Screen_Shot_2022-08-29_at_11.38.38_PM.png" alt="Diagram illustrating x-ray diffraction, showing Kα radiation, a specimen in powder form, and resulting diffraction cones and x-rays." style="zoom:50%;" />
+<img src="lecture2.assets/Screen-Shot-2022-08-29-at-11.38.38-PM.png" alt="Diagram illustrating x-ray diffraction, showing Kα radiation, a specimen in powder form, and resulting diffraction cones and x-rays." style="zoom:50%;" />
 
 回到Bragg方程上的符号：这里的 $d$ 是**真实存在**的晶面（如 $001$ 面）的间距，$n$ 的存在让指标化不太方便。实际使用时，人们把 $n$ 级衍射等价地"归"到间距为 $d/n$ 的**假想晶面**上，当作该假想晶面的一级衍射来处理，并用 $(nh\ nk\ nl)$ 指标化。例如 $001$ 面的二级衍射就写作 $(002)$。**这可以认为是假象存在一层更密的$(002)$晶面簇，并在这个晶面簇上的一级衍射。**
 
@@ -174,7 +174,7 @@ $$
 
 历史上第一个用 Bragg 方程测定晶体结构的实验，是 1913 年 Bragg 父子对氯化钠单晶的衍射实验。$\ce{NaCl}$ 是面心立方结构，晶胞参数 $a = 564\ \text{pm}$。实验分别测量了 $(100)$、$(110)$、$(111)$ 三个晶面族的衍射数据（图中为理想曲线）：
 
-![NaCl_Bragg_first4_100_110_111](lecture2.assets/NaCl_Bragg_first4_100_110_111.png)
+![NaCl_Bragg_first4_100_110_111](lecture2.assets/NaCl-Bragg-first4-100-110-111.png)
 
 你可能注意到貌似**有些衍射峰消失了**，不过本节暂时不用管他。对每个晶面族列出 Bragg 方程，注意它们的晶面间距不同：
 

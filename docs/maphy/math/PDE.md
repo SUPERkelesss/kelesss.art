@@ -12,7 +12,7 @@
 
 对于一段在 $(x, x+\dd x)$ 上的一小段弦，在两个端点上拉力的角度不同：
 
-![image-20260303113038024](PDE.assets/image-20260303113038024.png)
+![image-20260303113038024](pde.assets/image-20260303113038024.png)
 
 由于弦仅有 $y$ 方向上的运动，我们有：
 
@@ -88,7 +88,7 @@ $$
 
 考虑一个 **均匀轻细杆** 沿杆长方向的 **微小振动**。同样取一段微元 $(x,x+\dd x)$ 进行分析。
 
-![image-20260305080931930](PDE.assets/image-20260305080931930.png)
+![image-20260305080931930](pde.assets/image-20260305080931930.png)
 
 - 均匀：认为处处截面积相等；
 - 轻：忽略重力；
@@ -145,7 +145,7 @@ $$
 
 我们取出一个平行六面体：
 
-![image-20260305092116360](PDE.assets/image-20260305092116360.png)
+![image-20260305092116360](pde.assets/image-20260305092116360.png)
 
 沿 $x$ 方向的流入的热量：
 
@@ -289,7 +289,7 @@ $$
 >
 > - 如果表面单位时间通过单位面积散热为 $\psi$。取表面上的一个微元：
 >
->   <img src="PDE.assets/image-20260310112715964.png" alt="image-20260310112715964" style="zoom:33%;" />
+>   <img src="pde.assets/image-20260310112715964.png" alt="image-20260310112715964" style="zoom:33%;" />
 >
 >   $$
 >   q = -k\pdv{u}{n}
@@ -1159,7 +1159,7 @@ $$
 $$
 很显然对于两次楔积就是体积。我们规定 $\dd{q^1}\wedge\dd{q^2}\wedge\cdots\wedge\dd{q^n}$ 为正的 $n$ 为体积，显然对于任意一个排列 $\dd{q^{i_1}}\wedge\dd{q^{i_2}}\wedge\cdots\wedge\dd{q^{i_n}}$ ，只需要知道交换的次数就能知道正负性了。
 
-<img src="PDE.assets/image-20260324105724299.png" alt="image-20260324105724299" style="zoom: 50%;" />
+<img src="pde.assets/image-20260324105724299.png" alt="image-20260324105724299" style="zoom: 50%;" />
 
 > 叉乘实际上可以认为是楔积在三维情况下表示成向量的形式，实际上可以认为是三维两个向量楔积的 Hodge star。
 >
@@ -1644,7 +1644,7 @@ $$
 | $4$ | $\frac{1}{8}\left(35x^4 - 30x^2 + 3\right)$ |
 | $5$ | $\frac{1}{8}\left(63x^5 - 70x^3 + 15x\right)$ |
 
-![Plot of the six first Legendre polynomials.](PDE.assets/1920px-Legendrepolynomials6.svg.png)
+![Plot of the six first Legendre polynomials.](pde.assets/1920px-Legendrepolynomials6.svg.png)
 
 ---
 
@@ -1942,7 +1942,7 @@ $$
 $$
 J_{\pm \nu }( x ) = \sum_{k = 0}^{ \infty} \frac{( - )^{k}}{k!\Gamma( k\pm \nu + 1 )}\qty( \frac{x}{2} )^{2k\pm \nu }
 $$
-<img src="PDE.assets/BesselJ.png" alt="undefined" style="zoom: 33%;" />
+<img src="pde.assets/BesselJ.png" alt="undefined" style="zoom: 33%;" />
 
 ---
 
@@ -2001,7 +2001,7 @@ y( x ) = N_{\nu }( x ) = \frac{ J_{\nu }( x ) \cos( \nu \pi)-J_{-\nu }( x )}{\si
 $$
 这就是 **Neuman 函数**。
 
-<img src="PDE.assets/Besselyn.png" alt="undefined" style="zoom:33%;" />
+<img src="pde.assets/Besselyn.png" alt="undefined" style="zoom:33%;" />
 
 > 神秘结论：当 $|x| \to \infty$ 时：
 >

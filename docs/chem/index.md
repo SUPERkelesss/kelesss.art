@@ -1,6 +1,6 @@
 # 化学-导航
 
-![card_after_training](index.assets/card_after_training.png)
+![card_after_training](index.assets/card-after-training.png)
 
 > わたくしといふ現象は
 >
@@ -19,11 +19,11 @@
 
 {{ BEGIN_TOC }}
 - 物理化学:
-    - 物理化学I: "physical/Physical_Chemistry_I"
-    - 物理化学II: "physical/Physical Chemistry II"
-    - 相与相图: "physical/Phase_Diagram"
+    - 物理化学I: "physical/Physical-Chemistry-I"
+    - 物理化学II: "physical/Physical-Chemistry-II"
+    - 相与相图: "physical/Phase-Diagram"
 - 理论化学:
-    - 量子化学: "theoretical/Quantum_Chemistry"
+    - 量子化学: "theoretical/Quantum-Chemistry"
 - 竞赛晶体进阶十讲:
     - 0.前言: "crystaljs/perface"
     - 1.宏观晶体与对称性: "crystaljs/lecture1"
