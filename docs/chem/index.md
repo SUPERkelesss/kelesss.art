@@ -36,5 +36,23 @@
     - 8.体心立方: "crystaljs/lecture8"
     - 9.分子晶体及其他: "crystaljs/lecture9"
     - 10.晶体中的数学推导: "crystaljs/lecture10"
+- 人名反应:
+    - A: "name-reaction/A"
+    - B: "name-reaction/B"
+    - C: "name-reaction/C"
+    - D: "name-reaction/D"
+    - E: "name-reaction/E"
+    - F: "name-reaction/F"
+    - G: "name-reaction/G"
+    - H: "name-reaction/H"
+    - J: "name-reaction/J"
+    - K: "name-reaction/K"
+    - L: "name-reaction/L"
+    - M: "name-reaction/M"
+    - N: "name-reaction/N"
+    - O: "name-reaction/O"
+    - P: "name-reaction/P"
+    - R: "name-reaction/R"
+    - S: "name-reaction/S"
 {{ END_TOC }}
 
