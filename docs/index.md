@@ -80,7 +80,7 @@
     [:octicons-arrow-right-24: 点击了解](blog/index.md)
 </div>
 
-如果你有兴趣，可以访问这个网站的[Github仓库](https://github.com/SUPERkelesss/superkelesss.github.io.git)查看本网站的制作工具及代码。
+如果你有兴趣，可以访问这个网站的[Github仓库](https://github.com/SUPERkelesss/kelesss.art)查看本网站的制作工具及代码。
 
 ## kelesss是谁？
 

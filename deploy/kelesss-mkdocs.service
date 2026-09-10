@@ -1,0 +1,16 @@
+[Unit]
+Description=Kelesss.art MkDocs development server
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=ubuntu
+WorkingDirectory=/home/ubuntu/kelesss.art
+ExecStart=/home/ubuntu/kelesss.art/venv/bin/mkdocs serve --config-file /home/ubuntu/kelesss.art/mkdocs.yml --dev-addr 0.0.0.0:8000
+Restart=always
+RestartSec=5
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=multi-user.target

@@ -18,6 +18,9 @@
 
 
 {{ BEGIN_TOC }}
+- 文献阅读:
+    - Vol1: "articles/vol1"
+    - Classical: "articles/Classical"
 - 物理化学:
     - 物理化学I: "physical/Physical-Chemistry-I"
     - 物理化学II: "physical/Physical-Chemistry-II"

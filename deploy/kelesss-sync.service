@@ -1,0 +1,9 @@
+[Unit]
+Description=Sync Kelesss.art from GitHub and restart MkDocs
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=root
+ExecStart=/home/ubuntu/kelesss.art/update-site.sh

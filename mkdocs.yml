@@ -8,6 +8,9 @@ nav:
     - 🙋我要投稿！: commit.md
   - 🧪化学:
     - 化学-首页: "chem/index.md"
+    - 文献阅读:
+      - Vol1: "chem/articles/vol1.md"
+      - Classical: "chem/articles/Classical.md"
     - 物理化学:
       - 物理化学I笔记: "chem/physical/Physical-Chemistry-I.md"
       - 物理化学II笔记: "chem/physical/Physical-Chemistry-II.md"
@@ -62,6 +65,8 @@ nav:
       - 量子力学导论: "maphy/quant-phys/quant-phys-intro.md"
   - 🖥️计算机:
     - 计算机-首页: "cs/index.md"
+    - 机器学习:
+      - 机器学习: "cs/ml/machine-learning.md"
     - 数值计算:
       - 计算方法: "cs/numerical/computing-method.md"
     - 工具类应用:
@@ -204,8 +209,8 @@ extra:
         link: https://www.zhihu.com/people/ke-le-kelesss
 copyright: Copyright © 2026 by <a href="https://github.com/SUPERkelesss" target="_blank">Kelesss</a> is licensed under CC BY-SA 4.0
 #页眉
-repo_url: https://github.com/SUPERkelesss/superkelesss.github.io.git
-repo_name: superkelesss.github.io
+repo_url: https://github.com/SUPERkelesss/kelesss.art.git
+repo_name: kelesss.art
 
 markdown_extensions:
   - pymdownx.emoji:

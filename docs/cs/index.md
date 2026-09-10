@@ -9,6 +9,8 @@
 > <p align = "right">—— 《攻壳机动队》</p>
 
 {{ BEGIN_TOC }}
+- 机器学习:
+    - 机器学习: ml/machine-learning
 - 数值计算:
     - 计算方法: numerical/computing-method
 - 工具类应用:

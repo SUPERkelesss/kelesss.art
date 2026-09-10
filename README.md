@@ -1,4 +1,4 @@
-# 凯楽斯Kelesssの聖教天堂(superkelesss.github.io)
+# 凯楽斯Kelesssの聖教天堂(www.kelesss.art)
 kelesss的个人网站，喵呜♪(\^∇\^*)
 
 本网站可通过**[www.kelesss.art](www.kelesss.art)**访问
