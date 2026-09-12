@@ -2,18 +2,15 @@
 
 ## Julia-Bruylants Rearrangement
 
-### 反应式
+### 反应式和反应机理
+
 ![image711.png](J.assets/image711.png)
-
-
-### 反应机理
-
-### 实际应用
 
 
 ## Jocic-Reeve Reaction
 
-### 反应式
+### 反应式和反应机理
+
 三氯甲基 - 羟基重排
 
 ![image712.png](J.assets/image712.png)
@@ -35,14 +32,10 @@
 ![image716.png](J.assets/image716.png)
 
 
-### 反应机理
-
-### 实际应用
-
-
 ## Jacobsen Hydrolytic Kinetic Resolution
 
-### 反应式
+### 反应式和反应机理
+
 ![image717.png](J.assets/image717.png)
 
 动力学选择性不对称开环氧，我们将在下一节解释这个配体
@@ -50,20 +43,14 @@
 ![image718.png](J.assets/image718.png)
 
 
-### 反应机理
-
-### 实际应用
-
-
 ## Jacobsen-Katsuki Epoxidation
 
-### 反应式
+### 反应式和反应机理
+
 ![image719.png](J.assets/image719.png)
 
 ![image720.png](J.assets/image720.png)
 
-
-### 反应机理
 机理经过顶部进行，其中位阻大双键朝向向下弯曲的苯环一侧催化剂的立体结构：
 
 ![image721.png](J.assets/image721.png)
@@ -71,12 +58,10 @@
 ![image722.png](J.assets/image722.png)
 
 
-### 实际应用
-
-
 ## Japp-Klingemann Reaction
 
-### 反应式
+### 反应式和反应机理
+
 ![image723.png](J.assets/image723.png)
 
 偶联之后迅速脱去了一分子酰基
@@ -87,21 +72,17 @@
 
 偶氮显色而腙不显色，可以很方便的观察反应
 
-
-### 反应机理
-
 ### 实际应用
-之后可能经历 fischer 吲哚合成
 
+之后可能经历 fischer 吲哚合成
 
 
 ## Jones Oxidation
 
-### 反应式
+### 反应式和反应机理
+
 ![image725.png](J.assets/image725.png)
 
-
-### 反应机理
 刚性环体系中，轴向醇反应比赤道醇快（决速步为消除， 1,3 排斥有助于该步快速进行）
 
 ![image729.png](J.assets/image729.png)
@@ -124,8 +105,8 @@
 
 ![image737.png](J.assets/image737.png)
 
-
 ### 实际应用
+
 经典的 Cr 氧化， Jones ， PCC 和 PDC 均为酸性试剂， Collins 为碱性试剂
 
 若反应在水相进行，将伯醇氧化到酸（形成水合物）；在有机相进行都只能氧化到醛
@@ -173,10 +154,10 @@ Babler 氧化：烯醇诱导的氧化迁移
 ![image742.png](J.assets/image742.png)
 
 
-
 ## Julia-Lythgoe Olefination
 
-### 反应式
+### 反应式和反应机理
+
 ![image743.png](J.assets/image743.png)
 
 当用钠汞齐时经历消除 - 脱硫过程，当使用 SmI2 时经历脱硫 - 消除过程
@@ -192,9 +173,4 @@ Babler 氧化：烯醇诱导的氧化迁移
 ![image746.png](J.assets/image746.png)
 
 ![image747.png](J.assets/image747.png)
-
-
-### 反应机理
-
-### 实际应用
 

@@ -2,7 +2,8 @@
 
 ## Kendall-Mattox Reaction
 
-### 反应式
+### 反应式和反应机理
+
 ![image748.png](K.assets/image748.png)
 
 常见模式：不是 E1cb ！
@@ -18,14 +19,10 @@
 现已被 Nicolaou 氧化取代
 
 
-### 反应机理
-
-### 实际应用
-
-
 ## Kagan-Molander SmI2 Coupling
 
-### 反应式
+### 反应式和反应机理
+
 ![image751.png](K.assets/image751.png)
 
 注意卤原子比羰基更先被 SET
@@ -40,14 +37,12 @@ SmI2 溶解度较低，催化剂： HMPA/ 过渡金属盐 (Fe(III))
 
 ![image753.png](K.assets/image753.png)
 
-
-### 反应机理
 生成的自由基可以进一步得到偶联产物
 
 ![image763.png](K.assets/image763.png)
 
-
 ### 实际应用
+
 黄原酸酯也可以作为离去基团
 
 ![image754.png](K.assets/image754.png)
@@ -89,10 +84,10 @@ Marko-Lam 脱氧，用于脱芳基保护
 ![image762.png](K.assets/image762.png)
 
 
-
 ## Kahne Glycosidation
 
-### 反应式
+### 反应式和反应机理
+
 与 S 相关的糖苷化反应
 
 ![image764.png](K.assets/image764.png)
@@ -104,14 +99,10 @@ Marko-Lam 脱氧，用于脱芳基保护
 ![image766.png](K.assets/image766.png)
 
 
-### 反应机理
-
-### 实际应用
-
-
 ## Keck Asymmetric Allylation
 
-### 反应式
+### 反应式和反应机理
+
 ![image767.png](K.assets/image767.png)
 
 ![image768.png](K.assets/image768.png)
@@ -119,16 +110,10 @@ Marko-Lam 脱氧，用于脱芳基保护
 用锡烷进行不对称烯丙基化
 
 
-### 反应机理
-
-### 实际应用
-
-
 ## Keck Macrolactonization
 
-### 反应式
+### 反应式和反应机理
 
-### 反应机理
 该机理没体现亲核催化剂，可以参考以下机理
 
 ![image771.png](K.assets/image771.png)
@@ -155,8 +140,8 @@ Marko-Lam 脱氧，用于脱芳基保护
 
 ![image777.png](K.assets/image777.png)
 
-
 ### 实际应用
+
 大环合成 其二
 
 ![image769.png](K.assets/image769.png)
@@ -170,10 +155,10 @@ Marko-Lam 脱氧，用于脱芳基保护
 ![image778.png](K.assets/image778.png)
 
 
-
 ## Keck Radical Allylation
 
-### 反应式
+### 反应式和反应机理
+
 ![image779.png](K.assets/image779.png)
 
 还是烯丙基化反应……
@@ -185,14 +170,10 @@ Marko-Lam 脱氧，用于脱芳基保护
 ![image781.png](K.assets/image781.png)
 
 
-### 反应机理
-
-### 实际应用
-
-
 ## Knoevenagel Condensation
 
-### 反应式
+### 反应式和反应机理
+
 ![image782.png](K.assets/image782.png)
 
 二羰基和羰基化合物的缩合
@@ -205,14 +186,12 @@ Marko-Lam 脱氧，用于脱芳基保护
 
 若底物含有 CO2 基团，则可能脱水的同时脱羧
 
-
-### 反应机理
 芳环上的 Kvg ，之后串联电环化
 
 ![image788.png](K.assets/image788.png)
 
-
 ### 实际应用
+
 米氏酸底物也有类似的反应，以下展示了一个串联 DA 的过程
 
 ![image784.png](K.assets/image784.png)
@@ -230,16 +209,14 @@ Marko-Lam 脱氧，用于脱芳基保护
 ![image787.png](K.assets/image787.png)
 
 
-
 ## Knorr Pyrrole Synthesis
 
-### 反应式
+### 反应式和反应机理
+
 ![image789.png](K.assets/image789.png)
 
-
-### 反应机理
-
 ### 实际应用
+
 使出了α - 氨基羰基和另一个羰基（通常活性亚甲基）所合成吡咯
 
 然而，由于邻氨基羰基化合物非常不稳定，若直接使用会导致自缩合（成为吡嗪），需要通过亚硝基化合物还原，或使用酰基酮肟的 Neber 重排
@@ -249,33 +226,27 @@ Marko-Lam 脱氧，用于脱芳基保护
 ![image790.png](K.assets/image790.png)
 
 
-
 ## Knorr Pyrazole Synthesis
 
-### 反应式
+### 反应式和反应机理
+
 ![image791.png](K.assets/image791.png)
 
 ![image792.png](K.assets/image792.png)
 
 
-### 反应机理
-
-### 实际应用
-
-
 ## Koenigs-Knorr Glycosidation
 
-### 反应式
+### 反应式和反应机理
+
 另一种糖苷化思路
 
 ![image793.png](K.assets/image793.png)
 
 ![image794.png](K.assets/image794.png)
 
-
-### 反应机理
-
 ### 实际应用
+
 可以由 Br+ 等价物制备底物
 
 糖苷化总结！ Chemical Glycosidation
@@ -313,18 +284,16 @@ Marko-Lam 脱氧，用于脱芳基保护
 ![image803.png](K.assets/image803.png)
 
 
-
 ## Kochi Reaction
 
-### 反应式
+### 反应式和反应机理
+
 ![image804.png](K.assets/image804.png)
 
 ![image805.png](K.assets/image805.png)
 
-
-### 反应机理
-
 ### 实际应用
+
 改进法：使出 NCS/I2 代替 LiCl
 
 ![image806.png](K.assets/image806.png)
@@ -332,58 +301,52 @@ Marko-Lam 脱氧，用于脱芳基保护
 ![image807.png](K.assets/image807.png)
 
 
-
 ## Kolbe Electrolysis
 
-### 反应式
+### 反应式和反应机理
+
 ![image808.png](K.assets/image808.png)
 
 若为不同羧酸，则可以相互偶联：
 
 ![image809.png](K.assets/image809.png)
 
-
-### 反应机理
 也可以通过自由基进行偶联反应
 
 ![image810.png](K.assets/image810.png)
 
-
 ### 实际应用
-然而这种方法可能生成混合物，可以加入大过量廉价的羧酸，较小组分的偶联会被抑制
 
+然而这种方法可能生成混合物，可以加入大过量廉价的羧酸，较小组分的偶联会被抑制
 
 
 ## Kolbe-Schmidt Reaction
 
-### 反应式
+### 反应式和反应机理
+
 苯酚羧基化反应：
 
 ![image811.png](K.assets/image811.png)
 
-
-### 反应机理
 机理：并非络合物机理（未生成氧取代产物）
 
 ![image812.png](K.assets/image812.png)
 
 反应不会在酚氧上上 CO2
 
-
 ### 实际应用
-阳离子半径越大（ Rb ， Cs) ，越容易取代在对位（位阻）；否则生成水杨酸衍生物
 
+阳离子半径越大（ Rb ， Cs) ，越容易取代在对位（位阻）；否则生成水杨酸衍生物
 
 
 ## Kornblum Oxidation
 
-### 反应式
+### 反应式和反应机理
+
 ![image813.png](K.assets/image813.png)
 
-
-### 反应机理
-
 ### 实际应用
+
 不知道谁上届国初考前看完这个，当场想不出来
 
 ![image814.png](K.assets/image814.png)
@@ -421,20 +384,18 @@ Base 作用：消除和缚酸剂
 ![image820.png](K.assets/image820.png)
 
 
-
 ## Krapcho dealkoxycarbonylation
 
-### 反应式
+### 反应式和反应机理
+
 ![image821.png](K.assets/image821.png)
 
 去甲 / 乙氧基化反应，要求α位有吸电子基
 
 溶剂最好选偶极非质子溶剂……
 
-
-### 反应机理
-
 ### 实际应用
+
 可加入 CN- 或其他卤素负离子
 
 当双取代时，进攻烷基；否则进攻羰基
@@ -460,41 +421,37 @@ Base 作用：消除和缚酸剂
 ![image827.png](K.assets/image827.png)
 
 
-
 ## Krohnke Pyridine Synthesis
 
-### 反应式
+### 反应式和反应机理
+
 ![image828.png](K.assets/image828.png)
 
 识别：α吡啶取代 + 不饱和羰基→ 1,5 羰基 +NH4OAc →吡啶
 
-
-### 反应机理
 机理：
 
 ![image829.png](K.assets/image829.png)
 
-
 ### 实际应用
+
 贴一个神奇的大环合成：
 
 ![image830.png](K.assets/image830.png)
 
 
-
 ## Kulinkovich Reaction
 
-### 反应式
+### 反应式和反应机理
+
 ![image831.png](K.assets/image831.png)
 
-
-### 反应机理
 考虑到烯烃配位和金属环丙烷，可以发现当 pi* 被给电子的越多，金属就越像环丙烷；因此前过渡系金属轨道能量比较接近，其络合物有类似于“双负离子”的特性
 
 ![image832.png](K.assets/image832.png)
 
-
 ### 实际应用
+
 Ti 试剂络合烯烃很容易变成金属环丙烷的形式：
 
 两分子的格式试剂，其中一分子用来还原，当然也可以直接加烯烃
@@ -506,14 +463,12 @@ Ti 试剂络合烯烃很容易变成金属环丙烷的形式：
 ![image833.png](K.assets/image833.png)
 
 
-
 ## Kumada Cross-Coupling
 
-### 反应式
+### 反应式和反应机理
+
 ![image834.png](K.assets/image834.png)
 
-
-### 反应机理
 使用 Mg 协同催化，可原位生成格氏试剂
 
 ![image836.png](K.assets/image836.png)
@@ -526,8 +481,8 @@ Ti 试剂络合烯烃很容易变成金属环丙烷的形式：
 
 ![image838.png](K.assets/image838.png)
 
-
 ### 实际应用
+
 使用格式试剂的金属偶联
 
 ![image835.png](K.assets/image835.png)
@@ -537,12 +492,5 @@ Ti 试剂络合烯烃很容易变成金属环丙烷的形式：
 事实上， Li 试剂更经常使用
 
 
-
 ## Krapcho Reaction
-
-### 反应式
-
-### 反应机理
-
-### 实际应用
 

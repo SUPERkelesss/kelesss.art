@@ -2,15 +2,14 @@
 
 ## Alder ene reaction
 
-### 反应式
+### 反应式和反应机理
+
 形式上烯烃亲核进攻缺电子烯烃后消除
 
 ![image002.png](A.assets/image002.png)
 
 ![image003.png](A.assets/image003.png)
 
-
-### 反应机理
 分子间： ene<DA 反应开始时活化能高，但一旦开始进行就很容易
 
 分子内： ene 速率很快
@@ -43,8 +42,8 @@
 
 第二步为自由基反应
 
-
 ### 实际应用
+
 氰基也可以参与 ene ，驱动力：缓解环丙烯张力
 
 ![image010.png](A.assets/image010.png)
@@ -86,20 +85,18 @@ APOC919 炔烃醇偷摸逆 ene 重排
 ![image015.png](A.assets/image015.png)
 
 
-
 ## Achmatowicz Rearrangement
 
-### 反应式
+### 反应式和反应机理
+
 关键：α - 羟基呋喃→氧杂六元环，氧化剂 +ROH/H2O ( 一般 ) 或直接使用酸酐，酸性
 
 ![image016.png](A.assets/image016.png)
 
 ![image017.png](A.assets/image017.png)
 
-
-### 反应机理
-
 ### 实际应用
+
 反应物为酸 / 酸酐时 这个反应可以很好的串联 5+2 （国初）
 
 改进： KBr 催化量 +O3
@@ -113,42 +110,36 @@ Try more ！
 ![image019.png](A.assets/image019.png)
 
 
-
 ## Acetoacetic Ester Synthesis
 
-### 反应式
+### 反应式和反应机理
+
 ![image020.png](A.assets/image020.png)
 
-
-### 反应机理
 注意脱羧经历了六元环过渡态
 
 注意后形成的烯醇先进攻
 
 形成 dianion 的时候，若进攻羰基，则可能氧负离子进攻酯得到六元环
 
-
 ### 实际应用
-通过乙酰乙酸乙酯制备各种酮
 
+通过乙酰乙酸乙酯制备各种酮
 
 
 ## Acloin Condensation
 
-### 反应式
+### 反应式和反应机理
+
 ![image021.png](A.assets/image021.png)
 
 ![image022.png](A.assets/image022.png)
 
 
-### 反应机理
-
-### 实际应用
-
-
 ## Aldol Reaction
 
-### 反应式
+### 反应式和反应机理
+
 ![image023.png](A.assets/image023.png)
 
 aldol 的烯醇可以尝试间乙烯拔氢，然而这极其罕见，只存在在无α -H 的情况下
@@ -158,14 +149,10 @@ aldol 的烯醇可以尝试间乙烯拔氢，然而这极其罕见，只存在�
 ![image025.png](A.assets/image025.png)
 
 
-### 反应机理
-
-### 实际应用
-
-
 ## Alkene/Alkyne Metathesis
 
-### 反应式
+### 反应式和反应机理
+
 烯烃复分解
 
 ![image026.png](A.assets/image026.png)
@@ -193,14 +180,10 @@ Grubbs 催化剂的一些神奇运用（ chemy 联赛 28 ）
 ![image033.png](A.assets/image033.png)
 
 
-### 反应机理
-
-### 实际应用
-
-
 ## Amadori Reaction
 
-### 反应式
+### 反应式和反应机理
+
 ![image034.png](A.assets/image034.png)
 
 ![image035.png](A.assets/image035.png)
@@ -214,14 +197,10 @@ Reaction: 开环
 ![image037.png](A.assets/image037.png)
 
 
-### 反应机理
-
-### 实际应用
-
-
 ## ANRORC
 
-### 反应式
+### 反应式和反应机理
+
 令人感慨，没有一本书讲这个，我从公众号上翻得
 
 ![image038.jpg](A.assets/image038.jpg)
@@ -233,14 +212,10 @@ Reaction: 开环
 ![image041.jpg](A.assets/image041.jpg)
 
 
-### 反应机理
-
-### 实际应用
-
-
 ## Arbuzov Phosphonate Synthesis
 
-### 反应式
+### 反应式和反应机理
+
 ![image042.png](A.assets/image042.png)
 
 ![image043.png](A.assets/image043.png)
@@ -250,14 +225,10 @@ SCN 作为反应基团：
 ![image044.png](A.assets/image044.png)
 
 
-### 反应机理
-
-### 实际应用
-
-
 ## Appel-Lee Reaction
 
-### 反应式
+### 反应式和反应机理
+
 ![image045.png](A.assets/image045.png)
 
 ![image046.png](A.assets/image046.png)
@@ -277,24 +248,18 @@ LB 可以催化反应
 ![image051.png](A.assets/image051.png)
 
 
-### 反应机理
-
-### 实际应用
-
-
 ## Arndt-Eistert Homologation
 
-### 反应式
+### 反应式和反应机理
+
 ![image052.png](A.assets/image052.png)
 
 令人感叹的加入了 2 eq 的 CH2N2 ，为了避免 HCl 的影响（或者可以加入 CaO ）
 
 SOCl2 有时可以替换成更温和的 MsCl
 
-
-### 反应机理
-
 ### 实际应用
+
 有时也可以替换成 ClCOOR
 
 ![image053.png](A.assets/image053.png)
@@ -312,31 +277,29 @@ SOCl2 有时可以替换成更温和的 MsCl
 然而反应活性较低而令人感叹
 
 
-
 ## Aza-Wittig
 
-### 反应式
+### 反应式和反应机理
+
 ![image056.png](A.assets/image056.png)
 
 ![image057.png](A.assets/image057.png)
 
-
-### 反应机理
 I2 催化下的这个中间体很有意思
 
 ![image059.png](A.assets/image059.png)
 
-
 ### 实际应用
+
 = S 也可以参与 wittig ！
 
 ![image058.png](A.assets/image058.png)
 
 
-
 ## Aza-[2,3]Wittig Rearrangement
 
-### 反应式
+### 反应式和反应机理
+
 ![image060.png](A.assets/image060.png)
 
 同台竞技： Steven/Sommelet-Houser （如果是四级铵盐）
@@ -348,14 +311,10 @@ I2 催化下的这个中间体很有意思
 ![image062.png](A.assets/image062.png)
 
 
-### 反应机理
-
-### 实际应用
-
-
 ## Aza/Thia-Claisen Rearrangement
 
-### 反应式
+### 反应式和反应机理
+
 Aza
 
 ![image313.png](A.assets/image313.png)
@@ -376,8 +335,6 @@ aza 下：
 
 ![image315.png](A.assets/image315.png)
 
-
-### 反应机理
 可能的机理： N 给烷基电子离去 H2 ，之后聚合
 
 thia 下：
@@ -394,17 +351,17 @@ S- 离子很容易进攻另一分子底物
 
 进行重排后进一步成了环
 
-
 ### 实际应用
+
 实际进行该反应时，得到了苯胺和一堆碳氢化合物和一堆聚合物
 
 ![image316.png](A.assets/image316.png)
 
 
-
 ## Aza/Oxy/Siloxy-Cope Rearrangement
 
-### 反应式
+### 反应式和反应机理
+
 ![image361.png](A.assets/image361.png)
 
 以下条件可以加速反应进程：
@@ -425,8 +382,6 @@ Oxy-Cope
 
 反应速率在拔氢后进行的飞快
 
-
-### 反应机理
 reason ：拔氢后的负离子可以利于在整个过渡态的体系中，令人感叹
 
 我认为你说的很对，但是我是说唱皇帝。我们不如看看这个重排？
@@ -438,7 +393,4 @@ Cope+aldol
 Siloxy-Cope Rearrangement
 
 ![image365.png](A.assets/image365.png)
-
-
-### 实际应用
 

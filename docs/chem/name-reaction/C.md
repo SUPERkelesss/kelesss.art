@@ -2,37 +2,26 @@
 
 ## Cadiot–Chodkiewicz Coupling
 
-### 反应式
+### 反应式和反应机理
+
 ![image260.png](C.assets/image260.png)
 
 没什么好说的
 
 
-### 反应机理
-
-### 实际应用
-
-
 ## Caglioti Reductive Elimination
-
-### 反应式
-
-### 反应机理
-
-### 实际应用
 
 
 ## Cannizzaro Reaction
 
-### 反应式
+### 反应式和反应机理
+
 ![image262.png](C.assets/image262.png)
 
 需要在非常浓的碱下才能进行
 
 醛不能含有α -H ，否则 Aldol 最先进行
 
-
-### 反应机理
 反应实际上应当为自由基 SET 机理：
 
 ![image264.png](C.assets/image264.png)
@@ -51,8 +40,8 @@
 
 LA 可以催化这个反应！
 
-
 ### 实际应用
+
 过时的还原方法：甲醛与目标醛反应，生成目标醇（甲醛总是在 RDS 中给出 H- ）
 
 ![image263.png](C.assets/image263.png)
@@ -68,10 +57,10 @@ RDS ：氢转移
 ![image269.png](C.assets/image269.png)
 
 
-
 ## Carroll-Claisen Rearrangement
 
-### 反应式
+### 反应式和反应机理
+
 ![image270.png](C.assets/image270.png)
 
 识别：互变→ 33 σ重排→ ( 脱羧 )
@@ -88,19 +77,15 @@ RDS ：氢转移
 
 ![image273.png](C.assets/image273.png)
 
-
-### 反应机理
 该反应可应用于取代烯丙基溴立体化学的转变
 
 ![image274.png](C.assets/image274.png)
 
 
-### 实际应用
-
-
 ## Castro-Stephens Coulping
 
-### 反应式
+### 反应式和反应机理
+
 ![image275.png](C.assets/image275.png)
 
 ![image276.png](C.assets/image276.png)
@@ -108,24 +93,18 @@ RDS ：氢转移
 ![image277.png](C.assets/image277.png)
 
 
-### 反应机理
-
-### 实际应用
-
-
 ## Catelliani Reaction
 
-### 反应式
+### 反应式和反应机理
+
 降冰片烯作为“脚手架”，活化芳环邻位 CH 键
 
 ![image278.png](C.assets/image278.png)
 
 ![image279.png](C.assets/image279.png)
 
-
-### 反应机理
-
 ### 实际应用
+
 邻位有合适的 H 也可以被 Pd 活化：
 
 ![image280.png](C.assets/image280.png)
@@ -135,20 +114,18 @@ RDS ：氢转移
 ![image281.png](C.assets/image281.png)
 
 
-
 ## Chan-Lam Coupling
 
-### 反应式
+### 反应式和反应机理
+
 ![image282.png](C.assets/image282.png)
 
 ![image283.png](C.assets/image283.png)
 
 唉呀，这不我们 Suzuki 吗，下次注意
 
-
-### 反应机理
-
 ### 实际应用
+
 可以使用令人迷惑的硼试剂：
 
 ![image284.png](C.assets/image284.png)
@@ -156,29 +133,27 @@ RDS ：氢转移
 ![image285.png](C.assets/image285.png)
 
 
-
 ## Chapman Rearrangement
 
-### 反应式
+### 反应式和反应机理
+
 ![image286.png](C.assets/image286.png)
 
 苯基肟高温重排成苯基酰胺
 
 ![image287.png](C.assets/image287.png)
 
-
-### 反应机理
-
 ### 实际应用
+
 通常为芳基重排，不过也有烷基重排的例子
 
 ![image288.png](C.assets/image288.png)
 
 
-
 ## ChiChibabin Amination Reaction
 
-### 反应式
+### 反应式和反应机理
+
 ![image289.png](C.assets/image289.png)
 
 实验可以在两种条件下进行：
@@ -187,14 +162,12 @@ RDS ：氢转移
 
 2 ）低温 KNH2 （更易溶） NH3(l) 进行 通常加入氧化剂（ KNO3 、 KMnO4 ）促进反应（均相
 
-
-### 反应机理
 令人遗憾的是，这实际上更可能是自由基取代机理
 
 可能的副产物：自由基偶联，负离子进攻底物
 
-
 ### 实际应用
+
 前者适用于缺电子性弱的底物（ Py ），后者适用于高温分解的底物（二三四嗪）
 
 位点均在最缺电子的位置
@@ -202,10 +175,10 @@ RDS ：氢转移
 ![image290.png](C.assets/image290.png)
 
 
-
 ## ChiChibabin Pyridine Synthesis
 
-### 反应式
+### 反应式和反应机理
+
 识别：按 + 三当量醛
 
 ![image291.png](C.assets/image291.png)
@@ -221,20 +194,14 @@ RDS ：氢转移
 ![image294.png](C.assets/image294.png)
 
 
-### 反应机理
-
-### 实际应用
-
-
 ## Chugaev Elimination
 
-### 反应式
+### 反应式和反应机理
+
 ![image295.png](C.assets/image295.png)
 
 Barton 去羟基不加入引发剂，直接加热的消除
 
-
-### 反应机理
 相比酯热解更温和（异构化较少），一级相比于二三级需要更高温度（更不稳定）
 
 对于烯丙基醇不适用： 33 会首先发生
@@ -252,12 +219,10 @@ ene ：
 ![image298.png](C.assets/image298.png)
 
 
-### 实际应用
-
-
 ## Ciamician-Dennstedt Rearrangement (Abnormal Reimer-Tiemann Reaction)
 
-### 反应式
+### 反应式和反应机理
+
 ![image299.png](C.assets/image299.png)
 
 R-T 反应对于五元芳环出现了芳构化产物
@@ -275,14 +240,10 @@ R-T 反应对于五元芳环出现了芳构化产物
 溶液酸度越高，则 R-T 反应产物更多
 
 
-### 反应机理
-
-### 实际应用
-
-
 ## Claisen Condensation
 
-### 反应式
+### 反应式和反应机理
+
 ![image303.png](C.assets/image303.png)
 
 ![image304.png](C.assets/image304.png)
@@ -301,10 +262,8 @@ R-T 反应对于五元芳环出现了芳构化产物
 
 ![image307.png](C.assets/image307.png)
 
-
-### 反应机理
-
 ### 实际应用
+
 看似奇怪的选择性来源于令人感叹的加热：
 
 ![image308.png](C.assets/image308.png)
@@ -314,25 +273,17 @@ R-T 反应对于五元芳环出现了芳构化产物
 ![image309.png](C.assets/image309.png)
 
 
-
 ## Claisen Rearrangement
-
-### 反应式
-
-### 反应机理
-
-### 实际应用
 
 
 ## Claisen Rearrangement-variant
 
-### 反应式
+### 反应式和反应机理
+
 对位的 Claisen 重排
 
 ![image320.png](C.assets/image320.png)
 
-
-### 反应机理
 由 Claisen 中间体出发
 
 第一个： 33 σ
@@ -383,8 +334,8 @@ Ireland-Claisen
 
 极性溶剂 HMPA 络合 Li 导致过渡态非环状， E 型烯醇硅醚
 
-
 ### 实际应用
+
 令人迷惑的案例分析：这 tm 什么鬼？
 
 ![image321.png](C.assets/image321.png)
@@ -392,14 +343,12 @@ Ireland-Claisen
 以上三个反应均能在丙烯基醇上引入一个乙酰基衍生物
 
 
-
 ## Clemmensen Reduction
 
-### 反应式
+### 反应式和反应机理
+
 ![image333.png](C.assets/image333.png)
 
-
-### 反应机理
 机理尚不明确
 
 ![image334.png](C.assets/image334.png)
@@ -412,8 +361,8 @@ Ireland-Claisen
 
 ![image337.png](C.assets/image337.png)
 
-
 ### 实际应用
+
 改良操作：有机溶剂，冰水浴 + 干 HCl+ 活化锌粉 + 助溶（羰基化合物一般难溶）
 
 或 EtOH/DCM 溶剂， TMSCl+Zn
@@ -425,29 +374,27 @@ Ireland-Claisen
 ![image336.png](C.assets/image336.png)
 
 
-
 ## Combes Quinoline Synthesis
 
-### 反应式
+### 反应式和反应机理
+
 识别：苯胺 +13 羰基 酸催化
 
 ![image338.png](C.assets/image338.png)
 
 ![image339.png](C.assets/image339.png)
 
-
-### 反应机理
-
 ### 实际应用
+
 有时还能被体系内的其他亲核试剂捕获：
 
 ![image340.png](C.assets/image340.png)
 
 
-
 ## Collins Oxidation
 
-### 反应式
+### 反应式和反应机理
+
 ![image341.png](C.assets/image341.png)
 
 尝试氧化一些特殊的东西：
@@ -462,17 +409,15 @@ Ireland-Claisen
 
 ![image344.png](C.assets/image344.png)
 
-
-### 反应机理
-
 ### 实际应用
-氧化去除σ金属配合物
 
+氧化去除σ金属配合物
 
 
 ## Cope Elimination
 
-### 反应式
+### 反应式和反应机理
+
 ![image345.png](C.assets/image345.png)
 
 ![image346.png](C.assets/image346.png)
@@ -483,8 +428,6 @@ Ireland-Claisen
 
 生成烯烃产物有时不符合 Hoffmann 规则，取决于β位上的氢原子个数（战略语言）
 
-
-### 反应机理
 （我觉得是取决于构象，需要形成平面五元环过渡态为重）
 
 ![image347.png](C.assets/image347.png)
@@ -509,8 +452,8 @@ Reason ： Cope 反应在良好的构象下有一定量子隧穿效应，进行�
 
 ![image351.png](C.assets/image351.png)
 
-
 ### 实际应用
+
 其他选择性逆转的例子：
 
 ![image352.png](C.assets/image352.png)
@@ -540,10 +483,10 @@ Retro-Cope
 ![image357.png](C.assets/image357.png)
 
 
-
 ## Cope Rearrangement
 
-### 反应式
+### 反应式和反应机理
+
 ![image358.png](C.assets/image358.png)
 
 通常反应需要加热，但以下条件可以使反应在室温下进行：
@@ -558,21 +501,19 @@ Retro-Cope
 
 ![image359.png](C.assets/image359.png)
 
-
-### 反应机理
 事实上， Cope 在构象良好的船式构象也很好进行
 
-
 ### 实际应用
+
 例子：
 
 ![image360.png](C.assets/image360.png)
 
 
-
 ## Corey-Bakshi-Shibata (CBS) Reduction
 
-### 反应式
+### 反应式和反应机理
+
 ![image366.png](C.assets/image366.png)
 
 ![image367.png](C.assets/image367.png)
@@ -581,8 +522,6 @@ Retro-Cope
 
 ![image369.png](C.assets/image369.png)
 
-
-### 反应机理
 过渡态为船式过渡态，过渡态为椅式则会产生 g+g- 排斥
 
 ![image371.png](C.assets/image371.png)
@@ -605,8 +544,8 @@ D-A 反应
 
 ![image375.png](C.assets/image375.png)
 
-
 ### 实际应用
+
 制备：
 
 ![image370.png](C.assets/image370.png)
@@ -616,10 +555,10 @@ D-A 反应
 当然，上面那种是 S 催化剂，也有选择性逆转的 R 催化剂
 
 
-
 ## Corey-Chaykovsky Reaction
 
-### 反应式
+### 反应式和反应机理
+
 ![image376.png](C.assets/image376.png)
 
 为何选择左边的羰基？
@@ -636,19 +575,15 @@ aza 版本：
 
 ![image379.png](C.assets/image379.png)
 
-
-### 反应机理
 机理运用了碎裂化后环丙烷化（ why ？）
 
 ![image380.png](C.assets/image380.png)
 
 
-### 实际应用
-
-
 ## Corey-Fuchs Alkyne Synthesis
 
-### 反应式
+### 反应式和反应机理
+
 识别：醛→炔
 
 ![image381.png](C.assets/image381.png)
@@ -657,17 +592,13 @@ Zn 可以将 [Br2PPh3] （这是一个离子型化合物，艹！） 还原成 Z
 
 ![image382.png](C.assets/image382.png)
 
-
-### 反应机理
 这一步经过同位素实验证明，应该为卡宾机理
-
-
-### 实际应用
 
 
 ## Corey-Kim Oxidation
 
-### 反应式
+### 反应式和反应机理
+
 ![image383.png](C.assets/image383.png)
 
 ![image384.png](C.assets/image384.png)
@@ -678,8 +609,6 @@ Zn 可以将 [Br2PPh3] （这是一个离子型化合物，艹！） 还原成 Z
 
 极性溶剂可能发生的副反应：生成 RCH2OCH2SCH3
 
-
-### 反应机理
 可能 Reason ：正电荷消除中间体被稳定
 
 其他可以运用 rxn ：
@@ -710,25 +639,23 @@ Zn 可以将 [Br2PPh3] （这是一个离子型化合物，艹！） 还原成 Z
 
 ![image391.png](C.assets/image391.png)
 
-
 ### 实际应用
-同上，使用其他氧化均不成功
 
+同上，使用其他氧化均不成功
 
 
 ## Corey-Nicolaou Macrolactonization
 
-### 反应式
+### 反应式和反应机理
+
 大环内酯 - 其一
 
 ![image392.png](C.assets/image392.png)
 
 ![image393.png](C.assets/image393.png)
 
-
-### 反应机理
-
 ### 实际应用
+
 中性条件下进行，可以用于酸性 / 碱性不耐受底物
 
 高度稀释下进行（最少程度下的链间反应）
@@ -738,18 +665,16 @@ Zn 可以将 [Br2PPh3] （这是一个离子型化合物，艹！） 还原成 Z
 ![image394.png](C.assets/image394.png)
 
 
-
 ## Corey-Winter Reaction
 
-### 反应式
+### 反应式和反应机理
+
 ![image395.png](C.assets/image395.png)
 
 ![image396.png](C.assets/image396.png)
 
-
-### 反应机理
-
 ### 实际应用
+
 顺式消除（若反式消除则产率低下）
 
 该反应可以用于合成一些张力极大的烯烃
@@ -763,10 +688,10 @@ Zn 可以将 [Br2PPh3] （这是一个离子型化合物，艹！） 还原成 Z
 可能为空阻 + 配位诱导
 
 
-
 ## Cornforth Rearrangement
 
-### 反应式
+### 反应式和反应机理
+
 ![image399.png](C.assets/image399.png)
 
 ![image400.png](C.assets/image400.png)
@@ -775,10 +700,8 @@ Zn 可以将 [Br2PPh3] （这是一个离子型化合物，艹！） 还原成 Z
 
 热力学稳定产物！
 
-
-### 反应机理
-
 ### 实际应用
+
 由于硫氮杂多少比氧杂稳定，所以也可以生成硫氮杂吡咯
 
 ![image402.png](C.assets/image402.png)
@@ -792,16 +715,14 @@ Zn 可以将 [Br2PPh3] （这是一个离子型化合物，艹！） 还原成 Z
 选择性： O 的孤对电子的超共轭
 
 
-
 ## Criegee Oxidation
 
-### 反应式
+### 反应式和反应机理
+
 ![image405.png](C.assets/image405.png)
 
-
-### 反应机理
-
 ### 实际应用
+
 邻二醇裂解反应，可用于滴定反应
 
 事实上，邻二醇在氧化条件下裂解，但是通常产率不高（几个产率可以的： Pb(O A c)4 [LTA] 、 HIO4 ）
@@ -823,29 +744,23 @@ NaIO4 不能氧化反式邻二醇，需要水系溶剂
 ![image408.png](C.assets/image408.png)
 
 
-
 ## Criegee Rearrangement
 
-### 反应式
+### 反应式和反应机理
+
 和 BV 重排比较像
 
 ![image409.png](C.assets/image409.png)
 
 
-### 反应机理
-
-### 实际应用
-
-
 ## Curtius Rearrangement
 
-### 反应式
+### 反应式和反应机理
+
 ![image410.png](C.assets/image410.png)
 
-
-### 反应机理
-
 ### 实际应用
+
 其他制备方法：酰基肼和 HNO2rxn
 
 注意下面第三种的 Shioiri-Yamima 试剂（ DPPA ），该试剂可以直接生成叠氮酰胺，几乎很少看到其他重排使用该试剂
@@ -855,5 +770,4 @@ NaIO4 不能氧化反式邻二醇，需要水系溶剂
 注意热重排不能断开 N-N2 键
 
 识别：羧酸→氨基衍生物
-
 

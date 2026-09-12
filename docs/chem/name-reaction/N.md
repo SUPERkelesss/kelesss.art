@@ -2,7 +2,8 @@
 
 ## Nagata Hydrocyanation
 
-### 反应式
+### 反应式和反应机理
+
 ![image932.png](N.assets/image932.png)
 
 可逆或不可逆的 1,4 HCN 加成， LA 催化
@@ -18,20 +19,14 @@
 通常需要过量 CN 供体
 
 
-### 反应机理
-
-### 实际应用
-
-
 ## Nazarov Cyclization
 
-### 反应式
+### 反应式和反应机理
+
 ![image934.png](N.assets/image934.png)
 
-
-### 反应机理
-
 ### 实际应用
+
 经典的 4 π顺旋关环
 
 ![image935.png](N.assets/image935.png)
@@ -55,10 +50,10 @@
 为满足顺式 6-5 结构， H 加成在同侧
 
 
-
 ## Neber Rearrangement
 
-### 反应式
+### 反应式和反应机理
+
 ![image938.png](N.assets/image938.png)
 
 nitrene 重排：变异体
@@ -67,14 +62,12 @@ nitrene 重排：变异体
 
 Beckmann 重排的副反应，在碱性条件下使出
 
-
-### 反应机理
 及时寸止可以得到中间体
 
 ![image942.png](N.assets/image942.png)
 
-
 ### 实际应用
+
 从酮合成氨基酮
 
 若有两个亚甲基，重排到亲电性强的碳上
@@ -90,10 +83,10 @@ Beckmann 重排的副反应，在碱性条件下使出
 ![image941.png](N.assets/image941.png)
 
 
-
 ## Nef Reaction
 
-### 反应式
+### 反应式和反应机理
+
 ![image943.png](N.assets/image943.png)
 
 去硝基反应
@@ -115,20 +108,14 @@ Beckmann 重排的副反应，在碱性条件下使出
 ![image947.png](N.assets/image947.png)
 
 
-### 反应机理
-
-### 实际应用
-
-
 ## Negishi Cross-coupling
 
-### 反应式
+### 反应式和反应机理
+
 ![image948.png](N.assets/image948.png)
 
-
-### 反应机理
-
 ### 实际应用
+
 有机 Zn 试剂的偶联
 
 ![image949.png](N.assets/image949.png)
@@ -150,25 +137,23 @@ Beckmann 重排的副反应，在碱性条件下使出
 ![image952.png](N.assets/image952.png)
 
 
-
 ## Nenitzescu Indole Synthesis
 
-### 反应式
+### 反应式和反应机理
+
 ![image953.png](N.assets/image953.png)
 
-
-### 反应机理
-
 ### 实际应用
+
 由醌和β - 氨基的不饱和羰基制备吲哚
 
 ![image954.png](N.assets/image954.png)
 
 
-
 ## Newman-Kwart Rearrangement
 
-### 反应式
+### 反应式和反应机理
+
 ![image955.png](N.assets/image955.png)
 
 记忆回溯到 Chapman Rearrangement
@@ -179,10 +164,8 @@ Beckmann 重排的副反应，在碱性条件下使出
 
 反应需要高温，生成热力学产物
 
-
-### 反应机理
-
 ### 实际应用
+
 通过代换，可以实现硫醇的合成
 
 ![image957.png](N.assets/image957.png)
@@ -198,10 +181,10 @@ Beckmann 重排的副反应，在碱性条件下使出
 ![image960.png](N.assets/image960.png)
 
 
-
 ## Nicholas Reaction
 
-### 反应式
+### 反应式和反应机理
+
 ![image961.png](N.assets/image961.png)
 
 Co2(CO)8 保护叄键，之后发生消除 / 取代反应
@@ -214,10 +197,8 @@ Co2(CO)8 保护叄键，之后发生消除 / 取代反应
 
 氧化剂再生炔烃，还原剂转化为烯烃
 
-
-### 反应机理
-
 ### 实际应用
+
 也可以使用其他金属……
 
 ![image963.png](N.assets/image963.png)
@@ -227,12 +208,10 @@ Co2(CO)8 保护叄键，之后发生消除 / 取代反应
 ![image964.png](N.assets/image964.png)
 
 
-
 ## Norrish Reaction
 
-### 反应式
+### 反应式和反应机理
 
-### 反应机理
 Norrish I ：直接裂解成酰基正离子和烷基自由基
 
 ![image965.png](N.assets/image965.png)
@@ -243,8 +222,8 @@ Norrish II ： 15 氢迁移后再裂解
 
 Norrish-Yang ：生成环丁烷
 
-
 ### 实际应用
+
 有机光化学的经典反应，详细讨论见 Organic Chemistry1 ：有机光化学
 
 第一步： hv 激发π到π *
@@ -254,10 +233,10 @@ Norrish-Yang ：生成环丁烷
 ![image967.png](N.assets/image967.png)
 
 
-
 ## Noyori Asymmetric Hydeogenation
 
-### 反应式
+### 反应式和反应机理
+
 ![image968.png](N.assets/image968.png)
 
 ![image969.png](N.assets/image969.png)
@@ -280,8 +259,6 @@ Noyori 发展了以下三个催化剂：
 
 ![image974.png](N.assets/image974.png)
 
-
-### 反应机理
 催化过程如下，注意 H2 协同加成：
 
 ![image975.png](N.assets/image975.png)
@@ -297,33 +274,25 @@ Noyori 发展了以下三个催化剂：
 ![image978.png](N.assets/image978.png)
 
 
-### 实际应用
-
-
 ## Nozaki-Hiyama-Takai-Kishi Reaction
 
-### 反应式
+### 反应式和反应机理
+
 ![image979.png](N.assets/image979.png)
 
 ![image980.png](N.assets/image980.png)
 
-
-### 反应机理
-
 ### 实际应用
+
 Cr(II) 为金属的“格式试剂”
 
 然而由于 Cr 为单电子试剂，需要 2quiv
 
 
-
 ## Nysted Reagent
 
-### 反应式
-
-### 反应机理
-
 ### 实际应用
+
 亚甲基化试剂，类似于 Tebbe
 
 二溴甲烷和 Zn-Pb 合金在 THF 中制备
@@ -347,22 +316,17 @@ Cr(II) 为金属的“格式试剂”
 有α -H ： Wittig （ P ）， Julia （ S ）， Stephen （ Si ）
 
 
-
 ## Nicolaou Dehydrogenation
 
-### 反应式
+### 反应式和反应机理
+
 IBX 氧化醇，还会顺便脱掉旁边的氢
 
 ![image984.png](N.assets/image984.png)
 
 第一步类似 Dess-Martin
 
-
-### 反应机理
 第二步经历了自由基过程：
 
 ![image985.png](N.assets/image985.png)
-
-
-### 实际应用
 

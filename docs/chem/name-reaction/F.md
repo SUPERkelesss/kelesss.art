@@ -2,13 +2,12 @@
 
 ## Favorskii Reaction
 
-### 反应式
+### 反应式和反应机理
+
 ![image528.png](F.assets/image528.png)
 
 ![image529.png](F.assets/image529.png)
 
-
-### 反应机理
 由于 Baldwin 规则禁阻，关环步骤实际为电环化，因此，若拔氢后不能很好共轭，在很强极性的溶剂中，中间体自发电离成负电荷在氧端，正电荷离域在 3 个 C 上的产物，立体选择性消失：
 
 ![image530.png](F.assets/image530.png)
@@ -61,8 +60,8 @@ Quasi-Favorskii Reaction
 
 ![image548.png](F.assets/image548.png)
 
-
 ### 实际应用
+
 两个变体：一个关四元环（但很容易经历重排），一个打羰基后迁移（ Semi-Pinacol ）
 
 碱性条件下实际拔 halo 上的氢有利，但由于平衡趋向 favorskii 产物
@@ -110,10 +109,10 @@ Semi-favorskii
 ![image551.png](F.assets/image551.png)
 
 
-
 ## Feist-Benary Furan Synthesis
 
-### 反应式
+### 反应式和反应机理
+
 ![image552.png](F.assets/image552.png)
 
 区域选择性取决于羰基类型，若为羰基缺电子则先打羰基，若酮则先打卤素
@@ -125,14 +124,10 @@ Semi-favorskii
 这里α卤代羰基通过质子转移关五元环
 
 
-### 反应机理
-
-### 实际应用
-
-
 ## Ferrier Reaction/Rearrangement
 
-### 反应式
+### 反应式和反应机理
+
 ![image554.png](F.assets/image554.png)
 
 ![image555.png](F.assets/image555.png)
@@ -147,17 +142,15 @@ II 型识别：由烯基糖支取环己酮，汞催化，注意羟汞化优先
 
 ![image557.png](F.assets/image557.png)
 
-
-### 反应机理
-
 ### 实际应用
-I 型如果亲核试剂足够强，可以加热条件下进行反应，不需要 LA
 
+I 型如果亲核试剂足够强，可以加热条件下进行反应，不需要 LA
 
 
 ## Fetizon Oxidation
 
-### 反应式
+### 反应式和反应机理
+
 负载在硅藻土 Celite 上的 Ag2CO3
 
 对位阻很敏感，优先氧化维族小的
@@ -169,14 +162,10 @@ I 型如果亲核试剂足够强，可以加热条件下进行反应，不需要
 ![image559.png](F.assets/image559.png)
 
 
-### 反应机理
-
-### 实际应用
-
-
 ## Finkelstein Reaction
 
-### 反应式
+### 反应式和反应机理
+
 我愿封为史上最简单人名
 
 ![image560.png](F.assets/image560.png)
@@ -194,14 +183,10 @@ I 型如果亲核试剂足够强，可以加热条件下进行反应，不需要
 3 ） TMSI 可以取代掉 F
 
 
-### 反应机理
-
-### 实际应用
-
-
 ## Fischer Indole Synthesis
 
-### 反应式
+### 反应式和反应机理
+
 苯肼 + 有α氢的羰基→吲哚
 
 ![image562.png](F.assets/image562.png)
@@ -210,14 +195,12 @@ I 型如果亲核试剂足够强，可以加热条件下进行反应，不需要
 
 只要是酸都能催化该反应
 
-
-### 反应机理
 然而，然而在杂原子环上不能用酸，否则杂原子将会质子化，直接加热即可反应
 
 对于不对称酮，强酸则取代酸性较强的碳原子，弱酸取代酸性较弱的
 
-
 ### 实际应用
+
 α - β不饱和酮产率较低：得到的吡唑啉不能继续反应
 
 1,3 羰基化合物产率低：生成了吡唑衍生物
@@ -225,10 +208,10 @@ I 型如果亲核试剂足够强，可以加热条件下进行反应，不需要
 1,2 羰基化合物可以反应：生成单吲哚和双吲哚
 
 
-
 ## Fleming-Tamao Oxidation
 
-### 反应式
+### 反应式和反应机理
+
 ![image564.png](F.assets/image564.png)
 
 ![image565.png](F.assets/image565.png)
@@ -240,14 +223,10 @@ I 型如果亲核试剂足够强，可以加热条件下进行反应，不需要
 ![image567.png](F.assets/image567.png)
 
 
-### 反应机理
-
-### 实际应用
-
-
 ## Friedel-Craft Acylation/Alkylation
 
-### 反应式
+### 反应式和反应机理
+
 酰基化
 
 ![image568.png](F.assets/image568.png)
@@ -270,16 +249,14 @@ I 型如果亲核试剂足够强，可以加热条件下进行反应，不需要
 
 常常多取代
 
-
-### 反应机理
 由于经历了碳正离子中间体，可能发生重排
 
 为何活性出现相反？中间体的差异：
 
 酰基化中主要是羰基氧去络合，因此 C-I 键最容易断裂
 
-
 ### 实际应用
+
 烷基化是可逆的，烷基可能去除或重排
 
 LA 通常只需加入催化量（醇需要加入当量）
@@ -293,18 +270,16 @@ LA 通常只需加入催化量（醇需要加入当量）
 ![image572.png](F.assets/image572.png)
 
 
-
 ## Friedlander Quinoline Synthesis
 
-### 反应式
+### 反应式和反应机理
+
 ![image573.png](F.assets/image573.png)
 
 ![image574.png](F.assets/image574.png)
 
-
-### 反应机理
-
 ### 实际应用
+
 也可以将醛换成亚胺避免副反应
 
 ![image575.png](F.assets/image575.png)
@@ -314,16 +289,14 @@ LA 通常只需加入催化量（醇需要加入当量）
 ![image576.png](F.assets/image576.png)
 
 
-
 ## Fries Rearrangement
 
-### 反应式
+### 反应式和反应机理
+
 ![image577.png](F.assets/image577.png)
 
 ![image578.png](F.assets/image578.png)
 
-
-### 反应机理
 正确的机理没有定论
 
 一些奇怪的结论：
@@ -342,8 +315,8 @@ LA 通常只需加入催化量（醇需要加入当量）
 
 （非极性溶剂中主要为离子对，在邻位反应，极性溶剂中为自由离子，符合正常 FC 规则 ）
 
-
 ### 实际应用
+
 若使用锂则试剂促进很好进行：
 
 ![image580.png](F.assets/image580.png)
@@ -361,20 +334,18 @@ LA 通常只需加入催化量（醇需要加入当量）
 ![image584.png](F.assets/image584.png)
 
 
-
 ## FBS Rearrangement (Fritsch-Buttenberg-Wiechell Rearrangement)
 
-### 反应式
+### 反应式和反应机理
+
 由烯基卡宾生成炔
 
 ![image585.png](F.assets/image585.png)
 
 ![image586.png](F.assets/image586.png)
 
-
-### 反应机理
-
 ### 实际应用
+
 可以用于很诡异的炔烃合成：
 
 ![image587.png](F.assets/image587.png)
@@ -388,10 +359,10 @@ LA 通常只需加入催化量（醇需要加入当量）
 ![image589.png](F.assets/image589.png)
 
 
-
 ## Fujimoto-Belleau Reaction
 
-### 反应式
+### 反应式和反应机理
+
 ![image590.png](F.assets/image590.png)
 
 ![image591.png](F.assets/image591.png)
@@ -403,14 +374,10 @@ LA 通常只需加入催化量（醇需要加入当量）
 ![image593.png](F.assets/image593.png)
 
 
-### 反应机理
-
-### 实际应用
-
-
 ## Fukuyama Reduction/Coupling
 
-### 反应式
+### 反应式和反应机理
+
 将羧酸转化为硫酯，然后转化为
 
 还原：醛
@@ -426,20 +393,11 @@ LA 通常只需加入催化量（醇需要加入当量）
 ![image597.png](F.assets/image597.png)
 
 
-### 反应机理
-
-### 实际应用
-
-
 ## Ferrario-Ackermann Reaction
 
-### 反应式
-
-### 反应机理
-
 ### 实际应用
+
 由 S8 参与的反应，通常用于构造 S 桥
 
 ![image598.png](F.assets/image598.png)
-
 

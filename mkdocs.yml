@@ -14,6 +14,7 @@ nav:
     - 物理化学:
       - 物理化学I笔记: "chem/physical/Physical-Chemistry-I.md"
       - 物理化学II笔记: "chem/physical/Physical-Chemistry-II.md"
+      - 高等物理化学: "chem/physical/adv-phys-chem.md"
       - 相与相图: "chem/physical/Phase-Diagram.md"
     - 理论化学:
       - 量子化学: "chem/theoretical/Quantum-Chemistry.md"
@@ -63,6 +64,7 @@ nav:
       - 统计力学笔记: "maphy/thermo-phys/Statistic-Dynamics.md"
     - 量子物理:
       - 量子力学导论: "maphy/quant-phys/quant-phys-intro.md"
+      - 量子统计物理: "maphy/quant-phys/quant-stat.md"
   - 🖥️计算机:
     - 计算机-首页: "cs/index.md"
     - 机器学习:

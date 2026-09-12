@@ -2,7 +2,8 @@
 
 ## Paal-Knorr Furan/Pyrole Synthesis
 
-### 反应式
+### 反应式和反应机理
+
 制呋喃
 
 ![image991.png](P.assets/image991.png)
@@ -21,10 +22,8 @@
 
 ![image994.png](P.assets/image994.png)
 
-
-### 反应机理
-
 ### 实际应用
+
 胺同样也可以在分子内
 
 ![image995.png](P.assets/image995.png)
@@ -46,48 +45,40 @@
 ![image999.png](P.assets/image999.png)
 
 
-
 ## Parham Cyclization
 
-### 反应式
+### 反应式和反应机理
+
 即锂卤交换 - 亲核
 
 ![image1000.png](P.assets/image1000.png)
 
 
-### 反应机理
-
-### 实际应用
-
-
 ## Passerini Multicomponent Reaction
 
-### 反应式
+### 反应式和反应机理
+
 ![image1001.png](P.assets/image1001.png)
 
 典型的三组分反应
 
 ![image1002.png](P.assets/image1002.png)
 
-
-### 反应机理
-
 ### 实际应用
-这只是三个经典的反应模式，改变底物，可形成不同的杂环
 
+这只是三个经典的反应模式，改变底物，可形成不同的杂环
 
 
 ## Paterno-Buchi Reaction
 
-### 反应式
+### 反应式和反应机理
+
 ![image1003.png](P.assets/image1003.png)
 
 光照下双键与羰基的 2+2
 
 ![image1004.png](P.assets/image1004.png)
 
-
-### 反应机理
 注意：加成的选择性与通常离子机理相反
 
 缺电子烯烃的反应具有选择性，富电子烯烃往往没有， why ？
@@ -117,18 +108,14 @@
 ![image1008.png](P.assets/image1008.png)
 
 
-### 实际应用
-
-
 ## Pauson-Khand Reaction
 
-### 反应式
+### 反应式和反应机理
+
 ![image1009.png](P.assets/image1009.png)
 
-
-### 反应机理
-
 ### 实际应用
+
 便利的合成环戊烯酮
 
 ![image1010.png](P.assets/image1010.png)
@@ -148,10 +135,10 @@
 （或使CO变为CO 2 离去）
 
 
-
 ## Payne Rearrangement
 
-### 反应式
+### 反应式和反应机理
+
 ![image1012.png](P.assets/image1012.png)
 
 环氧重排！需要强碱 + 质子溶剂进行
@@ -186,10 +173,8 @@
 
 ![image1016.png](P.assets/image1016.png)
 
-
-### 反应机理
-
 ### 实际应用
+
 3 ）分子内氢键或其他作用不显著
 
 对于 N-O 体系：
@@ -227,27 +212,21 @@
 ![image1022.png](P.assets/image1022.png)
 
 
-
 ## Pechmann Condensation
 
-### 反应式
+### 反应式和反应机理
+
 ![image1023.png](P.assets/image1023.png)
 
 ![image1024.png](P.assets/image1024.png)
 
 
-### 反应机理
-
-### 实际应用
-
-
 ## Perkin Reaction
 
-### 反应式
+### 反应式和反应机理
+
 ![image1025.png](P.assets/image1025.png)
 
-
-### 反应机理
 醛类无α氢（否则醛更容易互变异构）
 
 两个变式：
@@ -268,8 +247,8 @@
 
 ![image1030.png](P.assets/image1030.png)
 
-
 ### 实际应用
+
 合成不饱和羧酸……以及各种变式
 
 ![image1026.png](P.assets/image1026.png)
@@ -279,14 +258,12 @@
 需要碱 + 热
 
 
-
 ## Petasis Reaction
 
-### 反应式
+### 反应式和反应机理
+
 ![image1031.png](P.assets/image1031.png)
 
-
-### 反应机理
 对于一般的醛，经历“ Ate 中间体”
 
 ![image1032.png](P.assets/image1032.png)
@@ -295,8 +272,8 @@
 
 ![image1033.png](P.assets/image1033.png)
 
-
 ### 实际应用
+
 胺上的硼取代基（也许算个三组分反应），硼酸酯起到类似 Mannich 的亲核试剂的作用
 
 B 上也可以是芳基
@@ -312,10 +289,10 @@ B 上也可以是芳基
 ![image1036.png](P.assets/image1036.png)
 
 
-
 ## Petasis-Ferrier Rearrangement
 
-### 反应式
+### 反应式和反应机理
+
 ![image1037.png](P.assets/image1037.png)
 
 通过形成亚甲基，转换环内和环外原子，之后经过 Al 还原，类似于 FerrierII 重排
@@ -327,20 +304,14 @@ Al 还原一步取决于取代基，使用甲基取代的 Al 不会发生还原�
 五元环重排温度远远高于六元环重排
 
 
-### 反应机理
-
-### 实际应用
-
-
 ## Peterson Rearrangement
 
-### 反应式
+### 反应式和反应机理
+
 ![image1039.png](P.assets/image1039.png)
 
-
-### 反应机理
-
 ### 实际应用
+
 使用硅叶立德进行羰基→双键，由于弱的稳定化作用，该试剂很活泼，只能原位制备，可以完成 Wittig 做不到的事（位阻过大）
 
 ![image1040.png](P.assets/image1040.png)
@@ -348,10 +319,10 @@ Al 还原一步取决于取代基，使用甲基取代的 Al 不会发生还原�
 Base 为顺式消除，而 acid 为反式消除
 
 
-
 ## Pfitzner-Moffatt oxidation
 
-### 反应式
+### 反应式和反应机理
+
 ![image1041.png](P.assets/image1041.png)
 
 ![image1042.png](P.assets/image1042.png)
@@ -367,14 +338,10 @@ Base 为顺式消除，而 acid 为反式消除
 4 ）这个
 
 
-### 反应机理
-
-### 实际应用
-
-
 ## Pictet-Spengler Synthesis
 
-### 反应式
+### 反应式和反应机理
+
 ![image1043.png](P.assets/image1043.png)
 
 制取四氢异喹啉
@@ -382,22 +349,16 @@ Base 为顺式消除，而 acid 为反式消除
 ![image1044.png](P.assets/image1044.png)
 
 
-### 反应机理
-
-### 实际应用
-
-
 ## Pinacol and Semipinacol Rearrangement
 
-### 反应式
+### 反应式和反应机理
+
 ![image1045.png](P.assets/image1045.png)
 
 ![image1046.png](P.assets/image1046.png)
 
 该反应的迁移选择性取决于酸：
 
-
-### 反应机理
 若反应为 H2SO4(conc.) 体系，经历类碳正离子过渡态，迁移基团为较好消除的基团（氢最优）
 
 若反应为 HOAc 体系，经历迁移过渡态，迁移基团为能带着电子转移的基团（氢最次）
@@ -405,12 +366,10 @@ Base 为顺式消除，而 acid 为反式消除
 羰基的迁移能力好，来自于其 n →σ * 作用
 
 
-### 实际应用
-
-
 ## Pinner Reaction
 
-### 反应式
+### 反应式和反应机理
+
 ![image1047.png](P.assets/image1047.png)
 
 干 HCl ，氰基上的亲核
@@ -419,19 +378,17 @@ Base 为顺式消除，而 acid 为反式消除
 
 加入 LA 或质子酸也能祈祷同样的效果
 
-
-### 反应机理
-
 ### 实际应用
+
 原位生成 NHC
 
 ![image1049.png](P.assets/image1049.png)
 
 
-
 ## Pinnick Oxidation
 
-### 反应式
+### 反应式和反应机理
+
 ![image1050.png](P.assets/image1050.png)
 
 将醛氧化为酸
@@ -445,14 +402,10 @@ Base 为顺式消除，而 acid 为反式消除
 ![image1052.png](P.assets/image1052.png)
 
 
-### 反应机理
-
-### 实际应用
-
-
 ## Polonovski Reaction
 
-### 反应式
+### 反应式和反应机理
+
 使用 Ac2O 和氨氧化物进行反应，离去醛生成酰胺
 
 ![image1053.png](P.assets/image1053.png)
@@ -467,31 +420,27 @@ Polonovski-Potier Reaction
 
 ![image1056.png](P.assets/image1056.png)
 
-
-### 反应机理
-
 ### 实际应用
+
 使用 TFAA 代替 Ac2O 处理胺，得到官能化产物
 
 ![image1057.png](P.assets/image1057.png)
 
 
-
 ## Prevost & Woodward Reaction
 
-### 反应式
+### 反应式和反应机理
+
 ![image1058.png](P.assets/image1058.png)
 
 加入 1 当量醋酸银 + 水溶剂得到顺式，加入 2 当量醋酸根得到得到反式
 
 ![image1059.png](P.assets/image1059.png)
 
-
-### 反应机理
 注意 Ac 参与的中间体很容易被亲核试剂（此处为 H2O ）进攻，从而产生顺式立体化学
 
-
 ### 实际应用
+
 Woodward 方法制得的双羟从位阻较大的一侧进行（其他金属氧化剂为较小一侧）
 
 体系内产生了银盐，可以改进：
@@ -501,14 +450,12 @@ Woodward 方法制得的双羟从位阻较大的一侧进行（其他金属氧�
 ![image1061.png](P.assets/image1061.png)
 
 
-
 ## Prilezhav reaction
 
-### 反应式
+### 反应式和反应机理
+
 ![image1062.png](P.assets/image1062.png)
 
-
-### 反应机理
 过氧酸的加成立体构型为螺环过渡态
 
 ![image1063.png](P.assets/image1063.png)
@@ -520,13 +467,21 @@ Woodward 方法制得的双羟从位阻较大的一侧进行（其他金属氧�
 ![image1064.png](P.assets/image1064.png)
 
 
-### 实际应用
-
-
 ## Prins Reaction
 
-### 反应式
+### 反应式和反应机理
+
 ![image1065.png](P.assets/image1065.png)
+
+由于 Baldwin 规则，只能关出六元环（五元环禁阻）
+
+对于这种加成 - 消除机理 ，往往走oxy -ene ━生成端位烯烃
+
+![image1069.png](P.assets/image1069.png)
+
+双prins反应：
+
+![image1070.png](P.assets/image1070.png)
 
 识别：邻二醇 + 醛（或直接加入其缩合产物） + 烯基 +LA →高取代四氢呋喃
 
@@ -537,18 +492,6 @@ Woodward 方法制得的双羟从位阻较大的一侧进行（其他金属氧�
 讨论： prins-pinacol or 33-Aldol ？
 
 若有羟基推动：
-
-
-### 反应机理
-由于 Baldwin 规则，只能关出六元环（五元环禁阻）
-
-对于这种加成 - 消除机理 ，往往走oxy -ene ━生成端位烯烃
-
-![image1069.png](P.assets/image1069.png)
-
-双prins反应：
-
-![image1070.png](P.assets/image1070.png)
 
 取决于立体化学：
 
@@ -564,8 +507,8 @@ N （较稳定）→ 33-aldol
 
 若无羟基推动：（春联）
 
-
 ### 实际应用
+
 烯烃作为亲核试剂进攻羰基
 
 ![image1066.png](P.assets/image1066.png)
@@ -591,20 +534,17 @@ prins不利，只能 33
 ![image1073.png](P.assets/image1073.png)
 
 
-
 ## Pummerer Rearrangement
 
-### 反应式
+### 反应式和反应机理
+
 ![image1074.png](P.assets/image1074.png)
 
 硫的特征重排反应
 
 ![image1075.png](P.assets/image1075.png)
 
-
-### 反应机理
-
 ### 实际应用
-该反应的变体详见 C-S
 
+该反应的变体详见 C-S
 

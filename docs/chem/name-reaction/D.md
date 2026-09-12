@@ -2,7 +2,8 @@
 
 ## Dakin Oxidation
 
-### 反应式
+### 反应式和反应机理
+
 ![image412.png](D.assets/image412.png)
 
 和 BV 的区分：
@@ -36,22 +37,16 @@ H2O2-urea （ UHP ）过氧化氢尿素配合物
 ![image420.png](D.assets/image420.png)
 
 
-### 反应机理
-
-### 实际应用
-
-
 ## Dakin-West Reaction
 
-### 反应式
+### 反应式和反应机理
+
 识别：氨基酸 + 酸酐→氨基酮（即酸上变成了酸酐的基团）
 
 ![image421.png](D.assets/image421.png)
 
 我愿称之为宇宙无敌究极爆炸难人名反应
 
-
-### 反应机理
 尝试分析机理：
 
 ①生成 N- 取代物
@@ -67,29 +62,23 @@ H2O2-urea （ UHP ）过氧化氢尿素配合物
 后一步进行水解，可以制的氨上无取代的氨基酮
 
 
-### 实际应用
-
-
 ## Danheiser Benzannulation
 
-### 反应式
+### 反应式和反应机理
+
 ![image422.png](D.assets/image422.png)
 
 4 Π→ 2+2 → 4 Π→ 6 Π
 
 ![image423.png](D.assets/image423.png)
 
-
-### 反应机理
 注意易碎裂化的四元共轭环酮的中间体
-
-
-### 实际应用
 
 
 ## Danheiser Cyclopentene Annulation
 
-### 反应式
+### 反应式和反应机理
+
 ![image424.png](D.assets/image424.png)
 
 ![image425.png](D.assets/image425.png)
@@ -105,14 +94,10 @@ H2O2-urea （ UHP ）过氧化氢尿素配合物
 ![image426.png](D.assets/image426.png)
 
 
-### 反应机理
-
-### 实际应用
-
-
 ## Danishefsky's Diene Cycloaddition
 
-### 反应式
+### 反应式和反应机理
+
 ![image427.png](D.assets/image427.png)
 
 Preperation
@@ -123,27 +108,21 @@ Preperation
 
 立志往前 Bazzard Diene 差不多，均为富电子底物，可以与 C=C 、 C=O 、 C=N 发生加成
 
-
-### 反应机理
 通常： B 、 Ti 一类的 LA 导致分步机理，而其他的走协同机理
-
-
-### 实际应用
 
 
 ## Darzens Condensation
 
-### 反应式
+### 反应式和反应机理
+
 ![image430.png](D.assets/image430.png)
 
 ![image431.png](D.assets/image431.png)
 
 通常用 NaOMe/Na/NaNH2/LDA/t-BuOK 等强碱
 
-
-### 反应机理
-
 ### 实际应用
+
 只有α - 氯酯的产率最高（更少的 SN2 取代反应）
 
 同系化串联反应：酮→醛
@@ -169,10 +148,10 @@ Darzen 缩合卤代酯 + 酯水解，开环氧
 也成了环丙烷， why ？
 
 
-
 ## Davis' Oxzziridine Oxidations
 
-### 反应式
+### 反应式和反应机理
+
 ![image437.png](D.assets/image437.png)
 
 最常见的为 N 上带磺酰基的配合物
@@ -189,48 +168,42 @@ Darzen 缩合卤代酯 + 酯水解，开环氧
 
 5 ）羰基α位羟基化（最重要）
 
-
-### 反应机理
 氧化过程经历螺形过渡态
 
 ![image438.png](D.assets/image438.png)
 
 若加入底物过量，可能与副产物亚胺反应
 
-
 ### 实际应用
+
 手性催化剂使用例：
 
 ![image439.png](D.assets/image439.png)
 
 
-
 ## Delepine Reaction
 
-### 反应式
+### 反应式和反应机理
+
 ![image440.png](D.assets/image440.png)
 
 ![image441.png](D.assets/image441.png)
 
-
-### 反应机理
-
 ### 实际应用
+
 应用：一锅煮下二氢吡咯
 
 ![image442.png](D.assets/image442.png)
 
 
-
 ## Demjanov & Tiffeneau-Demjanov Rearrangement
 
-### 反应式
+### 反应式和反应机理
+
 ![image451.png](D.assets/image451.png)
 
 ![image452.png](D.assets/image452.png)
 
-
-### 反应机理
 重排的选择性与立体电子效应有关：
 
 ![image454.png](D.assets/image454.png)
@@ -239,8 +212,8 @@ Darzen 缩合卤代酯 + 酯水解，开环氧
 
 形成重氮后，重氮会和氧发生相互作用，导致构象受到限制，没有可迁移基团
 
-
 ### 实际应用
+
 改进前的重排只能处理 4-6 的环系，改进后（类似 semi-pinacol ）可以处理较大的环系
 
 ![image453.png](D.assets/image453.png)
@@ -254,25 +227,23 @@ Darzen 缩合卤代酯 + 酯水解，开环氧
 ![image456.png](D.assets/image456.png)
 
 
-
 ## DEPBT Reagent
 
-### 反应式
+### 反应式和反应机理
+
 ![image457.png](D.assets/image457.png)
 
-
-### 反应机理
-
 ### 实际应用
+
 用于氨基醇的脱水偶联
 
 ![image458.png](D.assets/image458.png)
 
 
-
 ## Dess-Martin Oxidation
 
-### 反应式
+### 反应式和反应机理
+
 ![image459.png](D.assets/image459.png)
 
 一般不用 IBX ：高极性带来的有机相溶解度低，稳定性低
@@ -293,10 +264,8 @@ Darzen 缩合卤代酯 + 酯水解，开环氧
 
 加入过量乙醇 / 水可以催化反应（生成不稳定乙氧基配合物 /IBX ，氧化性更强）
 
-
-### 反应机理
-
 ### 实际应用
+
 方法学： DMP+NaClO2 温和条件下的醇→酸
 
 ![image463.png](D.assets/image463.png)
@@ -310,10 +279,10 @@ Darzen 缩合卤代酯 + 酯水解，开环氧
 ![image465.png](D.assets/image465.png)
 
 
-
 ## Dieckmann Condensation
 
-### 反应式
+### 反应式和反应机理
+
 即环内 Claisen 缩合
 
 ![image466.png](D.assets/image466.png)
@@ -321,22 +290,16 @@ Darzen 缩合卤代酯 + 酯水解，开环氧
 ![image467.png](D.assets/image467.png)
 
 
-### 反应机理
-
-### 实际应用
-
-
 ## Diels-Alder Reaction
 
-### 反应式
+### 反应式和反应机理
+
 ![image468.png](D.assets/image468.png)
 
 ![image469.png](D.assets/image469.png)
 
 谁都会的 4+2
 
-
-### 反应机理
 立体选择性：由于次级轨道相互作用，一般内型
 
 轨道的分析：
@@ -383,8 +346,8 @@ endo 选择性仍然奏效——富电子基朝向 endo
 
 在实际情况中，用到丙烯醛的反应需要加入四氢吡咯防止二聚
 
-
 ### 实际应用
+
 需要注意的变体：
 
 Retro-D-A （需要更高的温度，通常离去好离去的分子）
@@ -436,35 +399,33 @@ Inverse electron-demand Diels–Alder reaction
 ![image489.png](D.assets/image489.png)
 
 
-
 ## Dienone-Phenol Rearrangement
 
-### 反应式
+### 反应式和反应机理
+
 ![image492.png](D.assets/image492.png)
 
 需要在酸性 / LA 条件下进行
 
 ![image493.png](D.assets/image493.png)
 
-
-### 反应机理
 一些其他的迁移方式：
 
 若为烯丙基，则经历 [3,3] σ迁移得到产物
 
 若为苄基，则经历 [1,5] σ迁移
 
-
 ### 实际应用
+
 脱羧 - 重排例子
 
 ![image494.png](D.assets/image494.png)
 
 
-
 ## Dimroth Rearrangement
 
-### 反应式
+### 反应式和反应机理
+
 ![image496.png](D.assets/image496.png)
 
 一些印象因素：
@@ -475,8 +436,6 @@ Inverse electron-demand Diels–Alder reaction
 
 3 ）热力学稳定性
 
-
-### 反应机理
 机理（哎哟，这不 ANRORC 吗，下次注意）
 
 ![image497.png](D.assets/image497.png)
@@ -486,12 +445,10 @@ Smile 更多的是环外取代基的替换，换内部杂原子还得看 ANRORC
 ![image498.png](D.assets/image498.png)
 
 
-### 实际应用
-
-
 ## Diering-Laflamme Allene Synthesis
 
-### 反应式
+### 反应式和反应机理
+
 烯中插入连烯
 
 ![image499.png](D.assets/image499.png)
@@ -504,8 +461,6 @@ Smile 更多的是环外取代基的替换，换内部杂原子还得看 ANRORC
 
 注意看右边的的环丙烷，可以直接造出重氮环丙烷
 
-
-### 反应机理
 分析其机理：
 
 ![image502.png](D.assets/image502.png)
@@ -529,12 +484,10 @@ C ：碎裂化后消除
 ![image503.png](D.assets/image503.png)
 
 
-### 实际应用
-
-
 ## Dotz Benzannulation Reaction
 
-### 反应式
+### 反应式和反应机理
+
 ![image504.png](D.assets/image504.png)
 
 ![image505.png](D.assets/image505.png)
@@ -548,18 +501,9 @@ C ：碎裂化后消除
 ![image507.png](D.assets/image507.png)
 
 
-### 反应机理
-
-### 实际应用
-
-
 ## Dudeley Reaction
 
-### 反应式
+### 反应式和反应机理
+
 ![image508.png](D.assets/image508.png)
-
-
-### 反应机理
-
-### 实际应用
 

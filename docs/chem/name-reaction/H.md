@@ -2,7 +2,8 @@
 
 ## Halogen Dance
 
-### 反应式
+### 反应式和反应机理
+
 根本原因：在芳环上的 Li 需要找到一个合适的位置来稳定（通常是吸电子基），通过拔氢 +Li-Hal 交换进行，对自身反应
 
 反应启动为 LDA （难以交换），但也可用少量（ 0.5equiv ） BuLi 通过 LiHal 交换启动
@@ -58,14 +59,10 @@ pentanone 太大了， Cl 的位阻也很大，还不如打自己
 为了更小的位阻进攻，直接 dance 回去了
 
 
-### 反应机理
-
-### 实际应用
-
-
 ## Hajos–Parrish–Eder–Sauer–Wiechert Reaction
 
-### 反应式
+### 反应式和反应机理
+
 我愿将其奉为名字最长人名
 
 即脯氨酸催化的不对称 Robinson 环化，一般关六元环
@@ -78,8 +75,6 @@ pentanone 太大了， Cl 的位阻也很大，还不如打自己
 
 对映体不利：氢键附近与平伏键甲基相互排斥
 
-
-### 反应机理
 分析过渡态：
 
 对于五六元环：由于构象限制和没那么大的位阻，倾向于采取 cis
@@ -92,8 +87,8 @@ pentanone 太大了， Cl 的位阻也很大，还不如打自己
 
 ![image651.png](H.assets/image651.png)
 
-
 ### 实际应用
+
 有时苯丙氨酸也可以表现出更强的催化性能
 
 令人疑惑的选择性：
@@ -105,10 +100,10 @@ pentanone 太大了， Cl 的位阻也很大，还不如打自己
 ![image648.png](H.assets/image648.png)
 
 
-
 ## Haller-Bauer Reaction
 
-### 反应式
+### 反应式和反应机理
+
 ![image652.png](H.assets/image652.png)
 
 氨基钠作用下的酮的断裂
@@ -118,26 +113,20 @@ pentanone 太大了， Cl 的位阻也很大，还不如打自己
 ![image654.png](H.assets/image654.png)
 
 
-### 反应机理
-
-### 实际应用
-
-
 ## Hantzsch Reaction
 
-### 反应式
+### 反应式和反应机理
+
 ![image655.png](H.assets/image655.png)
 
 识别：醛 + 两分子αβ + 氨（一般 NH4OAc) →五取代的二氢吡啶
 
 ![image656.png](H.assets/image656.png)
 
-
-### 反应机理
 两个中间体为亚胺缩合产物和 Knv 缩合产物
 
-
 ### 实际应用
+
 二氢吡啶会自发氧化成吡啶，也可以加入氧化剂
 
 也可以加入羟胺，经过脱水直接得道吡啶
@@ -179,10 +168,10 @@ For ene reaction ：
 ![image662.png](H.assets/image662.png)
 
 
-
 ## Heck Reaction
 
-### 反应式
+### 反应式和反应机理
+
 ![image664.png](H.assets/image664.png)
 
 ![image665.png](H.assets/image665.png)
@@ -204,33 +193,27 @@ For ene reaction ：
 ![image667.png](H.assets/image667.png)
 
 
-### 反应机理
-
-### 实际应用
-
-
 ## Heine Reaction
 
-### 反应式
+### 反应式和反应机理
+
 ![image668.png](H.assets/image668.png)
 
 吖啶上 N 取代各种吸电子基，亲核扩环成杂五元环
 
-
-### 反应机理
 立体化学得以保留
 
 ![image669.png](H.assets/image669.png)
 
-
 ### 实际应用
-亲核试剂只能是 NaI 或 KSCN ，溶剂为丙酮，乙腈（促进 SN2 ）
 
+亲核试剂只能是 NaI 或 KSCN ，溶剂为丙酮，乙腈（促进 SN2 ）
 
 
 ## Hell-Volhard-Zenlinsky
 
-### 反应式
+### 反应式和反应机理
+
 ![image670.png](H.assets/image670.png)
 
 羧酸的α - 卤代
@@ -241,12 +224,10 @@ For ene reaction ：
 
 需要催化量的 P 或者 PX3
 
-
-### 反应机理
 仅有溴化能顺利进行，氯化可能会与自由基反应竞争，氟化和碘化失败
 
-
 ### 实际应用
+
 若最后一步不水解，也可以加入其他亲核试剂
 
 改进：
@@ -254,10 +235,10 @@ For ene reaction ：
 用酰基磷酸酯与 SO2Cl2 反应后水解
 
 
-
 ## Henry Reaction
 
-### 反应式
+### 反应式和反应机理
+
 通过硝基稳定的亲核反应
 
 ![image672.png](H.assets/image672.png)
@@ -270,10 +251,8 @@ For ene reaction ：
 
 只有脂肪醛能较好反应，酮不会反应
 
-
-### 反应机理
-
 ### 实际应用
+
 也可以和缩醛在 LA 催化下反应
 
 ![image674.png](H.assets/image674.png)
@@ -289,10 +268,10 @@ For ene reaction ：
 ![image675.png](H.assets/image675.png)
 
 
-
 ## Hinsberg test
 
-### 反应式
+### 反应式和反应机理
+
 用苯磺酰氯和 KOH 检验胺的级数
 
 1 ）一级胺，生成物可溶于碱，不溶于酸
@@ -308,14 +287,10 @@ For ene reaction ：
 ![image678.png](H.assets/image678.png)
 
 
-### 反应机理
-
-### 实际应用
-
-
 ## Hiyama Reaction
 
-### 反应式
+### 反应式和反应机理
+
 ![image679.png](H.assets/image679.png)
 
 ![image680.png](H.assets/image680.png)
@@ -337,14 +312,10 @@ b ）使用小环（硅杂环丁烷）
 ![image683.png](H.assets/image683.png)
 
 
-### 反应机理
-
-### 实际应用
-
-
 ## Hofmann Elimination
 
-### 反应式
+### 反应式和反应机理
+
 ![image684.png](H.assets/image684.png)
 
 ![image685.png](H.assets/image685.png)
@@ -357,8 +328,6 @@ b ）使用小环（硅杂环丁烷）
 
 3 ）减压加热消除
 
-
-### 反应机理
 1 ）双键在过渡态中的形成程度
 
 2 ）氢的酸性
@@ -369,8 +338,8 @@ b ）使用小环（硅杂环丁烷）
 
 当环状体系内消除时，最重要的是氢的可用程度（ available ），因此会消除取代较多的β氢？
 
-
 ### 实际应用
+
 改进法：直接加入 tBuOK 等消除
 
 有三种选择性的控制的解释：
@@ -400,10 +369,10 @@ Eschenmoser 盐 mannich 后 hoffmann
 ![image690.png](H.assets/image690.png)
 
 
-
 ## Hofmann isonitrile synthesis
 
-### 反应式
+### 反应式和反应机理
+
 ![image691.png](H.assets/image691.png)
 
 ![image692.png](H.assets/image692.png)
@@ -411,14 +380,10 @@ Eschenmoser 盐 mannich 后 hoffmann
 由卡宾重排生产异腈
 
 
-### 反应机理
-
-### 实际应用
-
-
 ## Hofmann-Loffler-Freytag Reaction
 
-### 反应式
+### 反应式和反应机理
+
 ![image693.png](H.assets/image693.png)
 
 ![image694.png](H.assets/image694.png)
@@ -431,10 +396,8 @@ Eschenmoser 盐 mannich 后 hoffmann
 
 ![image696.png](H.assets/image696.png)
 
-
-### 反应机理
-
 ### 实际应用
+
 如何制备卤代氮？
 
 1 ） NCS/NaClO
@@ -442,16 +405,14 @@ Eschenmoser 盐 mannich 后 hoffmann
 2 ） I2+PhIO/PhI(OAc)2/Pb(OAc)2
 
 
-
 ## Hofmann Rearrangement
 
-### 反应式
+### 反应式和反应机理
+
 ![image697.png](H.assets/image697.png)
 
-
-### 反应机理
-
 ### 实际应用
+
 识别：酰胺→胺衍生物
 
 ![image698.png](H.assets/image698.png)
@@ -465,10 +426,10 @@ Eschenmoser 盐 mannich 后 hoffmann
 ![image700.png](H.assets/image700.png)
 
 
-
 ## Horner-Wadsworth-Emmons Olefination
 
-### 反应式
+### 反应式和反应机理
+
 ![image701.png](H.assets/image701.png)
 
 ![image702.png](H.assets/image702.png)
@@ -481,14 +442,12 @@ Still Modification
 
 ![image704.png](H.assets/image704.png)
 
-
-### 反应机理
 将 P 变得更缺电子，引起决速步的改变
 
 减小 ylide 位阻，在 P 上加吸电子基，使碱更裸露（加入 18c6 ）可以增加 Z 选择性
 
-
 ### 实际应用
+
 Masamune-Roush 改良法
 
 ![image705.png](H.assets/image705.png)
@@ -498,10 +457,10 @@ Horner-Witttig 反应
 ![image706.png](H.assets/image706.png)
 
 
-
 ## Houben-Hoesch Reaction
 
-### 反应式
+### 反应式和反应机理
+
 ![image707.png](H.assets/image707.png)
 
 ![image708.png](H.assets/image708.png)
@@ -509,20 +468,11 @@ Horner-Witttig 反应
 需要加强 LA 活化
 
 
-### 反应机理
-
-### 实际应用
-
-
 ## Hunsdiecker Reaction
 
-### 反应式
+### 反应式和反应机理
+
 ![image709.png](H.assets/image709.png)
 
 ![image710.png](H.assets/image710.png)
-
-
-### 反应机理
-
-### 实际应用
 

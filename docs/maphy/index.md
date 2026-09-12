@@ -23,4 +23,5 @@
   - 统计力学笔记: "thermo-phys/Statistic-Dynamics"
 - 量子物理:
   - 量子力学导论: "quant-phys/quant-phys_intro"
+  - 量子统计物理: "quant-phys/quant-stat"
 {{ END_TOC }}

@@ -24,6 +24,7 @@
 - 物理化学:
     - 物理化学I: "physical/Physical-Chemistry-I"
     - 物理化学II: "physical/Physical-Chemistry-II"
+    - 高等物理化学: "physical/adv-phys-chem"
     - 相与相图: "physical/Phase-Diagram"
 - 理论化学:
     - 量子化学: "theoretical/Quantum-Chemistry"

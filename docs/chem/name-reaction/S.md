@@ -2,7 +2,8 @@
 
 ## Saegusa Oxidation
 
-### 反应式
+### 反应式和反应机理
+
 ![image1114.png](S.assets/image1114.png)
 
 使用 Pd(OAc)2 氧化烯醇硅醚到不饱和酮
@@ -14,18 +15,12 @@
 ![image1116.png](S.assets/image1116.png)
 
 
-### 反应机理
-
-### 实际应用
-
-
 ## Sakurai Allylation
 
-### 反应式
+### 反应式和反应机理
+
 ![image1117.png](S.assets/image1117.png)
 
-
-### 反应机理
 催化反应的可能机理，由于 SiF 键能很大， TBAF 很可能不作为催化剂而是作为引发剂：
 
 ![image1124.png](S.assets/image1124.png)
@@ -38,8 +33,8 @@
 
 ![image1126.png](S.assets/image1126.png)
 
-
 ### 实际应用
+
 硅试剂 +LA 的烯丙基化
 
 ![image1118.png](S.assets/image1118.png)
@@ -71,10 +66,10 @@ E 型双键有较好的选择性
 ![image1123.png](S.assets/image1123.png)
 
 
-
 ## Sandermayer Reaction
 
-### 反应式
+### 反应式和反应机理
+
 ![image1127.png](S.assets/image1127.png)
 
 铜催化的芳香重氮取代
@@ -90,14 +85,10 @@ E 型双键有较好的选择性
 3 ）水溶液加热生成苯酚
 
 
-### 反应机理
-
-### 实际应用
-
-
 ## Schmidt Reaction
 
-### 反应式
+### 反应式和反应机理
+
 ![image1129.png](S.assets/image1129.png)
 
 氮宾重排 - 其四
@@ -108,8 +99,6 @@ E 型双键有较好的选择性
 
 若为醛则转化为腈，酸转化为异氰酸酯，之后后续转换
 
-
-### 反应机理
 反应机理：
 
 ![image1132.png](S.assets/image1132.png)
@@ -128,36 +117,34 @@ Schmidt → Ritter
 
 ![image1135.png](S.assets/image1135.png)
 
-
 ### 实际应用
+
 分子内的叠氮基团也可以进行分子内反应，注意反应位点
 
 ![image1131.png](S.assets/image1131.png)
 
 
-
 ## Schotten-Baumann Reaction
 
-### 反应式
+### 反应式和反应机理
+
 ![image1136.png](S.assets/image1136.png)
 
 ![image1137.png](S.assets/image1137.png)
 
 反应活性：伯醇最强（不需要碱即可发生反应）
 
-
-### 反应机理
-
 ### 实际应用
+
 其他醇均需要碱参与反应
 
 胺需要碱式反应，亲核性比醇更强
 
 
-
 ## Schwartz Hydroziconation
 
-### 反应式
+### 反应式和反应机理
+
 ![image1138.png](S.assets/image1138.png)
 
 Zr 化后把金属拉向位阻最小的末端
@@ -167,14 +154,10 @@ Zr 化后把金属拉向位阻最小的末端
 之后偶联 / 插入 / 亲电猝灭
 
 
-### 反应机理
-
-### 实际应用
-
-
 ## Seyferth-Glibert Homologation
 
-### 反应式
+### 反应式和反应机理
+
 ![image1140.png](S.assets/image1140.png)
 
 各种醛 / 酮→炔
@@ -194,22 +177,16 @@ Zr 化后把金属拉向位阻最小的末端
 ![image1142.png](S.assets/image1142.png)
 
 
-### 反应机理
-
-### 实际应用
-
-
 ## Sharpless Asymmetric Aminohydroxylation
 
-### 反应式
+### 反应式和反应机理
+
 ![image1143.png](S.assets/image1143.png)
 
 ![image1144.png](S.assets/image1144.png)
 
-
-### 反应机理
-
 ### 实际应用
+
 利用手性配体和 Os 和 N 试剂对双键进行加成
 
 ![image1145.png](S.assets/image1145.png)
@@ -217,10 +194,10 @@ Zr 化后把金属拉向位阻最小的末端
 ![image1146.png](S.assets/image1146.png)
 
 
-
 ## Sharpless Asymmetric Dihydroxylation
 
-### 反应式
+### 反应式和反应机理
+
 ![image1147.png](S.assets/image1147.png)
 
 同上
@@ -228,14 +205,10 @@ Zr 化后把金属拉向位阻最小的末端
 ![image1148.png](S.assets/image1148.png)
 
 
-### 反应机理
-
-### 实际应用
-
-
 ## Sharpless Asymmetric Epoxidation
 
-### 反应式
+### 反应式和反应机理
+
 ![image1149.png](S.assets/image1149.png)
 
 与环氧化反应基本相同，但注意夹角为 60 °
@@ -243,20 +216,14 @@ Zr 化后把金属拉向位阻最小的末端
 ![image1150.png](S.assets/image1150.png)
 
 
-### 反应机理
-
-### 实际应用
-
-
 ## Shi Asymmetric Epoxidation
 
-### 反应式
+### 反应式和反应机理
+
 ![image1151.png](S.assets/image1151.png)
 
-
-### 反应机理
-
 ### 实际应用
+
 由果糖制取的不对称环氧化试剂
 
 ![image1152.png](S.assets/image1152.png)
@@ -272,33 +239,24 @@ Zr 化后把金属拉向位阻最小的末端
 ![image1155.png](S.assets/image1155.png)
 
 
-
 ## Shiina Macrolactonization
 
-### 反应式
-
-### 反应机理
-
 ### 实际应用
+
 不常见的大环合成
 
 ![image1156.png](S.assets/image1156.png)
 
 
-
 ## Simmons-Smith Cyclopropanation
 
-### 反应式
+### 反应式和反应机理
+
 ![image1157.png](S.assets/image1157.png)
 
 环丙烷化
 
 ![image1158.png](S.assets/image1158.png)
 
-
-### 反应机理
 注意 3spiro3 过渡态
-
-
-### 实际应用
 
