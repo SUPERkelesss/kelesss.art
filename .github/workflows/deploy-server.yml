@@ -1,0 +1,35 @@
+name: Deploy to kelesss-server
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-kelesss-server
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Configure server host key
+        run: |
+          install -d -m 700 ~/.ssh
+          printf '%s\n' '101.34.91.104 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIC1NcNF8WN3lpaGEi6XDzi4d7/q7DGuBG9NgpjiABOvN' > ~/.ssh/known_hosts
+          chmod 600 ~/.ssh/known_hosts
+
+      - name: Load deployment key
+        uses: webfactory/ssh-agent@v0.9.0
+        with:
+          ssh-private-key: ${{ secrets.DEPLOY_SSH_KEY }}
+
+      - name: Push main to the deployment receiver
+        run: |
+          git remote add deploy ssh://ubuntu@101.34.91.104/home/ubuntu/kelesss.art.git
+          git push deploy HEAD:main

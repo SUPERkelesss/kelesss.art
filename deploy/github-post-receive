@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+APP_DIR="/home/ubuntu/kelesss.art"
+GIT_DIR="/home/ubuntu/kelesss.art.git"
+
+while read -r _old_rev _new_rev ref_name; do
+  [[ "$ref_name" == "refs/heads/main" ]] || continue
+
+  git --git-dir="$GIT_DIR" --work-tree="$APP_DIR" checkout --force main
+  "$APP_DIR/venv/bin/pip" install --disable-pip-version-check -q -r "$APP_DIR/requirements.txt"
+  sudo /bin/systemctl restart kelesss-mkdocs.service
+done
