@@ -24,7 +24,7 @@ $$
 
 > Mardt, A., Pasquali, L., Wu, H. *et al.* VAMPnets for deep learning of molecular kinetics. *Nat Commun* **9**, 5 (2018). https://doi.org/10.1038/s41467-017-02388-1
 
-简单来说，就是先预测一条trajectory，之后不断通过给模型喂t时刻的坐标和$t+\tau$ 这个未来时间的坐标，让模型自己找关系。 
+简单来说，就是先预测一条trajectory，之后不断通过给模型喂t时刻的坐标和$t+\tau$ 这个未来时间的坐标，让模型自己找关系。 
 
 先要了解**Koopman**理论，即对于一段时间 $\tau$ 的坐标演化
 $$
@@ -71,5 +71,9 @@ $$
 > - Vol. 71:361-390 (Volume publication date April 2020) https://doi.org/10.1146/annurev-physchem-042018-052331
 > - First published as a Review in Advance on February 24, 2020
 
-综述啊总数
+综述啊总数。懒得看
+
+---
+
+
 

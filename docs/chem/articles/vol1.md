@@ -24,3 +24,18 @@
 > | Subjects: | **Materials Science (cond-mat.mtrl-sci)**                    |
 > | Cite as:  | **[arXiv:2609.03576](https://arxiv.org/abs/2609.03576) [cond-mat.mtrl-sci]** |
 
+
+
+---
+
+## Machine learning kinetics from molecular dynamics data
+
+> [Jonathan Weare](https://arxiv.org/search/physics?searchtype=author&query=Weare,+J), [Aaron R. Dinner](https://arxiv.org/search/physics?searchtype=author&query=Dinner,+A+R)
+>
+> > Most molecular transitions occur on timescales far beyond direct molecular dynamics simulations. The committor, the probability that a configuration reaches a product state before a reactant state, is a central kinetic statistic, providing a mechanism-independent reaction coordinate and a foundation for transition path theory and the calculation of rates. This review surveys modern approaches for estimating the committor and related kinetic statistics from molecular simulations, with an emphasis on self-supervised methods that learn solutions of their defining dynamical equations rather than relying on labeled shooting data. We develop a common operator viewpoint connecting generator-based partial differential equations, variational principles, Markov state models, dynamical Galerkin approximation, and neural networks. Empirical and theoretical evidence points to the efficiency of these methods. We provide theoretical and practical guidance for realizing their full potential in applications, including strategies for treating non-Markovian effects and for sampling. We conclude by identifying opportunities for further research, including connections to reinforcement learning and generative modeling.
+>
+> | Comments: | 24 pages, 5 figures                                          |
+> | --------- | ------------------------------------------------------------ |
+> | Subjects: | **Computational Physics (physics.comp-ph)**; Statistical Mechanics (cond-mat.stat-mech); Machine Learning (cs.LG); Chemical Physics (physics.chem-ph); Data Analysis, Statistics and Probability (physics.data-an) |
+> | Cite as:  | **[arXiv:2609.17736](https://arxiv.org/abs/2609.17736) [physics.comp-ph]** |
+

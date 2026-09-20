@@ -187,5 +187,207 @@ we call that particle as Bosan particles.
 将平移算符作用在 $\varphi( x)$ 上
 
 $$
+\cdots 
+$$
+...
 
+---
+
+## 2
+
+for indistinguishable particles, for boson case
+$$
+\Psi_n( x_{1},\cdots ,x_{N} ) = \frac{1}{ \sqrt{ N!  }} \sum_P P[  \varphi_{n_{1}}( x_{1} )\cdots \varphi_{n_N}( x_N ) ]
+$$
+for fermion case
+$$
+\Psi_n( x_{1},\cdots ,x_{N} ) =\frac{1}{ \sqrt{ N!  }} \sum_P ( - )^{A_P} P[ \varphi_{n_{1}}( x_{1} )\cdots \varphi_{n_N}( x_N ) ]
+$$
+consider norm of the total WF
+$$
+\abs{ \Psi_n( x_{1},\cdots ,x_{N} ) }^{2} = \cdots 回去zi自己补一下
+$$
+we can see it's normalize
+
+consider inner product of two n-particle state by
+$$
+\begin{align}
+ & \ip{ \phi_{1},\cdots ,\phi_n }{ \psi_{1},\cdots ,\psi_n  }  \\
+& = \sum_P \sum_{p'} \cdots   \\
+ & = \sum_P \sum_R \cdots  \\
+ & = \sum_R ( \pm 1 )^R \ip{ \phi_{R( 1 )} }{\psi_{1}  }\ip{ \phi_{R( 2 )} }{\psi_{2}  }\cdots \ip{ \phi_{R( n )} }{\psi_{n}  }
+\end{align}
+$$
+we can represent this in determinant
+$$
+\ip{ \phi_{1},\cdots ,\phi_n }{ \psi_{1},\cdots ,\psi_n  } =\mdet{
+\ip{ \phi_{1} }{ \psi_{1} } & \ip{ \phi_{1} }{ \psi_{2} } & \cdots  & \ip{ \phi_1 }{ \psi_n } \\
+\vdots  & \vdots  & \ddots  & \vdots  \\
+\ip{ \phi_n }{ \psi_{1} } & \ip{ \phi_n }{ \psi_{2} } & \cdots  & \ip{ \phi_n }{ \psi_n }
+}_\zeta
+$$
+then consider a boson state, that for any state i can bu $n_i$ occupied
+$$
+\frac{1}{\sqrt{ n_{1}!n_{2}!\cdots n_m! }} \ket{\psi_{1},\psi_{1},\cdots ,\psi_{1},\psi_{2},\cdots ,\psi_{2},\cdots ,\psi_{m},\cdots ,\psi_m}
+$$
+the normalize term is due to diagonal block matrix of its norm.
+$$
+\cdots 
+$$
+like project operator, we have
+$$
+1 = \frac{1}{n!}\sum_{\tilde{\alpha}_{1}}\cdots \sum_{\tilde{\alpha}_n}\op{ \tilde{\alpha}_{1}, \cdots ,\tilde{\alpha}_n }
+$$
+for fermion case, easily prove from ally it on another state
+$$
+\cdots 
+$$
+
+---
+
+for an general state of multiparticle space
+$$
+\ket{\psi} = \ket{\psi^{( 0 )}} +  \ket{\psi^{( 1 )}} + \cdots +\ket{\psi^{( n )}} + \cdots 
+$$
+where $\ket{\psi^{( n )}}$ is an $n$ particle state.
+
+we can def the creation operator
+$$
+a^{\dagger}( \phi )\ket{\psi_{1},\psi_{2},\cdots ,\psi_n} := \cdots
+$$
+destruction operator
+$$
+a( \phi ) \ket{\psi_{1},\psi_{2},\cdots ,\psi_n} := ( n-1 )-partical\ state
+$$
+lets find the effect of destruct operator
+$$
+\begin{align}
+ & \mel{ \chi_{1},\cdots ,\chi_{n-1} }{ a( \phi ) }{ \psi_{1},\cdots ,\psi_n } \\
+ & = ( \ip{ \psi_{1},\cdots ,\psi_n }{ \phi,\chi_{1},\cdots ,\chi_{n-1} } )^{*} \\
+ & = judadematrix \\
+ & = \sum_{k = 1}^{n} ( \pm 1 )^{k-1} \ip{ \phi }{ \psi_k }\ip{ \chi_{1},\chi_{2},\cdots ,\chi_{n-1} }{ \psi_{1},\cdots ,\psi_{k-1},\psi_{k+1},\cdots ,\psi_n }
+\end{align}
+$$
+the chi bra is not related to k, that means
+$$
+a( \phi )\ket{\psi_{1},\cdots ,\psi_{n}} = \sum_{k = 1}^{n} ( \pm 1 )^{k-1} \ip{ \phi }{ \psi_k }\ket{ \psi_{1},\cdots ,\psi_{k-1},\psi_{k+1},\cdots ,\psi_n } 
+$$
+
+---
+
+easily derive that
+$$
+a^{\dagger}( \phi_{1} )a^{\dagger}( \phi_{2} ) = ( \pm 1 ) a^{\dagger}( \phi_{2} )a^{\dagger}( \phi_{1} )
+$$
+in this case we have
+$$
+\comm{ a^{\dagger}( \phi_{1} ) }{ a^{\dagger}( \phi_{2} ) }_{\mp } = 0
+$$
+for bosons are commuted, but fermions are anti-conmuted
+
+now we consider comm relation of create and distruct OP
+$$
+\begin{align}
+ & a( \phi_{1} )a^{\dagger}( \phi_{2} )\ket{\psi_{1},\cdots ,\psi _n}  \\
+ & = a( \phi_{1} )\ket{\phi_{2},\psi_{1},\cdots ,\psi_n}  \\
+ & = \ip{ \phi_{1} }{ \phi_{2} }\ket{\psi_{1},\cdots ,\psi_n} + \cdots 
+\end{align}
+$$
+one can find
+$$
+\comm{ a( \alpha ) }{ a^{\dagger}( \alpha' ) }_{\mp } = \ip{ \alpha }{ \alpha' }=\delta_{\alpha,\alpha'}
+$$
+for boson state we can define
+$$
+\ket{n_{1},n_{2},\cdots } = \frac{ \ket{1,\cdots ,1,2,\cdots ,2,\cdots }  }{ \sqrt{ n_{1}!n_{2}!\cdots  } }
+$$
+where any state can represent in
+$$
+\ket{n_{1},n_{2},\cdots } = \frac{1}{\sqrt{ n_{1}!n_{2}!\cdots  }}( a^{\dagger}( 1 ) )^{n_{1}}( a^{\dagger}( 2 ) )^{n_{2}}\cdots \ket{vac} 
+$$
+then we can also prove that
+$$
+a^{\dagger}( \alpha )\ket{n_{1},n_{2},\cdots }  = \sqrt{ n_\alpha +1}\ket{n_{1},n_{2},\cdots ,n_\alpha+1,\cdots } 
+$$
+
+---
+
+we can also change basis
+$$
+\comm{ a( p ) }{ a^{\dagger}( p' ) }_{\mp } = ( 2\pi )^{3}\delta^{3}( p-p' )
+$$
+
+$$
+\comm{ a( x ) }{ a^{\dagger}( x' ) }_{\mp } = \delta^{3}( p-p' )
+$$
+
+transform them in FT
+
+---
+
+now we focus on the hamiltonian. Assume there is an op $A^{( 1 )}$ act on one-particle state
+$$
+\hat{A}^{( 1 )}( x,p )\ket{\psi} = \ket{\psi'} 
+$$
+we want to sum over every particle in an multi-partical state
+$$
+\hat{A} := \sum_j \hat{A}^{( 1 )}( x_j,p_j )
+$$
+we need to deal with a lot of summation. now we def
+$$
+\hat{A}^{( 1 )}_{\alpha\beta} = \mel{ \alpha }{ \hat{A}^{( 1 )}( x,p ) }{ \beta }
+$$
+now we have
+$$
+\hat{A}^{( 1 )}( x,p ) = \sum_{\alpha,\beta} \ket{\alpha}\mel{ \alpha }{ A^{( 1 )} }{ \beta }\bra{\beta} = \sum_{\alpha,\beta}A_{\alpha\beta}^{( 1 )}\op{ \alpha }{ \beta }
+$$
+now the total OP become
+$$
+fkufkufkufkufkufukufku
+$$
+
+$$
+\hat{A} = \sum_{\alpha,\beta}A_{\alpha,\beta}^{( 1 )}a^{\dagger}( \alpha )a( \beta )
+$$
+
+---
+
+for a first case we consider an identity operator
+$$
+A^{( 1 )}=\mathbb{ 1 }
+$$
+for definition we have
+$$
+\begin{align}
+\hat{A} & = \sum_{\alpha,\beta}A_{\alpha,\beta}^{( 1 )}a^{\dagger}( \alpha )a( \beta ) \\
+ & = \sum_{\alpha,\beta}\delta_{\alpha,\beta}a^{\dagger}( \alpha )a( \beta ) \\
+ & = \sum_\alpha a^{\dagger}( \alpha )a( \alpha )
+\end{align}
+$$
+next consider the momentum OP
+$$
+P^{( 1 )} = \int \frac{ \dd[ 3 ]{ p } }{ ( 2\pi )^{3} }P\op{ P }{ P }
+$$
+the total momentum
+
+...
+
+Finally consider Hamiltoian
+$$
+\hat{H} = \sum_{i = 1}^{n} -\frac{ \laplacian _i }{ 2m }+V( x_i )
+$$
+so
+$$
+\begin{align}
+H & = \mel{ x }{ H }{  x'  } \\
+ & = \int\dd[ 3 ]{ x }\dd[ 3 ]{ x' } a^{\dagger}( x )\qty[ \cdots  ]a( x' ) \\
+ & = \int\dd[ 3 ]{ x } a^{\dagger}( x )\qty[ \cdots  ]a( x ) 
+\end{align}
+$$
+
+---
+
+then we consider interaction case. Assume that there are only 2-partical interactions
+$$
+\hat{V} := \sum_{i<j}V^{( 2 )}( x_i,x_j )
 $$
