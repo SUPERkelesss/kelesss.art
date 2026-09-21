@@ -21,9 +21,12 @@ jobs:
           fetch-depth: 0
 
       - name: Configure server host key
+        env:
+          DEPLOY_HOST: ${{ secrets.DEPLOY_HOST }}
+          DEPLOY_SSH_HOST_KEY: ${{ secrets.DEPLOY_SSH_HOST_KEY }}
         run: |
           install -d -m 700 ~/.ssh
-          printf '%s\n' '101.34.91.104 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIC1NcNF8WN3lpaGEi6XDzi4d7/q7DGuBG9NgpjiABOvN' > ~/.ssh/known_hosts
+          printf '%s %s\n' "$DEPLOY_HOST" "$DEPLOY_SSH_HOST_KEY" > ~/.ssh/known_hosts
           chmod 600 ~/.ssh/known_hosts
 
       - name: Load deployment key
@@ -32,6 +35,8 @@ jobs:
           ssh-private-key: ${{ secrets.DEPLOY_SSH_KEY }}
 
       - name: Push main to the deployment receiver
+        env:
+          DEPLOY_HOST: ${{ secrets.DEPLOY_HOST }}
         run: |
-          git remote add deploy ssh://ubuntu@101.34.91.104/home/ubuntu/kelesss.art.git
+          git remote add deploy "ssh://ubuntu@${DEPLOY_HOST}/home/ubuntu/kelesss.art.git"
           git push deploy HEAD:main
