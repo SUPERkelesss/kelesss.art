@@ -8,6 +8,12 @@
 
 - **教材（新版）**：[https://pan.baidu.com/s/1W5q9TB9j1GIge8eeqo04Ow?pwd=gama](https://pan.baidu.com/s/1W5q9TB9j1GIge8eeqo04Ow?pwd=gama)
 
+### 生物化学简明教程 (魏民，杨立萍) - 6th
+
+> 真的简明的生化教材，比杨荣武教材简要很多。
+
+- **教材**：[https://pan.baidu.com/s/1tumO0jkIynID5HqOi2Y2ew?pwd=gama](https://pan.baidu.com/s/1tumO0jkIynID5HqOi2Y2ew?pwd=gama)
+
 <br/>
 
 ### Lehninger生物化学原理 (David L. Nelson等) - 6th
