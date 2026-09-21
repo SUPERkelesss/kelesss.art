@@ -435,10 +435,12 @@ $$
 
 $$
 \begin{align}
-S  & = \cdots 
+S  & = \cdots
 \end{align}
 $$
-考虑一个由 $N$ 个能级 $\{n_{1},n_{2},\cdots ,n_N\}$ 组成的巨正则系综，其中个能级的粒子数可能出现 $0 \sim  \infty$ 个 
+
+考虑一个由 $N$ 个能级 $\{n_{1},n_{2},\cdots ,n_N\}$ 组成的巨正则系综，其中个能级的粒子数可能出现 $0 \sim  \infty$ 个
+
 $$
 \begin{align}
 Z & = \sum_{n_{1} = 0}^{\infty} \sum_{n_{2} = 0}^{\infty} \cdots  \sum_{n_N = 0}^{\infty} e^{ -\beta\sum_{l = 1}^{N} \varepsilon_l } \\
@@ -455,10 +457,13 @@ $$
 ### ideal quantum gas
 
 对 $\infty$ 个能级分布的 $N$ 个粒子数采取粒子数表象
+
 $$
 \ket{n_{1},n_{2},\cdots ,n_\infty} = \ket{N,i}
 $$
+
 这里的 $i$ 指的是一种抽象的 $N$ 粒子排布方式。考虑巨正则配分函数
+
 $$
 \begin{align}
 \Xi  & = \Tr( e^{ -\beta( \hat{H}-\mu \hat{N} ) } ) \\
@@ -466,7 +471,9 @@ $$
  & = \sum_{n_{1} = 0}^{\infty} \sum_{n_{2} = 0}^{\infty} \cdots  \sum_{n_\infty = 0}^{\infty} \mel{ N,i }{ e^{ -\beta( \hat{H}-\mu \hat{N} ) } }{ N,i }
 \end{align}
 $$
+
 展开算子
+
 $$
 \begin{align}
 \Xi  & = \sum_{n_{1},n_{2},\cdots ,n_\infty} \mel{ N,i }{ \exp( \sum_i \varepsilon_in_i - \mu \sum_i n_i) }{ N,i } \\
@@ -477,24 +484,33 @@ $$
 ---
 
 Bosons
+
 $$
 \Psi(\cdots ,x_{i}, \cdots ,x_{j},\cdots ) = \Psi(\cdots ,x_{j}, \cdots ,x_{i},\cdots )
 $$
+
 Fermions
+
 $$
 \Psi(\cdots ,x_{i}, \cdots ,x_{j},\cdots ) = ( - )\Psi(\cdots ,x_{j}, \cdots ,x_{i},\cdots )
 $$
+
 因此我们不能直接拆波函数，必须拆成对称性轮换形式。利用置换算子 $P$ 统计所有交换粒子位置之后的波函数城际
 
 Boson
+
 $$
 \Psi_n( x_{1},\cdots ,x_{N} ) = \frac{1}{ \sqrt{ N!  }} \sum_P P[  \varphi_{n_{1}}( x_{1} )\cdots \varphi_{n_N}( x_N ) ]
 $$
+
 Fermions
+
 $$
 \Psi_n( x_{1},\cdots ,x_{N} ) =\frac{1}{ \sqrt{ N!  }} \sum_P ( - )^{A_P} P[ \varphi_{n_{1}}( x_{1} )\cdots \varphi_{n_N}( x_N ) ]
 $$
+
 对于 Fermion，还可以用Slater行列式来定义，因为行列式交换行会导致符号反转
+
 $$
 \Psi_n( x_{1},\cdots ,x_{N} ) = \frac{1}{ \sqrt{ N!  }} \mdet{
 \varphi_{n_{1}}( x_{1} ) & \varphi_{n_{1}}( x_{2} ) & \cdots  & \varphi_{n_1}( x_N ) \\
@@ -502,7 +518,9 @@ $$
 \varphi_{n_{N}}( x_{1} ) & \varphi_{n_{N}}( x_{2} ) & \cdots  & \varphi_{n_N}( x_N )
 }
 $$
+
 当存在两行相同时，则行列式变为0. 这就对应Pauli不相容原理
+
 $$
 n_i \neq  n_j
 $$
@@ -510,3 +528,8 @@ $$
 ---
 
 之后量子统计方法和经典相同··
+
+---
+
+晶格中的统计见固体物理
+

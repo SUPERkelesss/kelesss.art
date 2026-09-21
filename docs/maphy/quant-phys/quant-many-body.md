@@ -325,7 +325,7 @@ transform them in FT
 
 ---
 
-now we focus on the hamiltonian. Assume there is an op $A^{( 1 )}$ act on one-particle state
+now we focus on the hamiltonian. Assume there is an op $A^{( 1 )}$ act on one-particle state
 $$
 \hat{A}^{( 1 )}( x,p )\ket{\psi} = \ket{\psi'} 
 $$
@@ -389,5 +389,156 @@ $$
 
 then we consider interaction case. Assume that there are only 2-partical interactions
 $$
-\hat{V} := \sum_{i<j}V^{( 2 )}( x_i,x_j )
+\hat{V} := \sum_{i<j}V^{( 2 )}( x_i,x_j ) = \frac{1}{2}\sum_{i\neq j} V( x_{i},x_{j} )
+$$
+now we prove that:
+$$
+V = \frac{1}{2} \int\dd[3]{x}\int\dd[3]{y}V^{( 2 )}( x,y )a^{\dagger}( x )a^{\dagger}( y )a( y )a( x )
+$$
+for the first two operator
+$$
+\begin{align}
+ & a( y )a( x )\ket{x_{1},\cdots ,x_{n}}   \\
+& = a( y )\sum_{k = 1}^{n} ( \pm  1)^{k-1}\delta^3 ( x-x_k )\ket{x_{1},\cdots ,x_{k-1},x_{k+1},\cdots ,x_n}  \\
+ & = \sum_{k = 1}^{n} ( \pm  1)^{k-1}\delta^3 ( x-x_k )\sum_{j = 1\neq k}^{n} \eta_{jk}\delta^3 ( x-x_j ) \\
+  & \ket{x_{1},( \text{ no $x_j$  $x_k$ } ),\cdots ,x_{n} }
+\end{align}
+$$
+where $\eta = ( \pm 1 )^{j-1}$ if $j<k$ else $\eta=( \pm  )^j$
+
+now apply two creation op
+$$
+\begin{align}
+ & a^{\dagger}( x )a^{\dagger}( y )a( y )a( x )\ket{x_{1},\cdots ,x_{n}}  \\
+ & = \cdots  \\
+ & = \sum_{j\neq k} \delta^3( x-x_k )\delta^3( y-x_j )\ket{x_{1},\cdots ,x_{n}} 
+\end{align}
+$$
+integrate over whole space and we find it's true
+
+---
+
+now we adding new spin term
+$$
+a^{\dagger}_{\sigma}( x )\ket{vac}  = \ket{( x,\sigma )} 
+$$
+then we can counter interaction with different spin
+$$
+V = \frac{1}{2} \int\dd[3]{x}\int\dd[3]{y}V^{( 2 )}( x,y )a_{\sigma}^{\dagger}( x )a_{\sigma'}^{\dagger}( y )a_{\sigma'}( y )a_\sigma( x )
+$$
+do FT
+$$
+a_\sigma( x ) = \int\frac{ \dd[3]{k} }{ ( 2\pi )^{3} }e^{ -ikx }a_{\sigma}( k )
+$$
+and
+$$
+a^{\dagger}_\sigma( x ) = \int\frac{ \dd[3]{k} }{ ( 2\pi )^{3} }e^{ ikx }a^{\dagger}_{\sigma}( k )
+$$
+then the potential term becomes
+$$
+\begin{align}
+V( q )  & = \int\dd[3]{( x-y )}V( x-y )e^{ -iq( x-y ) } \\
+ & = \frac{1}{2}\sum_{\sigma,\sigma'} \int \frac{ \dd[3]{q} }{ ( 2\pi )^{3} } \int \frac{ \dd[3]{k} }{ ( 2\pi )^{3} } \int \frac{ \dd[3]{k'} }{ ( 2\pi )^{3} } \\
+ & V( q ) a_{\sigma'}^{\dagger}( k+q )a_{\sigma'}^{\dagger}( k'-q )a_{\sigma'}( k' )a_\sigma( k)
+\end{align}
+$$
+we can draw it by Fermon Graph
+
+...
+
+---
+
+### Jellium model
+
+Jellium model is an effective model for a simple metal. We can think it as electrons move in a positive charge background. Several assumptions:
+
+1. $+Z$ cation to be static
+
+2. uniformly distributed positive-charge background
+   $$
+   n( x ) = n = \frac{N}{V}
+   $$
+
+3. the size of the box is large enough.
+
+and we consider no Bloch Bond theory.
+
+consider the e-e interaction hamiltonian
+$$
+\begin{align}
+H_{el}  & = \frac{1}{2}\int\dd[3]{x}\int\dd[3]{y}a_{\sigma}^{\dagger}( x )a_{\sigma'}^{\dagger}( y )\frac{ e^{2} }{ | x-y | }a_{\sigma'}( y )a_{\sigma}( x ) \\
+ & =  \frac{1}{2}\int\dd[3]{x}\int\dd[3]{( x-y )} V( x-y )\qty[ N^{2}-N ]  \\
+ & = \frac{1}{2} \qty( \frac{1}{V} )^{3} \sum_{q\neq 0}\sum_{k}\sum_{k'} \frac{ 4\pi e^{2} }{ \mu^{2}+q^{2} } a_{\sigma'}^{\dagger}( k+q )a_{\sigma'}^{\dagger}( k'-q )a_{\sigma'}( k' )a_\sigma( k)
+\end{align}
+$$
+b-b interaction
+$$
+H_{b} = \frac{e^{2}}{2} \int\dd[3]{x}\int\dd[3]{y} \frac{ n( x )n( y ) }{ | x-y | }
+$$
+eee, this one is not converge. Do a little trick: adding a exponent term
+$$
+H_{b} = \frac{e^{2}}{2} \int\dd[3]{x}\int\dd[3]{y} \frac{ n( x )n( y ) }{ | x-y | } e^{ -\mu \abs{ x-y } }
+$$
+then the integration is converge. Finally let $\mu \to 0$ we get back to original formula.
+$$
+\begin{align}
+H_b & = \frac{e^{2}}{2} \qty( \frac{N}{V} )^{2} \int \dd[3]{x}\int\dd[3]{z} \frac{ e^{ -\mu| z | } }{ | z | } \\
+ & = \frac{e^{2}}{2} \frac{N^{2}}{V} \frac{4\pi}{\mu^{2}}
+\end{align}
+$$
+we can see the $H_b$ diverge, which represent long-range nature of Coulomb interaction
+
+e-b interaction
+$$
+\begin{align}
+H_{el-b} & = -e^{2} \sum_{i = 1}^{N} \frac{N}{V} \int\dd[3]{x} \frac{ e^{ -\mu| x-x_{i} | } }{ | x-x_{i} | } \\
+ &  = -e^{2} \frac{N^{2}}{V} \frac{4\pi}{\mu^{2}}
+\end{align}
+$$
+now just rewrite the e-e interaction
+
+
+
+---
+
+### Field theory at 0K
+
+#### (Adiabatic) Gell-Mann Low Theorem
+
+consider Hamiltonian
+$$
+H = H_{0} + e^{ -\varepsilon| t | }H_{1}
+$$
+which means the Hamiltonian changes form $H_{0}$ to $H_{0}+H_{1}$ when $t=-\infty \to t=0$. 
+
+[Picture: some energy level transfer to another one, without energy level crossing]
+
+Using time evolving operator
+$$
+\hat{U}( t,t_{0} )\ket{\Phi_0} = \ket{\Phi( t )}
+$$
+Schrodinger pict
+$$
+ih\pdv{ t } \ket{\Psi_S( t )}  = H\ket{\Psi_S( t )}
+$$
+Hinsberg pict
+$$
+i\hbar \pdv{ t } O_H( t ) = \comm{ O_H( t ) }{ H }
+$$
+interaction pict
+$$
+ih\pdv{ t } \ket{\Psi_I( t )}  = e^{ \frac{iH_{0}t}{\hbar } }\ket{\Psi_I( t )}
+$$
+
+$$
+O_I( t ) = e^{ \frac{iH_{0}t}{\hbar } }O_Se^{ -\frac{iH_{0}t}{\hbar } }
+$$
+
+so for seconf quant. we def schrodinger operator as
+$$
+O_S = f( a^{\dagger}_k, a_k )
+$$
+the corresponding interaction OP is
+$$
+O_I( t ) = f( e^{ \frac{iH_{0}t}{\hbar } }a^{\dagger}_ke^{ -\frac{iH_{0}t}{\hbar } }, e^{ \frac{iH_{0}t}{\hbar } }a^{\dagger}_ke^{ -\frac{iH_{0}t}{\hbar } } )
 $$
