@@ -14,7 +14,7 @@
     像 vesta 一样在移动平台便捷地查看晶体！
     <br />
     <a href="https://www.kelesss.art/refs/software/krystals.html"> <strong> 查看 Krystals 页面 </strong> </a> ·
-    <a href="https://www.kelesss.art/lib/krystals-release/krystals-v0.7.1.apk"> 下载测试版 v0.7.2 </a>
+    <a href="https://www.kelesss.art/lib/krystals-release/krystals-v0.7.2.apk"> 下载测试版 v0.7.3 </a>
   </p>
 
 
