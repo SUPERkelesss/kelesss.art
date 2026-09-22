@@ -36,12 +36,12 @@
 
 <img src="lecture4.assets/PLACEHOLDER_pe_loops.png" alt="占位符：线性、非线性与铁电的 P-E 关系（原图：temp/images/image101.png、image102.png、image103.png）" style="zoom:50%;" />
 
-!!! Tip "示例：  [**钛酸钡 BaTiO3**](https://next-gen.materialsproject.org/materials/mp-XXXXXX)"
+!!! Tip "[**钛酸钡 BaTiO3**](https://next-gen.materialsproject.org/materials/mp-5986)"
     | 球棍模型 | 多面体模型 |
     | :---: | :---: |
     | <img src="lecture4.assets/PLACEHOLDER_batio3_ball_stick.png" alt="占位符：BaTiO3 球棍模型（原图：temp/images/image105.png）" style="zoom:50%;" /> | <img src="lecture4.assets/PLACEHOLDER_batio3_polyhedra.png" alt="占位符：BaTiO3 多面体模型（原图：temp/images/image105.png）" style="zoom:50%;" /> |
 
-     <center> [mp-XXXXXX](https://next-gen.materialsproject.org/materials/mp-XXXXXX) · [CIF 下载](cifs/PLACEHOLDER_BaTiO3.cif) </center>
+     <center> [mp-5986](https://next-gen.materialsproject.org/materials/mp-5986) · [CIF 下载](cifs/BaTiO3.cif) </center>
 
 !!! example "铁电体是怎么产生极化的？"
     以 $\ce{BaTiO3}$ 为例：施加电场后，$\ce{Ti^{4+}}$ 和 $\ce{O^{2-}}$ 相对移动，正负电荷中心分离，产生偶极矩；撤去电场后位移保持（电滞回线的"记忆"）。$\ce{PbTiO3}$ 的情况类似，只是位移更大。
@@ -74,12 +74,12 @@
 !!! abstract "居里温度的统一"
     铁磁、反铁磁、亚铁磁、自旋玻璃这四种有序磁性，都会在各自的特征温度（居里温度 $T_C$ 或奈尔温度 $T_N$）以上变成**顺磁性**——热运动把有序排列"搅乱"了。
 
-!!! Tip "示例：  [**铁 Fe**](https://next-gen.materialsproject.org/materials/mp-XXXXXX)"
+!!! Tip "[**铁 Fe**](https://next-gen.materialsproject.org/materials/mp-13)"
     | 球棍模型 | 多面体模型 |
     | :---: | :---: |
     | <img src="lecture4.assets/PLACEHOLDER_fe_ball_stick.png" alt="占位符：α-Fe 球棍模型（原图：temp/images/image106.png）" style="zoom:50%;" /> | <img src="lecture4.assets/PLACEHOLDER_fe_magnetic.png" alt="占位符：铁磁有序示意图（原图：temp/images/image106.png）" style="zoom:50%;" /> |
 
-     <center> [mp-XXXXXX](https://next-gen.materialsproject.org/materials/mp-XXXXXX) · [CIF 下载](cifs/PLACEHOLDER_Fe.cif) </center>
+     <center> [mp-13](https://next-gen.materialsproject.org/materials/mp-13) · [CIF 下载](cifs/Fe.cif) </center>
 
 ## 4.3 晶体的导电性
 
@@ -111,12 +111,12 @@
 
     <img src="lecture4.assets/PLACEHOLDER_superexchange.png" alt="占位符：180° 与 90° 的超交换作用（原图：temp/images/image113.png）" style="zoom:50%;" />
 
-!!! Tip "示例：  [**氧化钛 TiO**](https://next-gen.materialsproject.org/materials/mp-XXXXXX)"
+!!! Tip "[**氧化钛 TiO**](https://next-gen.materialsproject.org/materials/mp-2664)"
     | 球棍模型 | 多面体模型 |
     | :---: | :---: |
     | <img src="lecture4.assets/PLACEHOLDER_tio_ball_stick.png" alt="占位符：TiO 球棍模型（原图：temp/images/image112.png）" style="zoom:50%;" /> | <img src="lecture4.assets/PLACEHOLDER_tio_polyhedra.png" alt="占位符：TiO 多面体模型（原图：temp/images/image112.png）" style="zoom:50%;" /> |
 
-     <center> [mp-XXXXXX](https://next-gen.materialsproject.org/materials/mp-XXXXXX) · [CIF 下载](cifs/PLACEHOLDER_TiO.cif) </center>
+     <center> [mp-2664](https://next-gen.materialsproject.org/materials/mp-2664) · [CIF 下载](cifs/TiO.cif) </center>
 
 ## 4.4 晶体的显色
 
@@ -139,12 +139,12 @@
 - **$\ce{MMCT}$**（金属→金属荷移）：$\ce{Al2O3}$ 掺 $\ce{Fe(II)+Ti(IV)}$ → **蓝宝石**；$\ce{Be3Al2Si6O18}$（绿柱石）掺 $\ce{Fe(II)+Fe(III)}$ → **海蓝宝石**；
 - **$\ce{LMCT}$**（配体→金属荷移）：$\ce{SiO2}$ 掺 $\ce{Fe(IV)}$ → **紫水晶**。
 
-!!! Tip "示例：  [**刚玉 Al2O3（蓝宝石）**](https://next-gen.materialsproject.org/materials/mp-XXXXXX)"
+!!! Tip "[**刚玉 Al2O3（蓝宝石）**](https://next-gen.materialsproject.org/materials/mp-1143)"
     | 球棍模型 | 多面体模型 |
     | :---: | :---: |
     | <img src="lecture4.assets/PLACEHOLDER_sapphire_ball_stick.png" alt="占位符：蓝宝石 Al2O3 球棍模型（原图：temp/images/image181.png）" style="zoom:50%;" /> | <img src="lecture4.assets/PLACEHOLDER_sapphire_polyhedra.png" alt="占位符：蓝宝石 Al2O3 多面体模型（原图：temp/images/image181.png）" style="zoom:50%;" /> |
 
-     <center> [mp-XXXXXX](https://next-gen.materialsproject.org/materials/mp-XXXXXX) · [CIF 下载](cifs/PLACEHOLDER_sapphire.cif) </center>
+     <center> [mp-1143](https://next-gen.materialsproject.org/materials/mp-1143) · [CIF 下载](cifs/sapphire.cif) </center>
 
 ### 4.4.3 能带
 

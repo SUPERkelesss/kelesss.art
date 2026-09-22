@@ -86,7 +86,7 @@ $$
 
 考虑一个简单的立方晶体模型：原子按立方密堆积排列，相邻原子间的键能为 $u$，原子半径为 $r$，晶胞边长 $a = 2r$。下面计算 $(100)$ 和 $(110)$ 两个面的晶面能。
 
-!!! Tip "示例：  [**氯化钠 NaCl**](https://next-gen.materialsproject.org/materials/mp-22862)"
+!!! Tip "[**氯化钠 NaCl**](https://next-gen.materialsproject.org/materials/mp-22862)"
     | 球棍模型 | 多面体模型 |
     | :---: | :---: |
     | <img src="lecture10.assets/PLACEHOLDER_nacl_ball_stick.png" alt="占位符：NaCl 球棍模型（原图：temp/images/image146.png）" style="zoom:50%;" /> | <img src="lecture10.assets/PLACEHOLDER_nacl_polyhedra.png" alt="占位符：NaCl 多面体模型（原图：temp/images/image146.png）" style="zoom:50%;" /> |

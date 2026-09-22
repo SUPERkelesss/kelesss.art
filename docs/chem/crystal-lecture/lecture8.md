@@ -17,12 +17,12 @@ $$
 - 空间群：$Pm\overline{3}m$；
 - 堆积记号：$3 \cdot 2PTOT$（对 ccp 而言 $P$ 和 $O$ 等价，所以有时也写作 $2$）。
 
-!!! Tip "示例：  [**氯化铯 CsCl**](https://next-gen.materialsproject.org/materials/mp-XXXXXX)"
+!!! Tip "[**氯化铯 CsCl**](https://next-gen.materialsproject.org/materials/mp-22865)"
     | 球棍模型 | 多面体模型 |
     | :---: | :---: |
     | <img src="lecture8.assets/PLACEHOLDER_cscl_ball_stick.png" alt="占位符：CsCl 球棍模型（原图：temp/images/image228.png）" style="zoom:50%;" /> | <img src="lecture8.assets/PLACEHOLDER_cscl_polyhedra.png" alt="占位符：CsCl 空隙分布模型（原图：temp/images/image229.png）" style="zoom:50%;" /> |
 
-     <center> [mp-XXXXXX](https://next-gen.materialsproject.org/materials/mp-XXXXXX) · [CIF 下载](cifs/PLACEHOLDER_CsCl.cif) </center>
+     <center> [mp-22865](https://next-gen.materialsproject.org/materials/mp-22865) · [CIF 下载](cifs/CsCl.cif) </center>
 
 !!! warning "CsCl 不是体心立方点阵"
     $\ce{CsCl}$ 常被误认为 $cI$。实际上两种离子不同，$\ce{Cs}$ 和 $\ce{Cl}$ 各自形成一套简单立方点阵（$cP$），空间群是 $Pm\overline{3}m$。真正体心立方点阵（$cI$）的典型例子是金属钨（Lecture 5）。

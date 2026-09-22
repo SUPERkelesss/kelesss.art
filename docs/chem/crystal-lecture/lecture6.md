@@ -20,7 +20,7 @@ $$
 - 堆积记号：$3 \cdot 2PO$；
 - $\ce{Na}$ 占据 $4a$ 位 $(0,0,0)$，$\ce{Cl}$ 占据 $4b$ 位 $(\frac12,\frac12,\frac12)$（Wyckoff 记号，见 Lecture 1）。
 
-!!! Tip "示例：  [**氯化钠 NaCl**](https://next-gen.materialsproject.org/materials/mp-22862)"
+!!! Tip "[**氯化钠 NaCl**](https://next-gen.materialsproject.org/materials/mp-22862)"
     | 球棍模型 | 多面体模型 |
     | :---: | :---: |
     | <img src="lecture6.assets/PLACEHOLDER_nacl_ball_stick.png" alt="占位符：NaCl 球棍模型（原图：temp/images/image146.png）" style="zoom:50%;" /> | <img src="lecture6.assets/PLACEHOLDER_nacl_polyhedra.png" alt="占位符：NaCl 多面体模型（原图：temp/images/image146.png）" style="zoom:50%;" /> |
@@ -99,12 +99,12 @@ $$
 - 空间群：$P6_3/mmc$；
 - 堆积记号：$2 \cdot 2PO$。
 
-!!! Tip "示例：  [**砷化镍 NiAs**](https://next-gen.materialsproject.org/materials/mp-XXXXXX)"
+!!! Tip "[**砷化镍 NiAs**](https://next-gen.materialsproject.org/materials/mp-590)"
     | 球棍模型 | 多面体模型 |
     | :---: | :---: |
     | <img src="lecture6.assets/PLACEHOLDER_nias_ball_stick.png" alt="占位符：NiAs 球棍模型（原图：temp/images/image159.png）" style="zoom:50%;" /> | <img src="lecture6.assets/PLACEHOLDER_nias_polyhedra.png" alt="占位符：NiAs 多面体模型（原图：temp/images/image160.png）" style="zoom:50%;" /> |
 
-     <center> [mp-XXXXXX](https://next-gen.materialsproject.org/materials/mp-XXXXXX) · [CIF 下载](cifs/PLACEHOLDER_NiAs.cif) </center>
+     <center> [mp-590](https://next-gen.materialsproject.org/materials/mp-590) · [CIF 下载](cifs/NiAs.cif) </center>
 
 $\ce{NiAs}$ 有两点特别值得注意：
 
@@ -139,12 +139,12 @@ $$
 
 其中"部分填充层"由 $\ce{Ca}$ 和 $\ce{O}$ **共同堆积**（六方排布），$\ce{Ti}$ 只填四分之一的八面体空隙。这样写的好处是：它清清楚楚地说明钙钛矿是从密堆积出发的，而不是什么天外飞仙。
 
-!!! Tip "示例：  [**钛酸钙 CaTiO3**](https://next-gen.materialsproject.org/materials/mp-XXXXXX)"
+!!! Tip "[**钛酸钙 CaTiO3**](https://next-gen.materialsproject.org/materials/mp-5827)"
     | 球棍模型 | 多面体模型 |
     | :---: | :---: |
     | <img src="lecture6.assets/PLACEHOLDER_catio3_ball_stick.png" alt="占位符：CaTiO3 球棍模型（原图：temp/images/image166.png）" style="zoom:50%;" /> | <img src="lecture6.assets/PLACEHOLDER_catio3_polyhedra.png" alt="占位符：CaTiO3 多面体模型（原图：temp/images/image166.png）" style="zoom:50%;" /> |
 
-     <center> [mp-XXXXXX](https://next-gen.materialsproject.org/materials/mp-XXXXXX) · [CIF 下载](cifs/PLACEHOLDER_CaTiO3.cif) </center>
+     <center> [mp-5827](https://next-gen.materialsproject.org/materials/mp-5827) · [CIF 下载](cifs/CaTiO3.cif) </center>
 
 !!! note "为什么钙钛矿这么出名？"
     它的骨架（$\ce{BO6}$ 八面体共顶点网络）可以容纳几乎任意大小的阳离子（A 位），还能容忍大量缺陷和替换——铁电、压电、超导、催化都有它的身影。Lecture 4 讲铁电体时还会看到 $\ce{BaTiO3}$。
@@ -194,12 +194,12 @@ $$
 
 一个很好记的视角：**金红石可以看作"去除一半填隙原子"的 $\ce{NiAs}$**——把 $\ce{NiAs}$ 里一半的八面体空隙留空，剩下的一半按规则排列，就是金红石。
 
-!!! Tip "示例：  [**金红石 TiO2**](https://next-gen.materialsproject.org/materials/mp-XXXXXX)"
+!!! Tip "[**金红石 TiO2**](https://next-gen.materialsproject.org/materials/mp-2657)"
     | 球棍模型 | 多面体模型 |
     | :---: | :---: |
     | <img src="lecture6.assets/PLACEHOLDER_tio2_ball_stick.png" alt="占位符：金红石 TiO2 球棍模型（原图：temp/images/image173.png）" style="zoom:50%;" /> | <img src="lecture6.assets/PLACEHOLDER_tio2_polyhedra.png" alt="占位符：金红石 TiO2 多面体模型（原图：temp/images/image173.png）" style="zoom:50%;" /> |
 
-     <center> [mp-XXXXXX](https://next-gen.materialsproject.org/materials/mp-XXXXXX) · [CIF 下载](cifs/PLACEHOLDER_TiO2_rutile.cif) </center>
+     <center> [mp-2657](https://next-gen.materialsproject.org/materials/mp-2657) · [CIF 下载](cifs/TiO2_rutile.cif) </center>
 
 金红石的变式：
 
@@ -223,12 +223,12 @@ $$
 - **$\ce{VF3}$**：$2 \cdot 2PO_{1/3}$，把 $2/3$ 换成 $1/3$；
 - **$\beta$-$\ce{TiCl3}$**：另一种 $2 \cdot 2PO_{1/3}$，但由于 $\ce{Ti^{3+}}$ 的单电子有强烈的成键倾向，钛都填充在一侧，形成**链状结构**；这种效应在更高周期的 $\ce{ZrCl3}$ 中更加明显。
 
-!!! Tip "示例：  [**刚玉 Al2O3**](https://next-gen.materialsproject.org/materials/mp-XXXXXX)"
+!!! Tip "[**刚玉 Al2O3**](https://next-gen.materialsproject.org/materials/mp-1143)"
     | 球棍模型 | 多面体模型 |
     | :---: | :---: |
     | <img src="lecture6.assets/PLACEHOLDER_al2o3_ball_stick.png" alt="占位符：刚玉 Al2O3 球棍模型（原图：temp/images/image181.png）" style="zoom:50%;" /> | <img src="lecture6.assets/PLACEHOLDER_al2o3_polyhedra.png" alt="占位符：刚玉 Al2O3 多面体模型（原图：temp/images/image181.png）" style="zoom:50%;" /> |
 
-     <center> [mp-XXXXXX](https://next-gen.materialsproject.org/materials/mp-XXXXXX) · [CIF 下载](cifs/PLACEHOLDER_Al2O3.cif) </center>
+     <center> [mp-1143](https://next-gen.materialsproject.org/materials/mp-1143) · [CIF 下载](cifs/Al2O3.cif) </center>
 
 <img src="lecture6.assets/PLACEHOLDER_corundum_variants.png" alt="占位符：α-Fe2O3、VF3 与 β-TiCl3（原图：temp/images/image182.png–image186.png）" style="zoom:50%;" />
 
@@ -250,12 +250,12 @@ $$
 
 即 $P$（密置层）— $O$（八面体填充层）— $P$（密置层）的夹心结构。$\ce{CdCl2}$ 中氯做 ccp，镉填在交替的八面体空隙层里，层与层之间只有范德华力，所以它像石墨一样容易解理。
 
-!!! Tip "示例：  [**氯化镉 CdCl2**](https://next-gen.materialsproject.org/materials/mp-XXXXXX)"
+!!! Tip "[**氯化镉 CdCl2**](https://next-gen.materialsproject.org/materials/mp-22881)"
     | 球棍模型 | 多面体模型 |
     | :---: | :---: |
     | <img src="lecture6.assets/PLACEHOLDER_cdcl2_ball_stick.png" alt="占位符：CdCl2 球棍模型（原图：temp/images/image188.png）" style="zoom:50%;" /> | <img src="lecture6.assets/PLACEHOLDER_cdcl2_polyhedra.png" alt="占位符：CdCl2 多面体模型（原图：temp/images/image188.png）" style="zoom:50%;" /> |
 
-     <center> [mp-XXXXXX](https://next-gen.materialsproject.org/materials/mp-XXXXXX) · [CIF 下载](cifs/PLACEHOLDER_CdCl2.cif) </center>
+     <center> [mp-22881](https://next-gen.materialsproject.org/materials/mp-22881) · [CIF 下载](cifs/CdCl2.cif) </center>
 
 ### 6.5.2 CdCl$_2$ 的变式
 

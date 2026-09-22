@@ -19,12 +19,12 @@ $$
 - 空间群：$F\overline{4}3m$；
 - 堆积记号：$3 \cdot 2PT$。
 
-!!! Tip "示例：  [**闪锌矿 ZnS**](https://next-gen.materialsproject.org/materials/mp-XXXXXX)"
+!!! Tip "[**闪锌矿 ZnS**](https://next-gen.materialsproject.org/materials/mp-10695)"
     | 球棍模型 | 多面体模型 |
     | :---: | :---: |
     | <img src="lecture7.assets/PLACEHOLDER_zns_sphalerite_ball_stick.png" alt="占位符：闪锌矿 ZnS 球棍模型（原图：temp/images/image195.png）" style="zoom:50%;" /> | <img src="lecture7.assets/PLACEHOLDER_zns_sphalerite_polyhedra.png" alt="占位符：闪锌矿 ZnS 四面体模型（原图：temp/images/image195.png）" style="zoom:50%;" /> |
 
-     <center> [mp-XXXXXX](https://next-gen.materialsproject.org/materials/mp-XXXXXX) · [CIF 下载](cifs/PLACEHOLDER_ZnS_sphalerite.cif) </center>
+     <center> [mp-10695](https://next-gen.materialsproject.org/materials/mp-10695) · [CIF 下载](cifs/ZnS_sphalerite.cif) </center>
 
 闪锌矿和金刚石是同构的：把金刚石的两套 $cF$ 骨架分别换成 $\ce{Zn}$ 和 $\ce{S}$ 就是闪锌矿。Lecture 5 讲单质晶体时还会用金刚石 $3 \cdot 2PT$ 的写法。
 
@@ -62,12 +62,12 @@ $$
 - 空间群：$P6_3mc$；
 - 堆积记号：$2 \cdot 2PT$。
 
-!!! Tip "示例：  [**氧化锌 ZnO**](https://next-gen.materialsproject.org/materials/mp-XXXXXX)"
+!!! Tip "[**氧化锌 ZnO**](https://next-gen.materialsproject.org/materials/mp-2133)"
     | 球棍模型 | 多面体模型 |
     | :---: | :---: |
     | <img src="lecture7.assets/PLACEHOLDER_zno_ball_stick.png" alt="占位符：纤锌矿 ZnO 球棍模型（原图：temp/images/image200.png）" style="zoom:50%;" /> | <img src="lecture7.assets/PLACEHOLDER_zno_polyhedra.png" alt="占位符：纤锌矿 ZnO 四面体模型（原图：temp/images/image200.png）" style="zoom:50%;" /> |
 
-     <center> [mp-XXXXXX](https://next-gen.materialsproject.org/materials/mp-XXXXXX) · [CIF 下载](cifs/PLACEHOLDER_ZnO.cif) </center>
+     <center> [mp-2133](https://next-gen.materialsproject.org/materials/mp-2133) · [CIF 下载](cifs/ZnO.cif) </center>
 
 !!! note "为什么 ZnO 更喜欢纤锌矿？"
     同为 $PT$，闪锌矿和纤锌矿的差别在于四面体的**取向和连接方式**（回忆 3.1.3 里尖端朝上/朝下的 $T$）。讲义的说法是纤锌矿存在"更多的桥头静电作用"，且 $\ce{ZnO}$ 中氧的电负性使 $\ce{Zn-O}$ 键离子性更强，倾向于 hcp 的取向。
@@ -103,12 +103,12 @@ $$
 - 空间群：$Fm\overline{3}m$；
 - 堆积记号：$3 \cdot 3PTT$。
 
-!!! Tip "示例：  [**萤石 CaF2**](https://next-gen.materialsproject.org/materials/mp-XXXXXX)"
+!!! Tip "[**萤石 CaF2**](https://next-gen.materialsproject.org/materials/mp-2741)"
     | 球棍模型 | 多面体模型 |
     | :---: | :---: |
     | <img src="lecture7.assets/PLACEHOLDER_caf2_ball_stick.png" alt="占位符：萤石 CaF2 球棍模型（原图：temp/images/image206.png）" style="zoom:50%;" /> | <img src="lecture7.assets/PLACEHOLDER_caf2_polyhedra.png" alt="占位符：萤石 CaF2 多面体模型（原图：temp/images/image206.png）" style="zoom:50%;" /> |
 
-     <center> [mp-XXXXXX](https://next-gen.materialsproject.org/materials/mp-XXXXXX) · [CIF 下载](cifs/PLACEHOLDER_CaF2.cif) </center>
+     <center> [mp-2741](https://next-gen.materialsproject.org/materials/mp-2741) · [CIF 下载](cifs/CaF2.cif) </center>
 
 如果阳离子和阴离子互换角色——$\ce{Li2O}$ 中 $\ce{O^{2-}}$ 做 ccp、$\ce{Li^+}$ 填全部四面体空隙——就得到**反萤石**（antifluorite）结构。萤石家族的变化都围绕两件事：**替换**（原子或原子簇）和**缺位**。
 
@@ -159,12 +159,12 @@ $$
 - **$\ce{ReB2}$**：讲义原话是"无所谓，我的人生已经完蛋了，直接形成 $\ce{B}$ 的片层以消除排斥"——硼原子成片层，把斥力问题彻底绕开；
 - **$\ce{GaS}$**：双层 $\ce{MoS2}$ 结构；同族的 $\alpha/\beta$-$\ce{GaSe}$ 也属于这个家族。
 
-!!! Tip "示例：  [**二硫化钼 MoS2**](https://next-gen.materialsproject.org/materials/mp-XXXXXX)"
+!!! Tip "[**二硫化钼 MoS2**](https://next-gen.materialsproject.org/materials/mp-2815)"
     | 球棍模型 | 多面体模型 |
     | :---: | :---: |
     | <img src="lecture7.assets/PLACEHOLDER_mos2_ball_stick.png" alt="占位符：MoS2 球棍模型（原图：temp/images/image224.png）" style="zoom:50%;" /> | <img src="lecture7.assets/PLACEHOLDER_mos2_polyhedra.png" alt="占位符：MoS2 三棱柱配位模型（原图：temp/images/image224.png）" style="zoom:50%;" /> |
 
-     <center> [mp-XXXXXX](https://next-gen.materialsproject.org/materials/mp-XXXXXX) · [CIF 下载](cifs/PLACEHOLDER_MoS2.cif) </center>
+     <center> [mp-2815](https://next-gen.materialsproject.org/materials/mp-2815) · [CIF 下载](cifs/MoS2.cif) </center>
 
 <img src="lecture7.assets/PLACEHOLDER_hcp_ptt.png" alt="占位符：hcp PTT 的共面四面体问题与 MoS2/ReB2/GaS（原图：temp/images/image223.png、image225.png、image226.png、image227.png）" style="zoom:50%;" />
 

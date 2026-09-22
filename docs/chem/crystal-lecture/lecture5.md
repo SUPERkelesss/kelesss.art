@@ -31,12 +31,12 @@ $$
 !!! note "C 族例外：金刚石"
     共价性较强的碳族元素（$\ce{C}$、$\ce{Si}$、$\ce{Ge}$ 等）放弃密堆积，选择方向性的 $sp^3$ 键，采取**金刚石**结构 $3 \cdot 2PT$（Lecture 7 闪锌矿的"单元素版"）。碳的同素异形体我们 5.6 再细说。
 
-!!! Tip "示例：  [**金刚石 C**](https://next-gen.materialsproject.org/materials/mp-XXXXXX)"
+!!! Tip "[**金刚石 C**](https://next-gen.materialsproject.org/materials/mp-66)"
     | 球棍模型 | 多面体模型 |
     | :---: | :---: |
     | <img src="lecture5.assets/PLACEHOLDER_diamond_ball_stick.png" alt="占位符：金刚石球棍模型（原图：temp/images/image137.png）" style="zoom:50%;" /> | <img src="lecture5.assets/PLACEHOLDER_diamond_polyhedra.png" alt="占位符：金刚石四面体模型（原图：temp/images/image137.png）" style="zoom:50%;" /> |
 
-     <center> [mp-XXXXXX](https://next-gen.materialsproject.org/materials/mp-XXXXXX) · [CIF 下载](cifs/PLACEHOLDER_diamond.cif) </center>
+     <center> [mp-66](https://next-gen.materialsproject.org/materials/mp-66) · [CIF 下载](cifs/diamond.cif) </center>
 
 ## 5.2 金属堆积的选择：为什么会有 bcc？
 
@@ -147,12 +147,12 @@ $\alpha$-$\ce{F2}$、$\ce{Cl2}$、$\ce{Br2}$、$\ce{I2}$ 晶体类似，都有**
 
 碳的堆积语言非常丰富：金刚石 $3 \cdot 2PT$、六方金刚石（$2 \cdot 2PT$ 型）、石墨的 $2IP$ 与 $3IP$——其中 $IP$ 指**石墨中相互叠加的密置层**（$\ce{C}$ 蜂窝层）。
 
-!!! Tip "示例：  [**石墨 C**](https://next-gen.materialsproject.org/materials/mp-XXXXXX)"
+!!! Tip "[**石墨 C**](https://next-gen.materialsproject.org/materials/mp-48)"
     | 球棍模型 | 多面体模型 |
     | :---: | :---: |
     | <img src="lecture5.assets/PLACEHOLDER_graphite_ball_stick.png" alt="占位符：石墨球棍模型（原图：temp/images/image137.png）" style="zoom:50%;" /> | <img src="lecture5.assets/PLACEHOLDER_graphite_layers.png" alt="占位符：石墨层状模型（原图：temp/images/image137.png）" style="zoom:50%;" /> |
 
-     <center> [mp-XXXXXX](https://next-gen.materialsproject.org/materials/mp-XXXXXX) · [CIF 下载](cifs/PLACEHOLDER_graphite.cif) </center>
+     <center> [mp-48](https://next-gen.materialsproject.org/materials/mp-48) · [CIF 下载](cifs/graphite.cif) </center>
 
 - **金刚石 → 石墨**：可以看作**压缩密置层**的结果——把 $sp^3$ 骨架压扁，层内连成六元环、层间变成范德华力；
 - **$\ce{BN}$**（氮化硼）：结构与石墨类似，但**没有层间滑移**（层间存在电性相互作用），所以 BN 是白色的"绝缘石墨"，比石墨硬得多。
@@ -168,12 +168,12 @@ $\alpha$-$\ce{F2}$、$\ce{Cl2}$、$\ce{Br2}$、$\ce{I2}$ 晶体类似，都有**
 - **黑磷**：一种堆积可看作**扭曲的 $2IP$**，层序写为 $IP(AA')IP(BB')$——它是磷最稳定、最像金属的形式；
 - **紫磷**：结构单元为 $\ce{P2 P8 P2 P9}$，其中 $\ce{P9}$ 单元相互连接，两个**管状结构相互交叉**。
 
-!!! Tip "示例：  [**白磷 P4**](https://next-gen.materialsproject.org/materials/mp-XXXXXX)"
+!!! Tip "[**白磷 P4**](https://next-gen.materialsproject.org/materials/mp-118)"
     | 球棍模型 | 多面体模型 |
     | :---: | :---: |
     | <img src="lecture5.assets/PLACEHOLDER_p4_ball_stick.png" alt="占位符：白磷 P4 分子（原图：temp/images/image140.png）" style="zoom:50%;" /> | <img src="lecture5.assets/PLACEHOLDER_p4_packing.png" alt="占位符：白磷晶体堆积（原图：temp/images/image140.png）" style="zoom:50%;" /> |
 
-     <center> [mp-XXXXXX](https://next-gen.materialsproject.org/materials/mp-XXXXXX) · [CIF 下载](cifs/PLACEHOLDER_white_phosphorus.cif) </center>
+     <center> [mp-118](https://next-gen.materialsproject.org/materials/mp-118) · [CIF 下载](cifs/white_phosphorus.cif) </center>
 
 <img src="lecture5.assets/PLACEHOLDER_phosphorus.png" alt="占位符：黑磷与紫磷的结构（原图：temp/images/image141.png、image142.png、image143.png、image144.png）" style="zoom:50%;" />
 

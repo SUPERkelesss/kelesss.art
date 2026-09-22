@@ -45,12 +45,12 @@
 
 讲座给出的实例是 $\ce{GeO2}$ 与 $\ce{SiS2}$：$\ce{GeO2}$ 中 $\ce{O^{2-}}$ 极化率低，键以离子性为主，采取**金红石型**（$\ce{Ge}$ 6 配位，见 Lecture 6）；$\ce{SiS2}$ 中 $\ce{S^{2-}}$ 极化率很高，共价成分占主导，采取**四面体链**（$\ce{Si}$ 4 配位，四面体共顶点连成一维链）。
 
-!!! Tip "示例：  [**二硫化硅 SiS2**](https://next-gen.materialsproject.org/materials/mp-XXXXXX)"
+!!! Tip "[**二硫化硅 SiS2**](https://next-gen.materialsproject.org/materials/mp-1602)"
     | 球棍模型 | 多面体模型 |
     | :---: | :---: |
     | <img src="lecture9.assets/PLACEHOLDER_sis2_ball_stick.png" alt="占位符：SiS2 球棍模型（原图：temp/images/image100.jpg）" style="zoom:50%;" /> | <img src="lecture9.assets/PLACEHOLDER_sis2_polyhedra.png" alt="占位符：SiS2 四面体链模型（原图：temp/images/image100.jpg）" style="zoom:50%;" /> |
 
-     <center> [mp-XXXXXX](https://next-gen.materialsproject.org/materials/mp-XXXXXX) · [CIF 下载](cifs/PLACEHOLDER_SiS2.cif) </center>
+     <center> [mp-1602](https://next-gen.materialsproject.org/materials/mp-1602) · [CIF 下载](cifs/SiS2.cif) </center>
 
 !!! question "为什么是 GeO$_2$ 和 SiS$_2$ 而不是反过来？"
     尝试回答：$\ce{GeS2}$ 和 $\ce{SiO2}$ 各更偏向哪种结构？
@@ -78,12 +78,12 @@
 - **可燃冰（甲烷水合物）**：水分子组成笼状结构，把甲烷装进去，化学式 $8\ce{CH4} \cdot 46\ce{H2O}$；
 - **Hoffmann 包合物 $\ce{Ni(CN)2 \cdot NH3 \cdot C6H6}$**：$\ce{Ni(CN)4}$ 平面网格层叠，层间用 $\ce{NH3}$ 撑开，苯分子"夹"在层间。
 
-!!! Tip "示例：  [**甲烷水合物（可燃冰）**](https://next-gen.materialsproject.org/materials/mp-XXXXXX)"
+!!! Tip "[**甲烷水合物（可燃冰）**](https://www.crystallography.net/cod/4112809.html)"
     | 球棍模型 | 多面体模型 |
     | :---: | :---: |
     | <img src="lecture9.assets/PLACEHOLDER_clathrate_ball_stick.png" alt="占位符：可燃冰球棍模型（原图：temp/images/image305.png）" style="zoom:50%;" /> | <img src="lecture9.assets/PLACEHOLDER_clathrate_cages.png" alt="占位符：水笼与甲烷（原图：temp/images/image305.png）" style="zoom:50%;" /> |
 
-     <center> [mp-XXXXXX](https://next-gen.materialsproject.org/materials/mp-XXXXXX) · [CIF 下载](cifs/PLACEHOLDER_methane_hydrate.cif) </center>
+     <center> [COD 4112809](https://www.crystallography.net/cod/4112809.html) · [CIF 下载](cifs/methane_hydrate.cif) </center>
 
 ### 9.2.4 夹心化合物：石墨夹层
 
@@ -107,12 +107,12 @@
 - **$\ce{N2O5}$**：$\ce{NO2^+}$ 与 $\ce{NO3^-}$ 组成的层状结构；
 - **$\ce{CuS}$：$8P_{1/4}T_{1/4}IP_{1/4\,1/4}T_{1/4}$**，化学式拆开看是 $(\ce{Cu^+})_3(\ce{S^{2-}})(\ce{S2^-})$。
 
-!!! Tip "示例：  [**二硼化镁 MgB2**](https://next-gen.materialsproject.org/materials/mp-XXXXXX)"
+!!! Tip "[**二硼化镁 MgB2**](https://next-gen.materialsproject.org/materials/mp-763)"
     | 球棍模型 | 多面体模型 |
     | :---: | :---: |
     | <img src="lecture9.assets/PLACEHOLDER_mgb2_ball_stick.png" alt="占位符：MgB2 球棍模型（原图：temp/images/image247.png）" style="zoom:50%;" /> | <img src="lecture9.assets/PLACEHOLDER_mgb2_polyhedra.png" alt="占位符：MgB2 层状模型（原图：temp/images/image247.png）" style="zoom:50%;" /> |
 
-     <center> [mp-XXXXXX](https://next-gen.materialsproject.org/materials/mp-XXXXXX) · [CIF 下载](cifs/PLACEHOLDER_MgB2.cif) </center>
+     <center> [mp-763](https://next-gen.materialsproject.org/materials/mp-763) · [CIF 下载](cifs/MgB2.cif) </center>
 
 <img src="lecture9.assets/PLACEHOLDER_double_layer.png" alt="占位符：Y(BO3)、Na3As、Y(OH)3、N2O5 与 CuS 双层结构（原图：temp/images/image248.png–image254.png）" style="zoom:50%;" />
 
@@ -152,12 +152,12 @@ $\ce{CaCu5}$ 型是储氢合金的祖师爷，代表是 **$\ce{LaNi5}$**（以�
 - 但实际上**一般只有四面体空隙可以填充**，于是形成 $\ce{LaNi5H6}$——氢原子钻进四面体空隙，就像"海绵吸水"；
 - 这种可逆吸放氢的性质，使 $\ce{LaNi5}$ 成为镍氢电池负极的活性材料。
 
-!!! Tip "示例：  [**五镍化镧 LaNi5**](https://next-gen.materialsproject.org/materials/mp-XXXXXX)"
+!!! Tip "[**五镍化镧 LaNi5**](https://next-gen.materialsproject.org/materials/mp-2317)"
     | 球棍模型 | 多面体模型 |
     | :---: | :---: |
     | <img src="lecture9.assets/PLACEHOLDER_lani5_ball_stick.png" alt="占位符：LaNi5 球棍模型（原图：temp/images/image257.png）" style="zoom:50%;" /> | <img src="lecture9.assets/PLACEHOLDER_lani5_polyhedra.png" alt="占位符：LaNi5 空隙分布（原图：temp/images/image259.png）" style="zoom:50%;" /> |
 
-     <center> [mp-XXXXXX](https://next-gen.materialsproject.org/materials/mp-XXXXXX) · [CIF 下载](cifs/PLACEHOLDER_LaNi5.cif) </center>
+     <center> [mp-2317](https://next-gen.materialsproject.org/materials/mp-2317) · [CIF 下载](cifs/LaNi5.cif) </center>
 
 $\ce{CaCu5}$ 家族的升级路线：把 $1/3$ 的 $\ce{Co}$ 替换成 $\ce{Sm2}$ 原子团，$\ce{SmCo5}$ → **$\ce{Sm2Co17}$**；再经过**变形 + 填隙**（填入硼），就得到当今最强永磁体 **$\ce{Nd2Fe14B}$**。
 
@@ -168,12 +168,12 @@ $\ce{CaCu5}$ 家族的升级路线：把 $1/3$ 的 $\ce{Co}$ 替换成 $\ce{Sm2}
 - **Nowotny 相**：$\ce{Cr11Ge19}$ 由**串联的半金刚石骨架**组成；
 - **Zintl 相**：原子间有明显的金属键合，一般只发生在主族金属。经典例子 **$\ce{NaTl}$**：钠把电子给铊（离子性），铊之间又形成金属键骨架——具体结构是**两套穿插的金刚石骨架**（回忆 Lecture 7 的 $\ce{Cu2O}$ 双金刚石图像）。
 
-!!! Tip "示例：  [**铊化钠 NaTl**](https://next-gen.materialsproject.org/materials/mp-XXXXXX)"
+!!! Tip "[**铊化钠 NaTl**](https://next-gen.materialsproject.org/materials/mp-1564)"
     | 球棍模型 | 多面体模型 |
     | :---: | :---: |
     | <img src="lecture9.assets/PLACEHOLDER_natl_ball_stick.png" alt="占位符：NaTl 球棍模型（原图：temp/images/image263.png）" style="zoom:50%;" /> | <img src="lecture9.assets/PLACEHOLDER_natl_polyhedra.png" alt="占位符：NaTl 两套金刚石骨架（原图：temp/images/image264.png）" style="zoom:50%;" /> |
 
-     <center> [mp-XXXXXX](https://next-gen.materialsproject.org/materials/mp-XXXXXX) · [CIF 下载](cifs/PLACEHOLDER_NaTl.cif) </center>
+     <center> [mp-1564](https://next-gen.materialsproject.org/materials/mp-1564) · [CIF 下载](cifs/NaTl.cif) </center>
 
 ### 9.5.3 Frank–Kasper 相：拓扑密堆积
 
@@ -183,24 +183,24 @@ $\ce{CaCu5}$ 家族的升级路线：把 $1/3$ 的 $\ce{Co}$ 替换成 $\ce{Sm2}
 - **Laves 相**：切角四面体和四面体密堆积，9.5.5 详讲；
 - **others**：各种更复杂的拓扑密堆积变体。
 
-!!! Tip "示例：  [**三锡化铌 Nb3Sn**](https://next-gen.materialsproject.org/materials/mp-XXXXXX)"
+!!! Tip "[**三锡化铌 Nb3Sn**](https://next-gen.materialsproject.org/materials/mp-1326)"
     | 球棍模型 | 多面体模型 |
     | :---: | :---: |
     | <img src="lecture9.assets/PLACEHOLDER_nb3sn_ball_stick.png" alt="占位符：Nb3Sn 球棍模型（原图：temp/images/image265.png）" style="zoom:50%;" /> | <img src="lecture9.assets/PLACEHOLDER_nb3sn_polyhedra.png" alt="占位符：Nb3Sn 二十面体配位（原图：temp/images/image265.png）" style="zoom:50%;" /> |
 
-     <center> [mp-XXXXXX](https://next-gen.materialsproject.org/materials/mp-XXXXXX) · [CIF 下载](cifs/PLACEHOLDER_Nb3Sn.cif) </center>
+     <center> [mp-1326](https://next-gen.materialsproject.org/materials/mp-1326) · [CIF 下载](cifs/Nb3Sn.cif) </center>
 
 ### 9.5.4 复杂合金与固溶体
 
 - **Bergman 簇**：$\ce{Mg32(Al,Zn)49}$ 由一层套一层的多面体壳堆成（像俄罗斯套娃），是复杂金属间化合物和准晶的共同语言；
 - **固溶体**：$\ce{WC}$（碳填入钨骨架空隙）与 **$\ce{Fe3C}$**（渗碳体，碳填进**三棱柱空隙**，畸变为正交晶系）——钢的硬度与 $\ce{Fe3C}$ 析出形态直接相关。讲义原话："然而实际上也存在一些起伏……"真实钢中总有晶界、位错和成分涨落。
 
-!!! Tip "示例：  [**渗碳体 Fe3C**](https://next-gen.materialsproject.org/materials/mp-XXXXXX)"
+!!! Tip "[**渗碳体 Fe3C**](https://next-gen.materialsproject.org/materials/mp-510623)"
     | 球棍模型 | 多面体模型 |
     | :---: | :---: |
     | <img src="lecture9.assets/PLACEHOLDER_fe3c_ball_stick.png" alt="占位符：Fe3C 球棍模型（原图：temp/images/image270.png）" style="zoom:50%;" /> | <img src="lecture9.assets/PLACEHOLDER_fe3c_polyhedra.png" alt="占位符：Fe3C 三棱柱填隙（原图：temp/images/image270.png）" style="zoom:50%;" /> |
 
-     <center> [mp-XXXXXX](https://next-gen.materialsproject.org/materials/mp-XXXXXX) · [CIF 下载](cifs/PLACEHOLDER_Fe3C.cif) </center>
+     <center> [mp-510623](https://next-gen.materialsproject.org/materials/mp-510623) · [CIF 下载](cifs/Fe3C.cif) </center>
 
 <img src="lecture9.assets/PLACEHOLDER_solid_solutions.png" alt="占位符：Bergman 簇与 WC/Fe3C（原图：temp/images/image268.png、image269.png、image270.png–image274.png）" style="zoom:50%;" />
 
@@ -212,12 +212,12 @@ Laves 相是"大原子 + 小原子"按 1 : 2 组成的拓扑密堆积相，口�
 - **$\ce{MgZn2}$**（六方 $C14$），填隙后得 **$\ce{LuMn5}$**；
 - **$\ce{MgNi2}$**（三方 $C36$）。
 
-!!! Tip "示例：  [**二铜化镁 MgCu2**](https://next-gen.materialsproject.org/materials/mp-XXXXXX)"
+!!! Tip "[**二铜化镁 MgCu2**](https://next-gen.materialsproject.org/materials/mp-1038)"
     | 球棍模型 | 多面体模型 |
     | :---: | :---: |
     | <img src="lecture9.assets/PLACEHOLDER_mgcu2_ball_stick.png" alt="占位符：MgCu2 球棍模型（原图：temp/images/image276.png）" style="zoom:50%;" /> | <img src="lecture9.assets/PLACEHOLDER_mgcu2_polyhedra.png" alt="占位符：MgCu2 四面体堆积（原图：temp/images/image277.jpg）" style="zoom:50%;" /> |
 
-     <center> [mp-XXXXXX](https://next-gen.materialsproject.org/materials/mp-XXXXXX) · [CIF 下载](cifs/PLACEHOLDER_MgCu2.cif) </center>
+     <center> [mp-1038](https://next-gen.materialsproject.org/materials/mp-1038) · [CIF 下载](cifs/MgCu2.cif) </center>
 
 <img src="lecture9.assets/PLACEHOLDER_laves_phases.png" alt="占位符：MgCu2、MgZn2、MgNi2 三种 Laves 相（原图：temp/images/image267.png、image275.png、image278.png、image279.png、image280.png）" style="zoom:50%;" />
 
@@ -231,12 +231,12 @@ $$
 
 （讲义原话："怎么看出来的？？？"——结论比过程重要：**氧做 ccp，阳离子按 $3/4$、$1/4$ 的规律填进八面体和四面体空隙**。）
 
-!!! Tip "示例：  [**尖晶石 MgAl2O4**](https://next-gen.materialsproject.org/materials/mp-XXXXXX)"
+!!! Tip "[**尖晶石 MgAl2O4**](https://next-gen.materialsproject.org/materials/mp-3536)"
     | 球棍模型 | 多面体模型 |
     | :---: | :---: |
     | <img src="lecture9.assets/PLACEHOLDER_spinel_ball_stick.png" alt="占位符：MgAl2O4 球棍模型（原图：temp/images/image281.png）" style="zoom:50%;" /> | <img src="lecture9.assets/PLACEHOLDER_spinel_polyhedra.png" alt="占位符：尖晶石四面体+八面体模型（原图：temp/images/image282.png）" style="zoom:50%;" /> |
 
-     <center> [mp-XXXXXX](https://next-gen.materialsproject.org/materials/mp-XXXXXX) · [CIF 下载](cifs/PLACEHOLDER_MgAl2O4.cif) </center>
+     <center> [mp-3536](https://next-gen.materialsproject.org/materials/mp-3536) · [CIF 下载](cifs/MgAl2O4.cif) </center>
 
 尖晶石的通式是 $\ce{AB2O4}$，阳离子分布有两种可能：
 
@@ -262,12 +262,12 @@ $\ce{SiO2}$ 从堆积角度看非常朴素：氧的密置层只填 $3/4$ 和 $1/
 | $\beta$-石英 | $3 \cdot 2\,P_{2/4}T_{1/4}$ | 三方骨架 |
 | 超石英（斯石英） | $2 \cdot 2\,PO_{1/2}(t)$ | **占据了整个堆积层**（高压相，硅 6 配位） |
 
-!!! Tip "示例：  [**方石英 SiO2**](https://next-gen.materialsproject.org/materials/mp-XXXXXX)"
+!!! Tip "[**方石英 SiO2**](https://next-gen.materialsproject.org/materials/mp-8352)"
     | 球棍模型 | 多面体模型 |
     | :---: | :---: |
     | <img src="lecture9.assets/PLACEHOLDER_cristobalite_ball_stick.png" alt="占位符：β-方石英球棍模型（原图：temp/images/image289.png）" style="zoom:50%;" /> | <img src="lecture9.assets/PLACEHOLDER_cristobalite_polyhedra.png" alt="占位符：β-方石英四面体模型（原图：temp/images/image289.png）" style="zoom:50%;" /> |
 
-     <center> [mp-XXXXXX](https://next-gen.materialsproject.org/materials/mp-XXXXXX) · [CIF 下载](cifs/PLACEHOLDER_SiO2_cristobalite.cif) </center>
+     <center> [mp-8352](https://next-gen.materialsproject.org/materials/mp-8352) · [CIF 下载](cifs/SiO2_cristobalite.cif) </center>
 
 <img src="lecture9.assets/PLACEHOLDER_sio2_variants.png" alt="占位符：鳞石英、方石英、石英与斯石英（原图：temp/images/image287.png、image288.png、image289.png、image290.png、image291.png）" style="zoom:50%;" />
 
@@ -281,12 +281,12 @@ $\ce{SiO2}$ 从堆积角度看非常朴素：氧的密置层只填 $3/4$ 和 $1/
 - **双四面体 $MSi_2O_7$**：两个四面体共顶点；
 - **环状 $\ce{Si6O18}$**：绿柱石 $\ce{Be3Al2Si6O18}$——$\ce{Be}$ 在四面体配位、$\ce{Al}$ 在八面体配位，环中心的大通道可以容纳水或杂质离子（海蓝宝石的颜色来自 $\ce{Fe(II)/Fe(III)}$ 掺杂，见 Lecture 4）。
 
-!!! Tip "示例：  [**绿柱石 Be3Al2Si6O18**](https://next-gen.materialsproject.org/materials/mp-XXXXXX)"
+!!! Tip "[**绿柱石 Be3Al2Si6O18**](https://next-gen.materialsproject.org/materials/mp-6030)"
     | 球棍模型 | 多面体模型 |
     | :---: | :---: |
     | <img src="lecture9.assets/PLACEHOLDER_beryl_ball_stick.png" alt="占位符：绿柱石球棍模型（原图：temp/images/image292.png）" style="zoom:50%;" /> | <img src="lecture9.assets/PLACEHOLDER_beryl_polyhedra.png" alt="占位符：绿柱石 Si6O18 环（原图：temp/images/image293.png）" style="zoom:50%;" /> |
 
-     <center> [mp-XXXXXX](https://next-gen.materialsproject.org/materials/mp-XXXXXX) · [CIF 下载](cifs/PLACEHOLDER_beryl.cif) </center>
+     <center> [mp-6030](https://next-gen.materialsproject.org/materials/mp-6030) · [CIF 下载](cifs/beryl.cif) </center>
 
 **2）链状阴离子：** 四面体沿一个方向延伸成单链（辉石类）或双链（角闪石类），链间由阳离子连接——这类矿物容易裂成纤维状（石棉就是双链硅酸盐）。
 
@@ -304,12 +304,12 @@ $\ce{SiO2}$ 从堆积角度看非常朴素：氧的密置层只填 $3/4$ 和 $1/
 | EMT | — | 六方对称的 FAU 变体 | — |
 | PAU | — | $\gamma$ 笼 + $\alpha$ 笼 + 八角柱笼 | — |
 
-!!! Tip "示例：  [**方钠石 Na8Al6Si6O24Cl2**](https://next-gen.materialsproject.org/materials/mp-XXXXXX)"
+!!! Tip "[**方钠石 Na8Al6Si6O24Cl2**](https://next-gen.materialsproject.org/materials/mp-23145)"
     | 球棍模型 | 多面体模型 |
     | :---: | :---: |
     | <img src="lecture9.assets/PLACEHOLDER_sodalite_ball_stick.png" alt="占位符：方钠石球棍模型（原图：temp/images/image296.png）" style="zoom:50%;" /> | <img src="lecture9.assets/PLACEHOLDER_sodalite_cages.png" alt="占位符：方钠石 β 笼（原图：temp/images/image297.png）" style="zoom:50%;" /> |
 
-     <center> [mp-XXXXXX](https://next-gen.materialsproject.org/materials/mp-XXXXXX) · [CIF 下载](cifs/PLACEHOLDER_sodalite.cif) </center>
+     <center> [mp-23145](https://next-gen.materialsproject.org/materials/mp-23145) · [CIF 下载](cifs/sodalite.cif) </center>
 
 <img src="lecture9.assets/PLACEHOLDER_zeolites.png" alt="占位符：SOD、LTA、FAU、EMT、PAU 的笼结构（原图：temp/images/image296.png–image301.png）" style="zoom:50%;" />
 
