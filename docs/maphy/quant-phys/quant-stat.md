@@ -533,3 +533,252 @@ $$
 
 晶格中的统计见固体物理
 
+---
+
+### ideal usal bose gas
+
+total particle number
+$$
+\begin{align}
+N & = \sum_i \frac{1}{e^{ \beta( \varepsilon_i-\mu ) }-1} \\
+ & =g \sum_{\va{k}} \frac{1}{e^{ \beta( \varepsilon-\mu ) }-1} \\
+ & = g \frac{V}{( 2\pi )^{3}} \cdot 4\pi \int_{0}^{\infty}  \dd{k} k^{2} \frac{1}{e^{ \beta( \varepsilon-\mu ) }-1}  \\
+ & = \frac{gV}{4\pi^{2}} \qty( \frac{2m}{\hbar^{2}} )^{3/2 } \int_{0}^{\infty}  \dd{\varepsilon} \frac{ \varepsilon^{1/2 } }{ e^{ \beta( \varepsilon-\mu ) }-1 }
+\end{align}
+$$
+对应能量
+$$
+E = \frac{gV}{4\pi^{2}} \qty( \frac{2m}{\hbar^{2}} )^{3/2 } \int_{0}^{\infty}  \dd{\varepsilon} \frac{ \varepsilon^{3/2 } }{ e^{ \beta( \varepsilon-\mu ) }-1 }
+$$
+grand potential
+$$
+\begin{align}
+\Omega &  = \beta ^{-1} \sum_{i = 1}^{\infty} \ln( 1-e^{ \beta( \mu-\varepsilon ) } ) \\
+ & = \beta ^{-1} \frac{gV}{4\pi^{2}} \qty( \frac{2m}{\hbar^{2}} )^{3/2 } \int_{0}^{\infty}  \dd{ \varepsilon}\varepsilon^{1/2 } \ln( 1-e^{ \beta( \mu-\varepsilon ) } )  \\
+ & =  \frac{gV}{4\pi^{2}} \qty( \frac{2m}{\hbar^{2}} )^{3/2 } \frac{3}{2} \int_{0}^{\infty}  \dd{\varepsilon} \frac{ \varepsilon^{3/2 } }{ e^{ \beta( \varepsilon-\mu ) }-1 }
+\end{align}
+$$
+
+
+---
+
+###  ideal fermion
+
+呃就是改一下
+$$
+\begin{gathered}
+N = \frac{gV}{4\pi^{2}} \qty( \frac{2m}{\hbar^{2}} )^{3/2 } \int_{0}^{\infty}  \dd{\varepsilon} \frac{ \varepsilon^{1/2 } }{ e^{ \beta( \varepsilon-\mu ) }-1 } \\
+E = \frac{gV}{4\pi^{2}} \qty( \frac{2m}{\hbar^{2}} )^{3/2 } \int_{0}^{\infty}  \dd{\varepsilon} \frac{ \varepsilon^{3/2 } }{ e^{ \beta( \varepsilon-\mu ) }-1 } \\
+\Omega = -\frac{2}{3} E
+\end{gathered}
+$$
+fermi distribution on T=0
+$$
+\frac{1}{e^{ \beta( \varepsilon-\mu ) }+1} = H( \mu-\varepsilon )
+$$
+Summerfeld expansion
+$$
+\begin{align}
+\int_{0}^{\infty}  \dd{\varepsilon} \frac{ \varepsilon^{3/2 } }{ e^{ \beta( \varepsilon-\mu ) }-1 } &  = \int_{0}^{\mu}  \dd{\varepsilon} \varepsilon^{3/2 } + \frac{\pi^{2}}{6} ( k_{B}T )^{2} \frac{3}{2}\cdot \mu^{1/2} + \cdots \\
+ & = \frac{2}{5}\mu^{5/2} + \frac{\pi^{2}}{4} ( k_{B}T )^{2} \mu^{1/2} + \cdots 
+\end{align}
+$$
+particle num
+$$
+N = \frac{gV}{4\pi^{2}} \qty( \frac{2m}{\hbar^{2}} )^{3/2 }  \qty[ \frac{2}{3}\mu^{3/2} + \frac{\pi^{2}}{8} \mu^{-1/2} ]
+$$
+in T=0 we have
+$$
+N =  \frac{gV}{4\pi^{2}} \qty( \frac{2m}{\hbar^{2}} )^{3/2 }  \frac{2}{3}\varepsilon_{F}^{3/2}
+$$
+solv
+$$
+\mu = \varepsilon_{F}\qty[ 1-\frac{\pi^{2}}{12} \qty( \frac{k_{B}T}{\varepsilon_{F}} )^{2} ]
+$$
+
+---
+
+def magnitization
+$$
+M = -\qty(\pdv{ \Omega }{ B })_{ T,V,\mu } 
+$$
+后面可以证明
+$$
+M = \mu ^{*}( N^+ - N^- )
+$$
+suspectivity
+$$
+\chi( B ) = \frac{1}{V} \pdv{ M }{ B } 
+$$
+假设对自旋1/2体系，定义能量
+$$
+\varepsilon = \frac{p^{2}}{2m} - \va{\mu}\cdot \va{B}
+$$
+on T=0
+$$
+N = N_+ + N_-
+$$
+
+$$
+\frac{ \hbar^{2}k_{+}^{2} }{ 2m } - \mu ^{*}B = \frac{ \hbar^{2}k_{-}^{2} }{ 2m } + \mu ^{*}B = \mu
+$$
+for example
+$$
+k_+ = \qty[ \frac{2m}{\hbar^{2}}( \mu+\mu ^{*}B ) ]^{1/2}
+$$
+
+$$
+\begin{align}
+N_+ = \frac{ Vk_{+}^{3} }{ 6\pi^{2} }
+\end{align} = \frac{1}{6\pi^{2}} \qty[ \frac{2m}{\hbar^{2}}( \mu+\mu ^{*}B ) ]^{1/2}
+$$
+
+magnetization
+$$
+M = \mu ^{*}( N_{+} - N_- ) = \frac{ \mu ^{*}V( 2m )^{3/2} }{6\pi^{2}\hbar^{3}  }\qty[ ( \mu+\mu ^{*}B )^{3/2 } - ( \mu+\mu ^{*}B )^{3/2 } ]
+$$
+计算得到
+$$
+\chi = \lim_{ B \to 0 } \frac{M}{VB} =  \frac{ \mu ^{*^2}( 2m )^{3/2 } \varepsilon_F^{1/2} }{ 6\pi^{2}\hbar^{3} }
+$$
+for arbitrary T
+$$
+\begin{align}
+\Xi  & = \Tr\exp[ -\beta( H-\mu N ) ] \\
+ & =\sum_i \ev{ \exp[ -\beta( \hat{H}-\mu \hat{N} ) ] }{ i } \\
+ & = \sum_{n_{1\uparrow},\cdots ,n_{n\downarrow}} \exp( -\beta( \sum_{\sigma}\sum_i  \varepsilon_{i\sigma}n_{i\sigma} - \mu \sum_{\sigma}\sum_i n_{i\sigma}) ) \\
+ & = \prod_{i = 1}^{\infty} \qty[ ( 1+e^{ \beta( \mu-\varepsilon_{j\uparrow} ) } )( 1+e^{ \beta( \mu-\varepsilon_{j\downarrow} ) } ) ]
+\end{align}
+$$
+we have
+$$
+\ln \Xi  =\frac{1}{2}\ln \Xi_{0}( \mu+\mu ^{*}B ) + \frac{1}{2}\ln \Xi_{0}( \mu-\mu ^{*}B )
+$$
+obivous
+$$
+\Omega = \frac{1}{2}\Omega_{0}( \mu+\mu ^{*}B ) + \frac{1}{2}\Omega_0 ( \mu-\mu ^{*}B )
+$$
+derivative by B we can prove that
+$$
+M = \mu ^{*}( N^+ - N^- )
+$$
+we can also prove
+$$
+N_{\uparrow} - N_{\downarrow} = \mu ^{*} B\qty(\pdv{ N }{ \mu })_{ T,V }
+$$
+do taylor expansion around $\Omega_{0}( \mu )$
+$$
+\Omega_{0}( \mu ^{*} ) = \Omega_{0}( \mu ) + \pdv{ \Omega_{0}( \mu ) }{ \mu } \mu ^{*}B + \frac{1}{2}\pdv[2]{ \Omega_{0}( \mu ) }{ \mu } \qty( \mu^{*}B )^{2}
+$$
+得到
+$$
+\Omega = \Omega_{0}( \mu ) + \frac{1}{2}( \mu ^{*}B )^{2}\pdv[2]{ \Omega_{0}( \mu ) }{ \mu }
+$$
+得到的磁化率为
+$$
+M = -\qty(\pdv{ \Omega }{ B })_{ T,V,\mu } = -\mu ^{*^{2}} B \qty(\pdv[ 2 ]{ \Omega_{0}( \mu ) }{ \mu })_{ T,V }  =  -\mu ^{*^{2}} B \qty(\pdv{ N }{ \mu })_{ T,V } 
+$$
+
+
+
+
+...
+
+---
+
+### Landau 抗磁性
+
+**Bohr - van Leeuwen Theorem** on classical physics (doesn't consider spin) $M=0$
+
+proof on B=0 we have
+$$
+H = \sum_{i = 1}^{N} \frac{ p_i^{2} }{ 2m } + V( q_i )
+$$
+for kinetic Momentum
+$$
+\tilde{p}_i =  p_i - \frac{ eA( q_i ) }{ c }
+$$
+on classical stat
+$$
+\begin{align}
+\Xi( V,\mu,T,B )  & = \sum_{N=0}^{\infty} \frac{1}{N!h^{3}} \int\dd[3]{\tilde{p}}\dd[3]{q} e^{ -\beta( H-\mu N ) } \\
+ & =  \\
+ & = \Xi_{0}
+\end{align}
+$$
+于是 $M=0$ 又有 $\chi= 0$ ，即没有磁性。
+
+in Landau gauge
+$$
+h=\frac{1}{2m}( p-\frac{ eA }{ c } )^{2} \qc A_x = -By\qc A_y=A_z=0
+$$
+SE
+$$
+\qty[ \frac{1}{2m} ( p_x + \frac{ eBy }{ c } )^{2} + \frac{1}{2m} ( p_y^{2} + p_z^{2} ) ]\psi_i( r ) = \varepsilon_i\psi_i( r )
+$$
+B_z is not a good quant #
+
+on B = 0
+$$
+\varepsilon( \va{p} ) = \frac{1}{2m} ( p_x^{2} + p_y^{2} ) + \frac{1}{2m} p_z^{2}
+$$
+on $B\neq 0$
+$$
+\varepsilon( j,p_z ) = \mu_BB( j+\frac{1}{2} ) + \frac{1}{2m} p_z^{2}
+$$
+<img src="quant-stat.assets/fig6.png" alt="Refer to caption" style="zoom:50%;" />
+
+施加磁场会导致电子被固定到固定的能级上。现在统计每两个圆之间的态密度
+$$
+\begin{align}
+g  & = \frac{ V^{2/3} }{ ( 2\pi )^{2} } \pi ( k_{max}^{2} ) \\
+ & = \frac{ V^{2/3} 2m }{ 4\pi \hbar^{2} } \cdot  \frac{ \hbar^{2} k_{max}^{2} }{ 2m } \\
+ & = \frac{ V^{2/3 }m }{ 2\pi \hbar^{2} }\mu_BB
+\end{align}
+$$
+计算得到配分函数
+$$
+\begin{align}
+\ln \Xi  & = \sum_i \ln( 1+e^{ -\beta( \varepsilon_i-\mu ) } ) \\
+ & = g\sum_{j = 0}^{\infty} \sum_{k_z} \ln( 1+e^{ -\beta( \varepsilon_i-\mu ) } ) \\
+ & = g \sum_{j = 0}^{\infty} \frac{ V^{1/3 } }{ 2\pi } \int_{-\infty}^{\infty}  \dd{k_z} \ln( 1+\exp( \beta( \mu_BB( j+\frac{1}{2} ) + \frac{\hbar^{2}k_z^{2}}{2m} -\mu) ) )
+\end{align}
+$$
+consider when high T limit $\beta \to  0$, using $\ln( 1+x ) = x$
+$$
+\ln \Xi = \frac{ gV^{1/3 } }{ 2\pi }e^{ -\beta \mu } \sum_{j = 0}^{\infty} e^{ \beta \mu_B B( j+1/2  ) } \cdot \int_{-\infty}^{\infty} e^{ \hbar^{2}k_z^{2}/2m } \dd{k_z}
+$$
+obtain
+$$
+\ln \Xi = \frac{ zVeB }{ h^{2}c } \qty( \frac{ 2\pi m }{ \beta } )^{1/2} \qty( 2\sinh( \frac{ \beta e\hbar B }{ 2mc } ) )^{-1}
+$$
+on high T limit
+$$
+\frac{1}{V} \ln \Xi = \frac{z}{\lambda^{3}}\qty[ 1-\frac{1}{6} ( \frac{ e\hbar  }{ 2mc } )^{2}( \frac{B}{k_{B}T} )^{2} ]
+$$
+then we can easily obtain
+
+...
+
+---
+
+define
+$$
+F( x ) = \ln( 1+\exp( \beta( \mu_BBx + \frac{\hbar^{2}k_z^{2}}{2m} -\mu) ) )^{-1}
+$$
+using Eular - Maclaurin Theorem
+$$
+\frac{1}{2}F( a ) + \sum_{i = 1}^{\infty} F( a+j ) = \int_{a}^{\infty} F( x ) \dd{x}  - \frac{1}{12} F'( a )
+$$
+let $a=1/2$
+$$
+\frac{1}{2}F( \frac{1}{2} ) + \sum_{j = 1}^{\infty} F( \frac{1}{2} + j ) = \int_{0}^{\infty} F( x ) \dd{x} - \int_{0}^{1/2 } F( x ) \dd{x}  - \frac{1}{12}F'( \frac{1}{2} )
+$$
+using
+$$
+F( x )  =F( 0 ) + xF'( 0 )
+$$
+finally obtain
+$$
+\sum_{j = 1}^{\infty} F( j+\frac{1}{2} ) = \int_{0}^{\infty} F( x ) \dd{x} + \frac{1}{24}F'(0x )
+$$

@@ -143,11 +143,12 @@
 
 <br/>
 
-### 斯图尔特微积分 (James Stewart)（上册）
+### 斯图尔特微积分 (James Stewart)
 
-> 好懂的外文教材且内容很详细，但是中译本只出到了上册（也完全够用）。
+> 好懂的外文教材，且内容比普林斯顿那本详细。
 
-- **教材**：[https://pan.baidu.com/s/1bE0JLsvA1nsUKMnEvyicdQ?pwd=gama](https://pan.baidu.com/s/1bE0JLsvA1nsUKMnEvyicdQ?pwd=gama)
+- **教材（上）**：[https://pan.baidu.com/s/1bE0JLsvA1nsUKMnEvyicdQ?pwd=gama](https://pan.baidu.com/s/1bE0JLsvA1nsUKMnEvyicdQ?pwd=gama)
+- **教材（下）**：[https://pan.baidu.com/s/18OtTQNuXWCjv_frKn8yBOA?pwd=gama](https://pan.baidu.com/s/18OtTQNuXWCjv_frKn8yBOA?pwd=gama)
 
 <br/>
 

@@ -102,7 +102,7 @@ $$
 
 ---
 
-for **continuous space**, for example a drum head. We transform into continuous arguments
+for **continuous space (field quantization)**, for example a drum head. We transform into continuous arguments
 $$
 \hat{ Q }_i, \hat{ P }_i \implies  \varphi_x, \Pi _x
 $$
@@ -120,7 +120,6 @@ H = \frac{1}{2} \int \dd[ 2 ]{ x } \Pi ^{2}( x ) + \frac{1}{2}\int \dd[ 2 ]{ x }
 $$
 
 where we assume the elastic function $K( x)$ satisfied as positive-definite symmetric matrix:
-
 $$
 K( -x ) = K( x )\qc K( q ) > 0
 $$
@@ -132,7 +131,7 @@ $$
 $$
 
 $$
-K( q ) = \int \dd{x} K( x )e^{ -iqx }
+\omega^{2}( q ) = K( q ) = \int \dd{x} K( x )e^{ -iqx }
 $$
 
 so the original eq transform to
@@ -141,16 +140,20 @@ $$
 H = \frac{1}{2} \int \frac{\dd[ 2 ]{ q }}{( 2\pi  )^{2}} \Pi ^{\dagger}( q )\Pi ( q ) + \int \frac{\dd[ 2 ]{ q }}{( 2\pi  )^{2}} \ K( q )\varphi^{\dagger}( q )\varphi( q )
 $$
 
+then
+$$
+H = \frac{1}{2} \int \frac{ \dd[2]{q} }{ ( 2\pi )^{2} } \qty[ \Pi ^{\dagger}( q )\Pi( q ) + \omega^{2}( q )\phi ^{\dagger}( q )\phi( q ) ]
+$$
 according to the communicate relation:
 
-...
+.
 
 we have
 
 $$
 \begin{gathered}
 a( q ) = \frac{1}{\sqrt{ 2 }}\qty[ \sqrt{ \frac{\omega_q}{\hbar } }\varphi( q ) + \frac{i}{\sqrt{ \hbar \omega_q }}\Pi ( q ) ] \\
-a^{\dagger}( q ) = \frac{1}{\sqrt{ 2 }}\qty[ \sqrt{ \frac{\omega_q}{\hbar } }\varphi( q ) - \frac{i}{\sqrt{ \hbar \omega_q }}\Pi ( q ) ]
+a^{\dagger}( q ) = \frac{1}{\sqrt{ 2 }}\qty[ \sqrt{ \frac{\omega_q}{\hbar } }\varphi^{\dagger}( q ) - \frac{i}{\sqrt{ \hbar \omega_q }}\Pi ^{\dagger} ( q ) ]
 \end{gathered}
 $$
 
@@ -527,7 +530,7 @@ i\hbar \pdv{ t } O_H( t ) = \comm{ O_H( t ) }{ H }
 $$
 interaction pict
 $$
-ih\pdv{ t } \ket{\Psi_I( t )}  = e^{ \frac{iH_{0}t}{\hbar } }\ket{\Psi_I( t )}
+ih\pdv{ t } \ket{\Psi_I( t )}  = H_{1}\ket{\Psi_I( t )}
 $$
 
 $$
@@ -536,9 +539,326 @@ $$
 
 so for seconf quant. we def schrodinger operator as
 $$
-O_S = f( a^{\dagger}_k, a_k )
+O_S = f( a^{\dagger}_k, a_k ) 
 $$
 the corresponding interaction OP is
 $$
 O_I( t ) = f( e^{ \frac{iH_{0}t}{\hbar } }a^{\dagger}_ke^{ -\frac{iH_{0}t}{\hbar } }, e^{ \frac{iH_{0}t}{\hbar } }a^{\dagger}_ke^{ -\frac{iH_{0}t}{\hbar } } )
+$$
+from interaction pict
+$$
+\ket{\Psi_i( t )}  = U( t;t_{0} ) \ket{\Psi_i( t_{0} )} 
+$$
+the LH is
+$$
+\ket{\Psi_i( t )}  = e^{ iH_{0}t/\hbar  } e^{ iH( t-t_{0} )/\hbar  }e^{ -iH_{0}t/\hbar  } \ket{\Psi_I( t_{0} )}
+$$
+this gives
+$$
+U( t;t_{0} ) = e^{ iH_{0}t/\hbar  } e^{ iH( t-t_{0} )/\hbar  }e^{ -iH_{0}t/\hbar  }
+$$
+by deriverate it by t we have
+$$
+i\hbar \pdv{ t }  U( t;t_{0} ) = H_{1}( t )U( t;t_{0} )
+$$
+integrate it
+$$
+\begin{align}
+U( t;t_{0} ) - 1 & = -\frac{i}{\hbar } \int_{t_{0}}^{t} \dd{t'}  H( t' )U( t';t_{0} ) 
+\end{align}
+$$
+this gives
+$$
+U( t;t_{0} ) = 1-\frac{i}{\hbar }\int_{t_{0}}^{t}  \dd{t'} H_{1}( t' )	U( t';t_{0} )
+$$
+by repeating this we have
+$$
+\begin{align}
+U( t;t_{0} ) & = 1+( \frac{ -i }{ \hbar  }  )\int_{t_{0}}^{t}  \dd{t'} H_{1}( t' ) \\
+ & + ( \frac{ -i }{ \hbar  }  )^{2} \int_{t_{0}}^{t}  \dd{t'} \int_{t_{0}}^{t'}  \dd{t''} H_{1}( t' )H_{1}( t'' ) \\
+ & + \cdots 
+\end{align}
+$$
+the third term we rerwrite
+$$
+\frac{1}{2} \int_{t_{0}}^{t}  \dd{t'} \int_{t_{0}}^{t}  \dd{t''} \qty[ H_{1}( t' )H_{1}( t'' )\theta( t'-t'' ) + H_{1}( t'' )H_{1}( t' )\theta( t''-t' ) ]
+$$
+this two are not commute. we call it as **time ordered product of  operator** denoteed by Tau
+$$
+\frac{1}{2} \int_{t_{0}}^{t}  \dd{t'} \int_{t_{0}}^{t} \dd{t''} \Tau( H_{1}( t' )H_{1}( t'' ) ) 
+$$
+then the n-th term can write as
+$$
+\frac{1}{n!} \int_{t_{0}}^{t}  \dd{t_{1}}\int_{t_{0}}^{t}  \dd{t_{2}}\cdots \int_{t_{0}}^{t}  \dd{t_{n}} \Tau\qty[ H_{1}( t_{1} )\cdots H_n( t_n ) ]
+$$
+so we can write that
+$$
+\begin{align}
+U( t;t_{0} ) &  = \sum_{n = 0}^{\infty} ( \frac{ -i }{ \hbar  } )^n \frac{1}{n!} \int_{t_{0}}^{t}  \dd{t_{1}}\int_{t_{0}}^{t}  \dd{t_{2}}\cdots \int_{t_{0}}^{t}  \dd{t_{n}} \Tau\qty[ H_{1}( t_{1} )\cdots H_n( t_n ) ] \\
+ & = \Tau\qty{ \exp[ ( \frac{ -i }{ \hbar  }\int_{t_{0}}^{t}  \dd{t'} H( t' ) ) ] }
+\end{align}
+$$
+
+---
+
+### Adiabatic switch
+
+consider a new Hamiltonian
+$$
+H = H_{0} + e^{ -\varepsilon| t | }H_{1}
+$$
+evolving from $t = -\infty$ to $t=0$
+
+we obtain
+$$
+\ket{\Psi_I( 0 )}  = U_{\varepsilon}( 0-\infty )\ket{\Psi_0}
+$$
+**Gell-Manm & Low Theorem** Suggest that this state is an exact eigenstate of the interacting system
+$$
+\ket{\Psi_{0}( \varepsilon )} \equiv \frac{ U_{\varepsilon}( 0;-\infty )\ket{\Phi_{0}}  }{ \ev{ U_{\varepsilon}( 0;-\infty ) }{ \Phi_{0} } }
+$$
+GL Theorem: Suppose $\ket{\Psi_{0}( \varepsilon )}$ is expanded in a power of g
+$$
+\ket{\Psi_{0}( \varepsilon )}  = \ket{a_{0}( \varepsilon )} + g\ket{a_{1}( \varepsilon)} + g^{2} \ket{a_{2}( \varepsilon )} + \cdots  
+$$
+if the coeffivient $\ket{a_i( \varepsilon )}$ are all converged in the limit of $\varepsilon \to  0$
+$$
+( H_{0}+H' )\ket{\Psi_0( \varepsilon )}  = ( E_{0}+\Delta E )\ket{\Psi_0( \varepsilon )} 
+$$
+to prove that first we have
+$$
+( H_{0} - E_{0} )U_{\varepsilon}( 0,-\infty )\ket{\Phi_0}  = \comm{ H_{0} }{ U_{\varepsilon}( 0,-\infty ) }\ket{\Phi_{0}} 
+$$
+as we known before
+$$
+U_{\varepsilon}( 0,-\infty ) = 1+ \sum_{n = 1}^{\infty} ( \frac{ -i }{ \hbar  } )^n \frac{1}{n!} \int_{t_{0}}^{t}  \dd{t_{1}}\int_{t_{0}}^{t}  \dd{t_{2}}\cdots \int_{t_{0}}^{t}  \dd{t_{n}} \Tau\qty[ H_{1}( t_{1} )\cdots H_n( t_n ) ]
+$$
+let's consider the n-thassociatd commutator
+$$
+\begin{align}
+\comm{ H_{0} }{ H_I'( t_{1} )H_I'( t_{2} )\cdots H_I'( t_n ) } &  = -i\hbar ( \pdv{ t_{1} } + \pdv{ t_{2} } + \cdots  + \pdv{ t_n }  ) H_I'( t_{1} )H_I'( t_{2} )\cdots H_I'( t_n )
+\end{align}
+$$
+this is because
+$$
+-i\hbar \pdv{ t } H_{I}'( t ) = \comm{ H_{0} }{ H_I'( t ) }
+$$
+plug into
+$$
+\begin{align}
+\comm{ H_{0} }{ U_{\varepsilon}( 0,-\infty ) } & = i\hbar \sum_{n = 1}^{\infty} \frac{1}{n!} ( -\frac{i}{\hbar } )^n \int_{-\infty}^{0}  \dd{t_{1}} \cdots \int_{-\infty}^{0}  \dd{t_{n}} e^{ \varepsilon(  t_{1}+\cdots +t_n ) }  \\
+ & \times  n\pdv{ t_{1} } \qty{ \Tau\qty[ H_I'( t_{1} )\cdot \cdots \cdot H_{I}'( t_n ) ] } 
+\end{align}
+$$
+this become
+$$
+\begin{align}
+ & -H_I'\ket{\Psi_{0}( \varepsilon )}  + \varepsilon\sum_{n = 1}^{\infty} \frac{1}{( n-1 )!} ( -\frac{i}{\hbar } )^{ n-1 } \int_{-\infty}^{0}  \dd{t_{1}} \cdots \int_{-\infty}^{0}  \dd{t_{n}} e^{ \varepsilon(  t_{1}+\cdots +t_n ) }\\
+& \times  n \qty{ \Tau\qty[ H_I'( t_{1} )\cdot \cdots \cdot H_{I}'( t_n ) ] } \ket{\Psi_{0}( \varepsilon )}
+\end{align}
+$$
+we assume that the H1 is proportional to a coupling constant g
+$$
+H' \to gH'
+$$
+so
+$$
+( \frac{ -i }{ \hbar  } )^{ n-1}\frac{1}{( n-1 )!}g^n = i\hbar  g\cdot \pdv{ g } \qty{ ( \frac{ -i }{ \hbar  } )^{ n} \frac{1}{n!}g^n }
+$$
+the second term becom
+$$
+i\hbar \varepsilon g\pdv{ g } \ket{\Psi_0( \varepsilon )}  
+$$
+finnally that
+$$
+( H_{0}-E_{0} )\ket{\Psi_{0}( \varepsilon )} = -H'\ket{\Psi_0( \varepsilon )}  + i\hbar \varepsilon g\cdot \pdv{ g } \ket{\Psi_o( \varepsilon )} 
+$$
+multipli it by $\displaystyle \frac{ \bra{\Phi_{0}}  }{ \ip{ \Phi_{0} }{ \Psi_{0}( \varepsilon ) } }$
+
+we have
+$$
+\frac{ \mel{ \Phi_{0} }{ H_{1} }{ \Psi_{0}( \varepsilon ) } }{ \ip{ \Phi_{0} }{ \Psi_{0}( \varepsilon ) } } = i\hbar \varepsilon g\cdot \pdv{ g } \ln( \ip{ \Phi_{0} }{ \Psi_{0}( \varepsilon ) } )
+$$
+看天书
+
+---
+
+### Green function
+
+green funtion is a "probe" of $H = H_{0}+H'$ at $T=0$ or low-energy excited state of H
+$$
+iG( x,t;x',t' ) = \frac{ \ev{ \Tau\qty[ \Psi_H( x,t )\Psi_H^{\dagger}( x',t' ) ] }{ \Psi_{0} } }{ \ip{ \Psi_{0} }{ \Psi_{0} } }
+$$
+ where $\ket{\Psi_{0}}$ is the ground state and $\Psi_H^{\dagger}( x,t )$ is a creation operator in hinsberg pict
+$$
+\Psi_H^{\dagger}( x,t ) = e^{ iHt/\hbar  } \Psi ^{\dagger}( x ) e^{ -iHt/\hbar  }
+$$
+time order product
+$$
+T( \phi( 1 )\phi(2 )\cdots \phi( n ) ) = \sum_P	( \pm  )^P \theta( t_{P_{1}} - t_{P_{2}} )\cdots \theta( t_{P( n-1 )}  - t_{P_n}) \phi( P( 1 ) )\cdots \phi( P( n ) )
+$$
+the RHS becomes
+$$
+\begin{align}
+ & \theta( t-t' ) e^{ iE_{0}( t-t' )/\hbar  } \frac{ \mel{ \Phi_{0} }{ \Psi( x )e^{ -iH( t-t' ) }\Psi ^{\dagger}( x' ) }{ \Psi_{0} } }{ \ip{ \Psi_{0} }{ \Psi_{0} } } \\
+\pm  &  \theta( t'-t ) e^{ -iE_{0}( t-t' )/\hbar  } \frac{ \mel{ \Phi_{0} }{ \Psi ^{\dagger}( x' )e^{ -iH( t-t' ) }\Psi( x ) }{ \Psi_{0} } }{ \ip{ \Psi_{0} }{ \Psi_{0} } }
+\end{align}
+$$
+introduce 2 single particle operator
+
+
+
+
+
+..
+
+---
+
+first we consider **non-interacting fermi system**
+$$
+H = H_{0} = \int\dd[3]{x} \psi ^{\dagger}( x ) ( -\frac{ \hbar^{2}\grad ^{2} }{ 2m } )\psi( x ) + ..
+$$
+we have fermi-sea state
+
+...
+$$
+\begin{align}
+\psi_n( x )  & = \\
+ & = \theta( t-t' )\frac{1}{V} \sum_k e^{ ik( x-x' ) - i\varepsilon_k( t-t' ) }\ev{ cc^{\dagger} }{ \psi_0 }  \\
+ & - \theta( t'-t )\frac{1}{V} \sum_k e^{ ik( x-x' ) - i\varepsilon_k( t-t' ) }\ev{ c^{\dagger}c }{ \psi_0 }  \\
+ & = \theta( t-t' )\frac{1}{V} \sum_k e^{ ik( x-x' ) - i\varepsilon_k( t-t' ) }\theta( | k | - k_F )  \\
+ & - \theta( t'-t )\frac{1}{V} \sum_k e^{ ik( x-x' ) - i\varepsilon_k( t-t' ) }\theta( k_F - | k | )   \\
+ & = \frac{i}{V} e^{ ik( x-x' ) } \int_{-\infty}^{\infty}  \frac{\dd{\omega}}{2\pi} e^{ -i\omega( t-t' ) } \qty{ \frac{ \theta( | k | - k_F ) }{ \omega-\varepsilon_k+i \eta } + \frac{ \theta( k_F -  | k |) }{ \omega-\varepsilon_k-i \eta } }
+\end{align}
+$$
+using res
+$$
+G_{0}( k,\omega ) =\frac{ \theta( | k | - k_F ) }{ \omega-\varepsilon_k+i \eta } + \frac{ \theta( k_F -  | k |) }{ \omega-\varepsilon_k-i \eta }
+$$
+two singlarity on
+$$
+\omega = \varepsilon_k \pm i \eta
+$$
+分别对应 $-E_n( n-1 )+E_{0}$ 和 $E_n( N+1 ) - E_{0}( N )$
+
+现在我们研究带相互作用的体系
+
+define sea state momentum
+$$
+\hat{P}_\mu = \sum\hbar k_\mu c^{\dagger}_kc_k
+$$
+then we can obtain a tranposition 
+$$
+\psi( x+y ) = e^{ -i\hat{P}y/\hbar   }\psi( x )e^{ i\hat{P}y/\hbar  }
+$$
+so
+$$
+\psi_H( x ) = e^{ i\hat{H}t/\hbar  - iPx/\hbar  } \psi( 0 )e^{ -i\hat{H}t/\hbar  + iPx/\hbar  }
+$$
+then we can separate H
+$$
+\begin{align}
+\hat{H}  & = \int\dd[3]{x} \psi ^{\dagger}( x ) ( -\frac{ \hbar^{2}\grad ^{2} }{ 2m } )\psi( x ) \\
+ & + \int\dd[3]{x}\dd[3]{y} \psi ^{\dagger}( x )\psi ^{\dagger}( y )V( x-y )\psi( x )\psi( y )
+\end{align}
+$$
+then green func becomes
+$$
+\begin{align}
+iG( x,t;x',t' ) &  = \frac{ \ev{ \Tau\qty[ \Psi_H( x,t )\Psi_H^{\dagger}( x',t' ) ] }{ \Psi_{0} } }{ \ip{ \Psi_{0} }{ \Psi_{0} } } \\
+ & = \frac{1}{\ip{ \Psi_{0}  }{ \Psi_{0} }} \qty{ \theta( t-t' )\mel{ 0,N }{ e^{ i\hat{H}t/\hbar -iPx/\hbar  }\psi( 0 )e^{ -i\hat{H}( t-t' )/\hbar +i\hat{P}( x-x' )/\hbar  }\psi ^{\dagger}( 0 )e^{- i\hat{H}t/\hbar +iPx/\hbar  } }{ 0,N } - \cdots  }
+\end{align}
+$$
+then we plug in this projection
+$$
+\sum_n \op{ n,N-1 } = 1
+$$
+on the left of second $\psi ^{\dagger}( 0 )$, the term become
+$$
+\theta( t-t' ) \sum_{n \in N+1} e^{ -i( E_n( N+1 ) - E_{0}( N ) )( t-t' )/\hbar  }e^{ i( P_n( N+1 ) - P_0( N ) )( x-x' )/\hbar  }\cdot | \mel{ 0,N }{ \psi( 0 ) }{ n,N+1 } |^{2}
+$$
+another term same
+
+finally we have
+$$
+\begin{align}
+G( k,\omega )  & = V\sum_{n \in  N+1} \delta_{k,P_n( N+1 )/\hbar } \frac{ | \mel{ 0,N }{ \psi( 0 ) }{ n,k,N+1 } |^{2} }{ \omega - ( E_n( N+1 ) - E_0( N ) )/\hbar +i \eta } \\
+ & + V\sum_{n \in  N-1} \delta_{k,P_n( N-1 )/\hbar } \frac{ | \mel{ 0,N }{ \psi ^{\dagger}( 0 ) }{ n,-k,N-1 } |^{2} }{ \omega + ( E_n( N-1 ) - E_0( N ) )/\hbar - i \eta }
+\end{align}
+$$
+it have inf singularity symmetry distrubute by the side of \mu
+$$
+\omega  =E_n( N+1 ) - E_0( N ) = \Delta E_n( N+1 ) + \mu
+$$
+另外， $\ket{n,k,N+1}$ 是一个 quasi-particle，也可以说是一个dressed-particle。包括粒子出现在费米海上的态和他所有激发态的叠加
+$$
+\begin{align}
+\ket{n,k,N+1}  & = c_{k_{1}}^{\dagger}\ket{F.S.}  \\
+ & + c_{k_{1}}^{\dagger}c_{k_{2}}^{\dagger}c_{k_{3}}\ket{F.S.}  \\
+ & + \cdots 
+\end{align}
+$$
+
+---
+
+Feynman-Dyson perturbation Theory
+$$
+\psi_H( x) = e^{ iHt/\hbar  }e^{ -iH_{0}t/\hbar  }e^{ iH_{0}t/\hbar }\psi( x )e^{ iH_{0}t/\hbar }e^{ -iH_{0}t/\hbar }e^{ -iHt/\hbar  }
+$$
+其实可以继续化简成这样
+$$
+\psi_H( x ) = U_{\varepsilon}( 0,t )\psi_I( x )U_{\varepsilon}( t,0 )
+$$
+g.s. of H0
+$$
+\ket{\Psi_{0}} = \frac{ U_{\varepsilon}( 0,-\infty )\ket{\Psi_{0}}  }{ \ev{ U_{\varepsilon}( 0,-\infty ) }{ \Psi_0 } }
+$$
+inner product can be write as
+$$
+\theta( t-t') \ev{ U( -\infty,t )\psi_I( x )U_{\varepsilon}( t,t' )\psi_I^{\dagger}( x' )U( t',-\infty ) }{ \psi_{0} } \pm  h.c.
+$$
+?
+$$
+U_{\varepsilon}( +\infty,-\infty ) = \Tau\qty{ U_{\varepsilon}( +\infty,t )U_{\varepsilon}( t,t' )U_{\varepsilon}( t',-\infty ) }\theta( t-t' )
+$$
+???
+
+经过了一堆天书
+$$
+\begin{align}
+U_{\varepsilon}( +\infty,-\infty ) & = \Tau\qty{ \exp[ - \frac{i}{\hbar } \int_{-\infty}^{\infty}  \dd{s} H_I'( s ) ] } \\
+ & = \sum_{n = 0}^{\infty} \frac{1}{n!}\qty( -\frac{i}{\hbar } )^{n} \int\dd{s_{1}} \int\dd{s_{2}} \cdots \int\dd{s_n}\Tau\qty( H_I'( s_{1} )\cdots H_I'( s_n ) )
+\end{align}
+$$
+we seperate
+$$
+\Psi_I( x ) = \Psi^{( + )}_I( x ) + \Psi_I^{( - )}( x )
+$$
+we have
+$$
+\Psi^{( + )}_{I}( x )\ket{\Phi_{0}}  = 0 = \bra{\Phi_{0}} \Psi_I^{( - )}( x )
+$$
+left part is a destruction part, right is creation part
+
+we have
+$$
+\ket{\Phi_{0}} = \prod_{| k |<k_F}c_{k}^{\dagger}\ket{vac}
+$$
+
+$$
+\begin{align}
+\psi_I( x )  & = \frac{1}{\sqrt{ V }} \sum_{| k |>k_f} e^{ ikx - i\varepsilon_n t }c_{k} \\
+ & +\frac{1}{\sqrt{ V }} \sum_{| k |<k_f} e^{ ikx - i\varepsilon_n t }c_{k}
+\end{align}
+$$
+
+boson case
+
+destruction
+$$
+\psi_I( x ) = \psi_I^{( - )}( x )
+$$
+creation
+$$
+\psi_I^{\dagger}( x ) = ( \psi ^{\dagger}_I( x ) )^{( + )}
 $$
